@@ -18,17 +18,17 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
 
-        val blockSize: Int = arrayOf(this.width / gameState.playingField.ColumnCount,
-            this.height / gameState.playingField.RowCount).min() ?: 0
-        val width = blockSize * gameState.playingField.ColumnCount
-        val height = blockSize * gameState.playingField.RowCount
+        val blockSize: Int = arrayOf(this.width / gameState.ColumnCount,
+            this.height / gameState.RowCount).min() ?: 0
+        val width = blockSize * gameState.ColumnCount
+        val height = blockSize * gameState.RowCount
         val leftMargin = (this.width - width) / 2
         val topMargin = (this.height - height + 1)
 
         var shapeDrawable: ShapeDrawable
 
         if (canvas != null) {
-            for ((row, rowArray) in gameState.playingField.blocks.withIndex()) {
+            for ((row, rowArray) in gameState.current().blocks.withIndex()) {
                 for ((column, block) in rowArray.withIndex()) {
                     if (block.activeShape != null) {
                         shapeDrawable = ShapeDrawable(RectShape())
@@ -65,21 +65,21 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
                 if (abs(dX) < abs(dY)) {
                     if (dY < 0) {
                         // up
-                        if (gameState.playingField.rotate())
+                        if (gameState.rotate())
                             this@GameView.invalidate()
                     } else {
                         // down
-                        if (gameState.playingField.moveActiveDown())
+                        if (gameState.moveActiveDown())
                             this@GameView.invalidate()
                     }
                 } else {
                     if(dX < 0) {
                         // left
-                        if (gameState.playingField.moveActiveLeft())
+                        if (gameState.moveActiveLeft())
                             this@GameView.invalidate()
                     } else {
                         // right
-                        if (gameState.playingField.moveActiveRight())
+                        if (gameState.moveActiveRight())
                             this@GameView.invalidate()
                     }
                 }
@@ -95,4 +95,8 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
         return detector.onTouchEvent(event)
     }
 
+    fun doUndo() {
+        if (gameState.undo())
+            this.invalidate()
+    }
 }

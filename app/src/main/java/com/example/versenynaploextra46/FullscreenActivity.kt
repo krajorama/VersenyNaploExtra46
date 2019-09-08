@@ -66,9 +66,9 @@ class FullscreenActivity : AppCompatActivity() {
         gameView.gameState = gameState
 
         val aShape = Shape(listOf(Position(0,0), Position(0,1)), Color())
-        gameState.playingField.addNextShape(aShape)
+        gameState.addNextShape(aShape)
 
-
+        undo_button.setOnClickListener { gameView.doUndo()  }
     }
 
     override fun onPostCreate(savedInstanceState: Bundle?) {
