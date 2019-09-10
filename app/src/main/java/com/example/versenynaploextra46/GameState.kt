@@ -1,8 +1,11 @@
 package com.example.versenynaploextra46
 
+const val PLAYING_FIELD_UPDATED = 1
+const val PLAYING_FIELD_UPDATED_AND_FINAL = 2
+
 class GameState(val RowCount: Int = 12, val ColumnCount: Int = 6) {
-    val history: MutableList<PlayingField> = mutableListOf(PlayingField(RowCount,ColumnCount))
-    var validState = true
+    private val history: MutableList<PlayingField> = mutableListOf(PlayingField(RowCount,ColumnCount))
+    // var validState = true
     var score = 0
 
     fun addNextShape(shape: Shape): Boolean = updateHistory(history.first().addNextShape(shape))
@@ -11,7 +14,17 @@ class GameState(val RowCount: Int = 12, val ColumnCount: Int = 6) {
 
     fun moveActiveRight(): Boolean = updateHistory(history.first().moveActiveRight())
 
-    fun moveActiveDown(): Boolean = updateHistory(history.first().moveActiveDown())
+    fun moveActiveDown(): Int {
+        val updated = updateHistory(history.first().moveActiveDown())
+        return if (!updated) {
+            val scored: Pair<PlayingField, Int> = history.first().score()
+            score += scored.second
+            updateHistory(scored.first)
+            PLAYING_FIELD_UPDATED_AND_FINAL
+        } else {
+            PLAYING_FIELD_UPDATED
+        }
+    }
 
     fun rotate(): Boolean = updateHistory(history.first().rotate())
 

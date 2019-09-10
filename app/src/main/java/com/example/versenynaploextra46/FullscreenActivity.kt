@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
+import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_fullscreen.*
 
 /**
@@ -69,6 +70,11 @@ class FullscreenActivity : AppCompatActivity() {
         gameState.addNextShape(aShape)
 
         undo_button.setOnClickListener { gameView.doUndo()  }
+        done_button.setOnClickListener {
+            gameView.doDone()
+            it.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.play_button_disabled))
+        }
+        gameView.doneButton = done_button
     }
 
     override fun onPostCreate(savedInstanceState: Bundle?) {

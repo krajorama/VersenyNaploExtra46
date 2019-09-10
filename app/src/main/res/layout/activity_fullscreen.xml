@@ -76,6 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="22"
                 android:background="@color/play_button_disabled"
+                android:clickable="false"
                 app:srcCompat="@drawable/done_button_image" />
         </LinearLayout>
 

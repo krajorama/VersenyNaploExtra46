@@ -9,11 +9,14 @@ import android.util.AttributeSet
 import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.View
+import android.widget.ImageButton
+import androidx.core.content.ContextCompat
 import kotlin.math.abs
 
 
 class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
     var gameState = GameState()
+    var doneButton: ImageButton? = null
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
@@ -30,7 +33,7 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
         if (canvas != null) {
             for ((row, rowArray) in gameState.current().blocks.withIndex()) {
                 for ((column, block) in rowArray.withIndex()) {
-                    if (block.activeShape != null) {
+                    if (block.activeShape != null || block.shape != null) {
                         shapeDrawable = ShapeDrawable(RectShape())
                         shapeDrawable.setBounds(
                             leftMargin + column * blockSize,
@@ -62,27 +65,32 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
                 val dX = e2.rawX - e1.rawX
                 val dY = e2.rawY - e1.rawY
 
-                if (abs(dX) < abs(dY)) {
-                    if (dY < 0) {
-                        // up
-                        if (gameState.rotate())
-                            this@GameView.invalidate()
+                val needUpdate: Boolean =
+                    if (abs(dX) < abs(dY)) {
+                        if (dY < 0) {
+                            // up
+                            gameState.rotate()
+                        } else {
+                            // down
+                            val playingFieldFinal: Boolean =
+                                (gameState.moveActiveDown() == PLAYING_FIELD_UPDATED_AND_FINAL)
+                            doneButton?.isClickable = playingFieldFinal
+                            if (playingFieldFinal)
+                                doneButton?.setBackgroundColor(
+                                    ContextCompat.getColor(this@GameView.context, R.color.play_button_enabled)
+                            )
+                            true
+                        }
                     } else {
-                        // down
-                        if (gameState.moveActiveDown())
-                            this@GameView.invalidate()
+                        if (dX < 0) {
+                            // left
+                            gameState.moveActiveLeft()
+                        } else {
+                            // right
+                            gameState.moveActiveRight()
+                        }
                     }
-                } else {
-                    if(dX < 0) {
-                        // left
-                        if (gameState.moveActiveLeft())
-                            this@GameView.invalidate()
-                    } else {
-                        // right
-                        if (gameState.moveActiveRight())
-                            this@GameView.invalidate()
-                    }
-                }
+                if (needUpdate) this@GameView.invalidate()
             }
 
             return super.onFling(e1, e2, velocityX, velocityY)
@@ -98,5 +106,10 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
     fun doUndo() {
         if (gameState.undo())
             this.invalidate()
+    }
+
+    fun doDone() {
+        gameState.addNextShape(Shape(listOf(Position(-1,0), Position(0,0), Position(1,0)), Color()))
+        this.invalidate()
     }
 }

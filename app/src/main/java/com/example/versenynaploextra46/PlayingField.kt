@@ -1,11 +1,18 @@
 package com.example.versenynaploextra46
 
+import android.graphics.Color
+import android.inputmethodservice.Keyboard
+
 class PlayingField(
-    val RowCount: Int,
-    val ColumnCount: Int,
+    private val RowCount: Int,
+    private val ColumnCount: Int,
     val blocks: Array<Array<ShapeRef>>)
 {
     class ShapeRef(var shape: Shape? = null, var activeShape: Shape? = null)
+
+    companion object {
+        val borderShapeRef: ShapeRef = ShapeRef(Shape(emptyList(), Color()), null)
+    }
 
     constructor(RowCount: Int, ColumnCount: Int): this(
         RowCount,
@@ -17,11 +24,57 @@ class PlayingField(
     var activeShapeRef: PlacedShape? = null
 
     fun addNextShape(shape: Shape): PlayingField {
-        assert(activeShapeRef == null)
-        val startPosition = Position(x = ColumnCount/2, y = 0)
-        val initialShape = PlacedShape(shape, startPosition)
-        val overwrite = initialShape.overwrite(limits)
-        return cloneAndPlace(PlacedShape(shape, startPosition.add(overwrite)))
+        val placedShape: PlacedShape? = mayMoveActive()
+
+        return if (placedShape == null) {
+            val startPosition = Position(x = ColumnCount / 2, y = 0)
+            val initialShape = PlacedShape(shape, startPosition)
+            val overwrite = initialShape.overwrite(limits)
+            cloneAndPlace(PlacedShape(shape, startPosition.add(overwrite)))
+        } else {
+            this
+        }
+    }
+
+    fun moveActiveLeft(): PlayingField = moveActive(dX=-1, dY=0)
+
+    fun moveActiveRight(): PlayingField = moveActive(dX=1, dY=0)
+
+    fun moveActiveDown(): PlayingField = moveActive(dX=0, dY=1)
+
+    private fun moveActive(dX: Int, dY: Int): PlayingField {
+        val movableShape: PlacedShape? = mayMoveActive()
+
+        return if (movableShape != null) {
+            val newPlacedShape = PlacedShape(movableShape.shape, movableShape.position.add(Position(dX, dY)))
+            if (!isPlacedShapeConflict(newPlacedShape))
+                cloneAndPlace(newPlacedShape)
+            else
+                this
+        } else {
+            this
+        }
+    }
+
+    fun rotate(): PlayingField {
+        val movableShape: PlacedShape? = mayMoveActive()
+
+        return if (movableShape != null) {
+            val rotatedShape = PlacedShape(movableShape.shape.rotate(), movableShape.position)
+            val overwrite = rotatedShape.overwrite(limits)
+            val newPlacedShape = PlacedShape(rotatedShape.shape, rotatedShape.position.add(overwrite))
+            if (!isPlacedShapeConflict(newPlacedShape))
+                cloneAndPlace(newPlacedShape)
+            else
+                this
+        } else {
+            this
+        }
+    }
+
+    private fun mayMoveActive(): PlacedShape? {
+        val placedShape: PlacedShape? = this.activeShapeRef
+        return if (placedShape != null && !isPlacedShapeConflict(placedShape)) placedShape else null
     }
 
     private fun cloneAndPlace(placedShape: PlacedShape): PlayingField {
@@ -34,55 +87,6 @@ class PlayingField(
                 col: Int -> ShapeRef(this.blocks[row][col].shape, null)
         }}
         return PlayingField(RowCount, ColumnCount, newBlocks)
-    }
-
-    fun moveActiveLeft(): PlayingField = moveActive(dX=-1)
-
-    fun moveActiveRight(): PlayingField = moveActive(dX=1)
-
-    private fun moveActive(dX: Int): PlayingField {
-        val placedShape: PlacedShape? = this.activeShapeRef
-
-        if (placedShape != null) {
-            val newPlacedShape = PlacedShape(placedShape.shape, placedShape.position.h_add(dX))
-            if (!newPlacedShape.isOutside(limits) && !isPlacedShapeConflict(newPlacedShape)) {
-                return cloneAndPlace(newPlacedShape)
-            }
-        }
-        return this
-    }
-
-    fun moveActiveDown(): PlayingField {
-        val placedShape: PlacedShape? = this.activeShapeRef
-
-        if (placedShape != null) {
-            val newPlacedShape = PlacedShape(placedShape.shape, placedShape.position.v_add(value=1))
-            return if (newPlacedShape.isOutside(limits) || isPlacedShapeConflict(newPlacedShape)) {
-                doFinalize(newPlacedShape)
-            } else {
-                cloneAndPlace(newPlacedShape)
-            }
-        }
-        return this
-    }
-
-    private fun doFinalize(placedShape: PlacedShape): PlayingField {
-        return this
-    }
-
-    fun rotate(): PlayingField {
-        val placedShape: PlacedShape? = this.activeShapeRef
-
-        if (placedShape != null) {
-            val rotatedShape = PlacedShape(placedShape.shape.rotate(), placedShape.position)
-            val overwrite = rotatedShape.overwrite(limits)
-            val newPlacedShape = PlacedShape(rotatedShape.shape, rotatedShape.position.add(overwrite))
-            if (!newPlacedShape.isOutside(limits) && !isPlacedShapeConflict(newPlacedShape)) {
-                return cloneAndPlace(newPlacedShape)
-            }
-        }
-
-        return this
     }
 
     private fun placeActiveShape(placedShape: PlacedShape): PlayingField {
@@ -102,18 +106,55 @@ class PlayingField(
     private fun isPlacedShapeConflict(placedShape: PlacedShape): Boolean =
         placedShape.blocks.find{getShapeRef(it).shape != null} != null
 
-    fun finalizePlacedShape() {
+    private fun finalizePlacedShape(): PlayingField {
         val placedShape: PlacedShape? = this.activeShapeRef
         this.activeShapeRef = null
 
         if (placedShape != null) {
             for (pos in placedShape.blocks) {
-                assert(getShapeRef(pos).shape == null)
                 getShapeRef(pos).shape = placedShape.shape
                 getShapeRef(pos).activeShape = null
             }
         }
+        return this
     }
 
-    private fun getShapeRef(position: Position): ShapeRef = blocks[position.y][position.x]
+    private fun getShapeRef(position: Position): ShapeRef =
+        if (position.y < 0 || position.x < 0 || position.y >= limits.y || position.x >= limits.x)
+            borderShapeRef
+        else
+            blocks[position.y][position.x]
+
+    fun score(): Pair<PlayingField, Int> {
+        val finalField: PlayingField = clone()
+
+        val placedShape: PlacedShape? = this.activeShapeRef
+        if (placedShape != null) finalField.placeActiveShape(placedShape)
+
+        return finalField.finalizePlacedShape().doScore()
+    }
+
+    private fun doScore(): Pair<PlayingField, Int> {
+        fun scoringRow(row: Array<ShapeRef>): Boolean = row.find { it.shape == null } == null
+
+        val scoreAndRemaining: Pair<Int, List<Array<ShapeRef>>> = blocks.fold(Pair(0, emptyList())) { acc, row ->
+            if (scoringRow(row)) {
+                Pair(acc.first + 1, acc.second)
+            } else {
+                Pair(acc.first, acc.second.plusElement(row))
+            }
+        }
+
+        return if (scoreAndRemaining.second.size == RowCount) {
+            Pair(this, 0)
+        } else {
+            val resultBlocks: Array<Array<ShapeRef>> = Array(RowCount) {
+                rowIdx -> if (rowIdx < RowCount - scoreAndRemaining.second.size) {
+                    Array(ColumnCount) {ShapeRef()}
+                } else {
+                    scoreAndRemaining.second[rowIdx - RowCount + scoreAndRemaining.second.size]
+            }}
+            Pair(PlayingField(RowCount, ColumnCount, resultBlocks), scoreAndRemaining.first)
+        }
+    }
 }
