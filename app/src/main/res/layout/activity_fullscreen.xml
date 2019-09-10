@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <view
+            android:id="@+id/gameView"
+            class="com.example.versenynaploextra46.GameView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="80" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/button_margin"
+            android:layout_weight="20"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/info_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/button_margin"
+                android:layout_weight="33"
+                android:adjustViewBounds="false"
+                android:background="@color/play_button_enabled"
+                app:srcCompat="@drawable/info_button_image" />
+
+            <ImageButton
+                android:id="@+id/clear_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/button_margin"
+                android:layout_weight="22"
+                android:background="@color/play_button_enabled"
+                app:srcCompat="@drawable/clear_button_image" />
+
+            <ImageButton
+                android:id="@+id/undo_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/button_margin"
+                android:layout_weight="22"
+                android:background="@color/play_button_enabled"
+                app:srcCompat="@drawable/undo_button_image" />
+
+            <ImageButton
+                android:id="@+id/done_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="22"
+                android:background="@color/play_button_disabled"
+                app:srcCompat="@drawable/done_button_image" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

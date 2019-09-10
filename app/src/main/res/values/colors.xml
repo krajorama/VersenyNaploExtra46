@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#FFFFFF</color> <!-- kezdőképernyő, táblázat, dialógusok alap háttere -->
+    <color name="colorBackgroundNight">#222226</color>
+    <color name="colorForeground">#ffcccccc</color> <!-- alap szövegek színe, táblázat határa -->
+    <color name="colorForegroundNight">#949494</color>
+    <color name="colorPrimary">#D0CCC0</color>
+    <color name="colorPrimaryNight">#938f87</color>
+    <color name="colorPrimaryDark">#242D34</color>
+    <color name="colorPrimaryDarkNight">#a1a0a1</color>
+    <color name="colorAccent">#bc3e12</color>
+    <color name="colorAccentNight">#94300d</color>
+    <color name="colorNagyHalal">#d64d43</color>
+    <color name="colorKozepHalal">#79be48</color>
+    <color name="colorKisHalal">#4da0dc</color>
+    <color name="colorTerepMester">#000000</color>
+    <color name="colorTextVersenyzo">#000000</color>
+    <color name="colorTextTerepMester">#ffffff</color>
+    <color name="colorRowEdited">#ffff00</color>
+    <color name="colorRowEditedNight">#6e6e00</color>
+    <color name="colorRowDeleted">#ff0000</color>
+    <color name="colorRowDeletedNight">#660101</color>
+    <color name="colorRowSynced">#FFFFFF</color>
+    <color name="colorRowSyncedNight">#202020</color>
+    <color name="colorRowApproved">#FDFFB0</color>
+    <color name="colorRowApprovedNight">#464233</color>
+    <color name="colorRowAsked">#aeb6ba</color>
+    <color name="colorRowAskedNight">#5C6163</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="play_button_enabled">@color/colorBackgroundNight</color>
+    <color name="play_button_disabled">@color/colorRowAskedNight</color>
+</resources>
