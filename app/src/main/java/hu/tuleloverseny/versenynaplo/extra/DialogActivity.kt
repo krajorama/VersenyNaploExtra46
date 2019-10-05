@@ -1,18 +1,121 @@
-package com.example.versenynaploextra46
+package hu.tuleloverseny.versenynaplo.extra
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.util.Log
 import android.view.View
+import android.widget.Toast
 import androidx.core.content.ContextCompat
+import com.example.versenynaploextra46.R
 import kotlinx.android.synthetic.main.activity_fullscreen.*
+import java.util.ArrayList
+import java.util.regex.Pattern
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
  * status bar and navigation/system bar) with user interaction.
  */
-class FullscreenActivity : AppCompatActivity() {
+class DialogActivity : AppCompatActivity() {
+    // DON'T TOUCH
+    // Extra hívással az Versenynapló-ból átadott értékek
+    var extraVersionName: String? = null
+    var extraProduction: Boolean = false
+    var extraNightMode: Boolean = false
+    var extraTeamCategory: String? = null
+    var extraVersenyzo: String? = null
+    var extraTurazoSorszam: Long = 0
+    var extraNaploRowNum: Long = 0
+    var extraNaploList: MutableList<Array<String>> = object : ArrayList<Array<String>>() {}
+    //        "Feltoltve", "Ervenytelenitve", "Visszaigazolva",
+    //        "BejarasiSorszam", "ErkezesDayTime", "ErkezesDateTime", "PointName", "KeyCode",
+    //        "OtthagyottStafetusz", "MegtalaltStafetusz",
+    //        "Bonusz", "ExtraInfo1", "ExtraInfo2", "ExtraInfo3", "Megjegyzes"
+
+    // DON'T TOUCH
+    // Extra befejezésekor átadandó, kiszámolt értékek
+    var extraExtraInfo1: String? = null
+    var extraExtraInfo2: String? = null
+    var extraExtraInfo3: String? = null
+
+    // DON'T TOUCH
+    // Extra meghívásakor lefutó inicializáció
+    private fun extraInit(): Boolean {
+
+        val intent = intent
+
+        extraVersionName = intent.getStringExtra("VersionName")
+        extraProduction = intent.getBooleanExtra("Production", false)
+        extraNightMode = intent.getBooleanExtra("NightMode", false)
+        extraTeamCategory = intent.getStringExtra("TeamCategory")
+        extraVersenyzo = intent.getStringExtra("Versenyzo")
+        extraTurazoSorszam = intent.getLongExtra("TurazoSorszam", 0)
+
+        extraNaploRowNum = intent.getIntExtra("NaploRowNum", 0).toLong()
+        for (i in 0 until extraNaploRowNum) {
+            extraNaploList.add(intent.getStringArrayExtra("NaploRow$i"))
+        }
+
+        if (extraVersionName == null) {
+            Toast.makeText(
+                applicationContext,
+                resources.getString(R.string.missing_intent) + "\n" + resources.getString(R.string.versionName),
+                Toast.LENGTH_LONG
+            ).show()
+            setResult(RESULT_CANCELED)
+            finish()
+            return false
+        }
+
+        Log.d(
+            "DialogActivity",
+            "onCreate split " + extraVersionName!!.split(Pattern.quote("-").toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[0]
+        )
+
+        if (extraVersionName!!.split("-")[0] !=
+            resources.getString(R.string.versionName).split("-")[0]) {
+            Toast.makeText(applicationContext, R.string.version_missmatch, Toast.LENGTH_LONG).show()
+            setResult(RESULT_CANCELED)
+            finish()
+            return false
+        }
+
+        if (extraTeamCategory == null || extraVersenyzo == null || extraTurazoSorszam == 0L) {
+            Toast.makeText(applicationContext, R.string.missing_params, Toast.LENGTH_LONG).show()
+            setResult(RESULT_CANCELED)
+            finish()
+            return false
+        }
+
+        // éjszakai app-hoz éjszakai Extra
+        if (extraNightMode) {
+            setTheme(R.style.AppTheme_Night)
+        }
+
+        return true
+    }
+
+
+    // DON'T TOUCH
+    // Extra befejezésekor kell lefutnia, ez adja vissza az Extra által számoltakat
+    private fun extraFinish() {
+
+        // a konkrét érték átadás
+        val backIntent = Intent()
+        backIntent.putExtra("VersionName", resources.getString(R.string.versionName))
+        backIntent.putExtra("Versenyzo", extraVersenyzo)
+        backIntent.putExtra("TurazoSorszam", extraTurazoSorszam)
+        backIntent.putExtra("ExtraInfo1", extraExtraInfo1)
+        backIntent.putExtra("ExtraInfo2", extraExtraInfo2)
+        backIntent.putExtra("ExtraInfo3", extraExtraInfo3)
+
+        setResult(RESULT_OK, backIntent)
+        finish()
+
+    }
+
     private val mHideHandler = Handler()
     private val mHidePart2Runnable = Runnable {
         // Delayed removal of status and navigation bar
@@ -50,6 +153,10 @@ class FullscreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        if (!extraInit()) {
+            return
+        }
+
         setContentView(R.layout.activity_fullscreen)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
@@ -66,13 +173,23 @@ class FullscreenActivity : AppCompatActivity() {
         val gameState = GameState()
         gameView.gameState = gameState
 
-        val aShape = Shape(listOf(Position(0,0), Position(0,1)), Color())
+        val aShape = Shape(
+            listOf(
+                Position(0, 0),
+                Position(0, 1)
+            ), Color()
+        )
         gameState.addNextShape(aShape)
 
         undo_button.setOnClickListener { gameView.doUndo()  }
         done_button.setOnClickListener {
-            gameView.doDone()
-            it.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.play_button_disabled))
+            extraExtraInfo1 = gameView.getExtraInfo1()
+            extraExtraInfo2 = gameView.getExtraInfo2()
+            extraExtraInfo3 = gameView.getExtraInfo3()
+            extraFinish()
+        }
+        clear_button.setOnClickListener {
+            extraFinish()
         }
         gameView.doneButton = done_button
     }

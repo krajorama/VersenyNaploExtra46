@@ -1,16 +1,18 @@
-package com.example.versenynaploextra46
+package hu.tuleloverseny.versenynaplo.extra
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.drawable.ShapeDrawable
 import android.graphics.drawable.shapes.RectShape
+import android.graphics.drawable.shapes.OvalShape
 import android.util.AttributeSet
 import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.View
 import android.widget.ImageButton
 import androidx.core.content.ContextCompat
+import com.example.versenynaploextra46.R
 import kotlin.math.abs
 
 
@@ -32,8 +34,8 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
 
         if (canvas != null) {
             for ((row, rowArray) in gameState.current().blocks.withIndex()) {
-                for ((column, block) in rowArray.withIndex()) {
-                    if (block.activeShape != null || block.shape != null) {
+                for ((column, blockRef) in rowArray.withIndex()) {
+                    if (blockRef.shape != null || blockRef.activeShape != null) {
                         shapeDrawable = ShapeDrawable(RectShape())
                         shapeDrawable.setBounds(
                             leftMargin + column * blockSize,
@@ -43,6 +45,18 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
                         )
                         shapeDrawable.paint.color = Color.parseColor("#009944")
                         shapeDrawable.draw(canvas)
+                        if (blockRef.activeShape != null) {
+                            shapeDrawable.shape = OvalShape()
+                            shapeDrawable.paint.color = Color.BLACK
+                            val outerBounds = shapeDrawable.bounds
+                            shapeDrawable.setBounds(
+                                outerBounds.left + outerBounds.width()/5,
+                                outerBounds.top + outerBounds.height()/5,
+                                outerBounds.right - outerBounds.width()/5,
+                                outerBounds.bottom - outerBounds.height()/5
+                            )
+                            shapeDrawable.draw(canvas)
+                        }
                     }
                 }
             }
@@ -77,7 +91,9 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
                             doneButton?.isClickable = playingFieldFinal
                             if (playingFieldFinal)
                                 doneButton?.setBackgroundColor(
-                                    ContextCompat.getColor(this@GameView.context, R.color.play_button_enabled)
+                                    ContextCompat.getColor(this@GameView.context,
+                                        R.color.play_button_enabled
+                                    )
                             )
                             true
                         }
@@ -108,8 +124,24 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
             this.invalidate()
     }
 
-    fun doDone() {
-        gameState.addNextShape(Shape(listOf(Position(-1,0), Position(0,0), Position(1,0)), Color()))
+    /*fun doDone() {
+        gameState.addNextShape(
+            Shape(
+                listOf(
+                    Position(
+                        -1,
+                        0
+                    ),
+                    Position(0, 0),
+                    Position(1, 0)
+                ), Color()
+            )
+        )
         this.invalidate()
-    }
+    }*/
+    fun getExtraInfo1(): String = getPlayerMove().info1
+    fun getExtraInfo2(): String = getPlayerMove().info2
+    fun getExtraInfo3(): String = getPlayerMove().info3
+
+    private fun getPlayerMove(): PlayerMove = gameState.getPlayerMove()
 }

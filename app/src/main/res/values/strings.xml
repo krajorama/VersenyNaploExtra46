@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">VersenyNaploExtra46</string>
+    <string name="app_name">Versenynapló Extra</string>
 
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="missing_intent">Önállóan nem használható!\nVersenynapló indíthatja csak. </string>
+    <string name="version_missmatch">Hiba(extra): Eltérő verzió</string>
+    <string name="missing_params">Hiba(extra): Hiányzó paraméter</string>
+
 </resources>

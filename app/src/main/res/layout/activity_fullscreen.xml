@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0099cc"
-    tools:context=".FullscreenActivity">
+    tools:context="hu.tuleloverseny.versenynaplo.extra.DialogActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
@@ -28,7 +28,7 @@
 
         <view
             android:id="@+id/gameView"
-            class="com.example.versenynaploextra46.GameView"
+            class="hu.tuleloverseny.versenynaplo.extra.GameView"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="start"

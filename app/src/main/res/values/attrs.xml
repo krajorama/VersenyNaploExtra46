@@ -8,5 +8,16 @@
         <attr name="metaButtonBarStyle" format="reference" />
         <attr name="metaButtonBarButtonStyle" format="reference" />
     </declare-styleable>
-
+    <declare-styleable name="Theme">
+        <attr name="colorBackground" format="color" />
+        <attr name="colorForeground" format="color" />
+        <attr name="colorPrimary" format="color" />
+        <attr name="colorPrimaryDark" format="color" />
+        <attr name="colorAccent" format="color" />
+        <attr name="colorRowEdited" format="color" />
+        <attr name="colorRowDeleted" format="color" />
+        <attr name="colorRowSynced" format="color" />
+        <attr name="colorRowApproved" format="color" />
+        <attr name="colorRowAsked" format="color" />
+    </declare-styleable>
 </resources>

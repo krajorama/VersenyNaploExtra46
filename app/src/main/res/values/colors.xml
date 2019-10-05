@@ -22,10 +22,11 @@
     <color name="colorRowDeletedNight">#660101</color>
     <color name="colorRowSynced">#FFFFFF</color>
     <color name="colorRowSyncedNight">#202020</color>
-    <color name="colorRowApproved">#FDFFB0</color>
+    <color name="colorRowApproved">#fdffb0</color>
     <color name="colorRowApprovedNight">#464233</color>
     <color name="colorRowAsked">#aeb6ba</color>
-    <color name="colorRowAskedNight">#5C6163</color>
+    <color name="colorRowAskedNight">#5c6163</color>
+
     <color name="black_overlay">#66000000</color>
 
     <color name="play_button_enabled">@color/colorBackgroundNight</color>

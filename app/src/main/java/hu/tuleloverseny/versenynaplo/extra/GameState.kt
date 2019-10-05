@@ -1,10 +1,11 @@
-package com.example.versenynaploextra46
+package hu.tuleloverseny.versenynaplo.extra
 
 const val PLAYING_FIELD_UPDATED = 1
 const val PLAYING_FIELD_UPDATED_AND_FINAL = 2
 
 class GameState(val RowCount: Int = 12, val ColumnCount: Int = 6) {
-    private val history: MutableList<PlayingField> = mutableListOf(PlayingField(RowCount,ColumnCount))
+    private val history: MutableList<PlayingField> = mutableListOf(PlayingField(RowCount, ColumnCount))
+
     // var validState = true
     var score = 0
 
@@ -47,4 +48,6 @@ class GameState(val RowCount: Int = 12, val ColumnCount: Int = 6) {
             false
         }
     }
+
+    fun getPlayerMove(): PlayerMove = history.first().getPlayerMove()
 }

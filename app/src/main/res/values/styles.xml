@@ -1,24 +1,109 @@
 <resources>
 
     <!-- Base application theme. -->
+<!--
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.Dialog">
+
         <!-- Customize your theme here. -->
+        <item name="colorBackground">@color/colorBackground</item>
+        <item name="colorForeground">@color/colorForeground</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorRowEdited">@color/colorRowEdited</item>
+        <item name="colorRowDeleted">@color/colorRowDeleted</item>
+        <item name="colorRowSynced">@color/colorRowSynced</item>
+        <item name="colorRowApproved">@color/colorRowApproved</item>
+        <item name="colorRowAsked">@color/colorRowAsked</item>
+        <item name="android:itemBackground">@color/colorBackground</item>
+        <item name="actionMenuTextColor">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <!--  <item name="android:textColor">@color/colorForeground</item>-->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="alertDialogStyle">@style/MyDialogTheme</item>
+
+    </style>
+    <style name="MyActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="actionMenuTextColor">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="background">@color/colorPrimary</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+    <style name="MyActionBarTitleText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorForeground</item>
     </style>
 
-    <style name="FullscreenTheme" parent="AppTheme">
-        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
-        <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@null</item>
-        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
-        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+
+
+    <!-- Night mode application theme. -->
+    <style name="AppTheme.Night" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="colorBackground">@color/colorBackgroundNight</item>
+        <item name="android:windowBackground">@color/colorBackgroundNight</item>
+        <item name="colorForeground">@color/colorForegroundNight</item>
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="colorRowEdited">@color/colorRowEditedNight</item>
+        <item name="colorRowDeleted">@color/colorRowDeletedNight</item>
+        <item name="colorRowSynced">@color/colorRowSyncedNight</item>
+        <item name="colorRowApproved">@color/colorRowApprovedNight</item>
+        <item name="colorRowAsked">@color/colorRowAskedNight</item>
+        <item name="android:itemBackground">@color/colorBackgroundNight</item>
+        <item name="actionMenuTextColor">@color/colorAccentNight</item>
+        <item name="android:textColorPrimary">@color/colorAccentNight</item>
+        <item name="android:textColor">@color/colorForegroundNight</item>
+        <item name="android:actionBarStyle">@style/MyActionBar.Night</item>
+        <item name="actionBarStyle">@style/MyActionBar.Night</item>
+        <item name="alertDialogStyle">@style/MyDialogTheme.Night</item>
+        <!--<item name="editTextColor">@color/colorForegroundNight</item>-->
+        <item name="android:editTextColor">@color/colorForegroundNight</item>
+        <item name="android:textColorHint">@color/colorForegroundNight</item> <!--Ez lesz pl. a versenyzői azonosító-->
+        <!--Ezekkel a scroll -ozós táblázat csúszkáját lehet pl. átszínezni-->
+        <!--<item name="colorControlActivated">@color/colorAccentNight</item>
+        <item name="colorControlNormal">@color/colorAccentNight</item>
+        <item name="colorControlHighlight">@color/colorAccentNight</item>-->
+    </style>
+    <style name="MyActionBar.Night" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:textColorPrimary">@color/colorAccentNight</item>
+        <item name="android:textColorSecondary">@color/colorAccentNight</item>
+        <item name="actionMenuTextColor">@color/colorAccentNight</item>
+        <item name="android:actionMenuTextColor">@color/colorAccentNight</item>
+        <item name="android:textColor">@color/colorForegroundNight</item>
+        <item name="android:background">@color/colorPrimaryNight</item>
+        <item name="background">@color/colorPrimaryNight</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText.Night</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText.Night</item>
+        <!--<item name="popupTheme">@style/ThemeOverlay.AppCompat</item>-->
+    </style>
+    <style name="MyActionBarTitleText.Night" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/colorAccentNight</item>
+        <item name="android:textColorSecondary">@color/colorAccentNight</item>
+    </style>
+    <style name="MyDialogTheme.Night" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorBackgroundNight</item>
+        <!--<item name="colorAccent">@color/colorAccentNight</item>-->
+        <item name="textColorAlertDialogListItem">@color/colorForegroundNight</item> <!--Ilyen színe lesz pl. a P, Q, R, S -nek-->
+        <item name="android:textColor">@color/colorAccentNight</item> <!--Ettől lesz színe mondjuk az Extra Info-nak vagy az MÉGSEM és OK gomboknak a szöveges beviteli alert dialog-ban-->
+        <item name="android:textColorPrimary">@color/colorForegroundNight</item>
+        <item name="android:editTextColor">@color/colorForegroundNight</item>
+        <item name="android:colorForeground">@color/colorForegroundNight</item>
+        <!--<item name="editTextStyle">@style/MyEditText.Night</item>-->
+    </style>
+    <style name="MyEditText.Night" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorForegroundNight</item>
     </style>
 
-    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
-        <item name="android:background">@color/black_overlay</item>
-    </style>
-
-    <dimen name="button_margin">1dp</dimen>
 </resources>
