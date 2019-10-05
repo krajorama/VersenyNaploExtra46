@@ -22,5 +22,11 @@ class PlacedShape(val shape: Shape, val position: Position = Position(), val rot
                 (if (container.highCorner.y >= limits.y) limits.y - 1 - container.highCorner.y else 0)
         )
 
-    fun deActive(): PlacedShape = PlacedShape(shape, position, rotation, false)
+    fun deActivate(): PlacedShape = PlacedShape(shape, position, rotation, false)
+    fun activate(): PlacedShape = PlacedShape(shape, position, rotation, true)
+    fun rotateTo(rotate: Int): PlacedShape =
+        if (rotate>0)
+            PlacedShape(shape.rotate(), position, rotation + 1, active).rotateTo(rotate - 1)
+        else
+            this
 }

@@ -50,10 +50,10 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
                             shapeDrawable.paint.color = Color.BLACK
                             val outerBounds = shapeDrawable.bounds
                             shapeDrawable.setBounds(
-                                outerBounds.left + outerBounds.width()/5,
-                                outerBounds.top + outerBounds.height()/5,
-                                outerBounds.right - outerBounds.width()/5,
-                                outerBounds.bottom - outerBounds.height()/5
+                                outerBounds.left + outerBounds.width()/3,
+                                outerBounds.top + outerBounds.height()/3,
+                                outerBounds.right - outerBounds.width()/3,
+                                outerBounds.bottom - outerBounds.height()/3
                             )
                             shapeDrawable.draw(canvas)
                         }
@@ -86,16 +86,11 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
                             gameState.rotate()
                         } else {
                             // down
-                            val playingFieldFinal: Boolean =
-                                (gameState.moveActiveDown() == PLAYING_FIELD_UPDATED_AND_FINAL)
-                            doneButton?.isClickable = playingFieldFinal
-                            if (playingFieldFinal)
-                                doneButton?.setBackgroundColor(
-                                    ContextCompat.getColor(this@GameView.context,
-                                        R.color.play_button_enabled
-                                    )
-                            )
-                            true
+                            val update: Int = gameState.moveActiveDown()
+                            if (update == PLAYING_FIELD_UPDATED_AND_FINAL)
+                                enableDoneButton()
+
+                            (update != PLAYING_FIELD_NO_UPDATE)
                         }
                     } else {
                         if (dX < 0) {
@@ -124,24 +119,18 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
             this.invalidate()
     }
 
-    /*fun doDone() {
-        gameState.addNextShape(
-            Shape(
-                listOf(
-                    Position(
-                        -1,
-                        0
-                    ),
-                    Position(0, 0),
-                    Position(1, 0)
-                ), Color()
-            )
-        )
-        this.invalidate()
-    }*/
     fun getExtraInfo1(): String = getPlayerMove().info1
     fun getExtraInfo2(): String = getPlayerMove().info2
     fun getExtraInfo3(): String = getPlayerMove().info3
 
     private fun getPlayerMove(): PlayerMove = gameState.getPlayerMove()
+
+    fun enableDoneButton() {
+        doneButton?.isClickable = true
+        doneButton?.setBackgroundColor(
+            ContextCompat.getColor(this@GameView.context,
+                R.color.play_button_enabled
+            )
+        )
+    }
 }

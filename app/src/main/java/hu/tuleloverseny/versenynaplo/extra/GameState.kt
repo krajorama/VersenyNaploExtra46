@@ -1,5 +1,6 @@
 package hu.tuleloverseny.versenynaplo.extra
 
+const val PLAYING_FIELD_NO_UPDATE = 0
 const val PLAYING_FIELD_UPDATED = 1
 const val PLAYING_FIELD_UPDATED_AND_FINAL = 2
 
@@ -9,7 +10,27 @@ class GameState(val RowCount: Int = 12, val ColumnCount: Int = 6) {
     // var validState = true
     var score = 0
 
-    fun addNextShape(shape: Shape): Boolean = updateHistory(history.first().addNextShape(shape))
+    fun addNextShape(shape: Shape): Boolean {
+        updateHistory(current().addNextShape(shape))
+        return !current().isActiveShapeConflict()
+    }
+
+    fun addFinalShape(shape: PlacedShape, isScoring: Boolean): Boolean {
+        val playingField: PlayingField = current().cloneAndMove(shape.activate()).dropDown()
+
+        return if (playingField.isActiveShapeConflict())
+        {
+            replaceHistory(playingField)
+            false
+        } else {
+            val scored: Pair<PlayingField, Int> = playingField.score()
+            replaceHistory(scored.first)
+            if (isScoring) {
+                score += scored.second
+            }
+            true
+        }
+    }
 
     fun moveActiveLeft(): Boolean = updateHistory(history.first().moveActiveLeft())
 
@@ -17,25 +38,34 @@ class GameState(val RowCount: Int = 12, val ColumnCount: Int = 6) {
 
     fun moveActiveDown(): Int {
         val updated = updateHistory(history.first().moveActiveDown())
-        return if (!updated) {
-            val scored: Pair<PlayingField, Int> = history.first().score()
-            score += scored.second
-            updateHistory(scored.first)
-            PLAYING_FIELD_UPDATED_AND_FINAL
-        } else {
+        return if (updated) {
             PLAYING_FIELD_UPDATED
+        } else {
+            if (current().isActiveShapeConflict()) {
+                PLAYING_FIELD_NO_UPDATE
+            } else {
+                val scored: Pair<PlayingField, Int> = history.first().score()
+                score += scored.second
+                updateHistory(scored.first)
+                PLAYING_FIELD_UPDATED_AND_FINAL
+            }
         }
     }
 
     fun rotate(): Boolean = updateHistory(history.first().rotate())
 
     private fun updateHistory(playingField: PlayingField): Boolean {
-        return if (!(history.first() === playingField)) {
+        return if (history.first() === playingField) {
+            false
+        } else {
             history.add(0, playingField)
             true
-        } else {
-            false
         }
+    }
+
+    private fun replaceHistory(playingField: PlayingField) {
+        history.removeAt(0)
+        history.add(0, playingField)
     }
 
     fun current(): PlayingField = history.first()

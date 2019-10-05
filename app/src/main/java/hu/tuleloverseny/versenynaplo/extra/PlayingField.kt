@@ -35,6 +35,11 @@ class PlayingField(
         }
     }
 
+    fun dropDown(): PlayingField {
+        val dropped: PlayingField = moveActiveDown()
+        return if (dropped === this) this else dropped.dropDown()
+    }
+
     fun moveActiveLeft(): PlayingField = moveActive(dX=-1, dY=0)
 
     fun moveActiveRight(): PlayingField = moveActive(dX=1, dY=0)
@@ -70,7 +75,9 @@ class PlayingField(
             val overwrite = rotatedShape.overwrite(limits)
             val newPlacedShape = PlacedShape(
                 rotatedShape.shape,
-                rotatedShape.position.add(overwrite)
+                rotatedShape.position.add(overwrite),
+                rotatedShape.rotation,
+                rotatedShape.active
             )
             if (!isPlacedShapeConflict(newPlacedShape))
                 cloneAndMove(newPlacedShape)
@@ -94,10 +101,10 @@ class PlayingField(
         for (pos in currentShape.blocks) {
             newBlocks[pos.y][pos.x].shape = currentShape.shape
         }
-        return PlayingField(RowCount, ColumnCount, newBlocks, currentShape.deActive())
+        return PlayingField(RowCount, ColumnCount, newBlocks, currentShape.deActivate())
     }
 
-    private fun cloneAndMove(placedShape: PlacedShape): PlayingField {
+    fun cloneAndMove(placedShape: PlacedShape): PlayingField {
         val newBlocks: Array<Array<ShapeRef>> = Array(RowCount) {
                 row: Int -> Array(ColumnCount) {
                 col: Int ->
@@ -108,6 +115,8 @@ class PlayingField(
         }
         return PlayingField(RowCount, ColumnCount, newBlocks, placedShape)
     }
+
+    fun isActiveShapeConflict(): Boolean = currentShape.active && isPlacedShapeConflict(currentShape)
 
     private fun isPlacedShapeConflict(placedShape: PlacedShape): Boolean =
         placedShape.blocks.find{getShapeRef(it).shape != null} != null
