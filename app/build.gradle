@@ -15,6 +15,7 @@ android {
         versionName "4.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.release
+        setProperty("archivesBaseName", "app-"+applicationId + "-" + versionName )
     }
     applicationVariants.all { variant ->
         variant.resValue "string", "versionName", variant.versionName

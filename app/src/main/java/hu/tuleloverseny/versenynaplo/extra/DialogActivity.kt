@@ -10,7 +10,6 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.core.content.ContextCompat
-import com.example.versenynaploextra46.R
 import kotlinx.android.synthetic.main.activity_fullscreen.*
 import java.util.ArrayList
 import java.util.regex.Pattern
