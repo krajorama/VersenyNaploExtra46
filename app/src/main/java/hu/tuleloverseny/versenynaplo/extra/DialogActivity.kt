@@ -199,11 +199,11 @@ class DialogActivity : AppCompatActivity() {
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
         info_button.setOnTouchListener(mDelayHideTouchListener)
-        done_button.isClickable = false
 
         val gameState = GameState()
         gameView.gameState = gameState
         gameView.doneButton = done_button
+        gameView.disableDoneButton()
 
         if (!placeOldShapes(gameState)) {
             Toast.makeText(applicationContext, "Betelt a pálya, nem lehet több elemet lerakni", Toast.LENGTH_LONG).show()
@@ -231,7 +231,7 @@ class DialogActivity : AppCompatActivity() {
         }
     }
 
-    fun placeOldShapes(gameState: GameState): Boolean {
+    private fun placeOldShapes(gameState: GameState): Boolean {
         if (extraNaploList.size < 2) // no old records
             return true
 

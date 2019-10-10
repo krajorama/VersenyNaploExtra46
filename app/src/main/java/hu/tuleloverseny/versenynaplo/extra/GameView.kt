@@ -19,6 +19,9 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
     var gameState = GameState()
     var doneButton: ImageButton? = null
 
+    private val blockDrawable = ShapeDrawable(RectShape())
+    private val ovalDrawable = ShapeDrawable(OvalShape())
+
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
 
@@ -29,33 +32,39 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
         val leftMargin = (this.width - width) / 2
         val topMargin = (this.height - height + 1)
 
-        var shapeDrawable: ShapeDrawable
-
         if (canvas != null) {
+            ovalDrawable.paint.color = Color.BLACK
+            blockDrawable.setBounds(
+                leftMargin,
+                topMargin,
+                leftMargin + width,
+                topMargin + height
+            )
+            blockDrawable.paint.color = ContextCompat.getColor(context, R.color.colorRowAsked)
+            blockDrawable.draw(canvas)
+
             for ((row, rowArray) in gameState.current().blocks.withIndex()) {
                 for ((column, blockRef) in rowArray.withIndex()) {
                     if (blockRef.shape != null || blockRef.activeShape != null) {
                         val shape: Shape = blockRef.activeShape?.shape ?: blockRef.shape!!
-                        shapeDrawable = ShapeDrawable(RectShape())
-                        shapeDrawable.setBounds(
+                        blockDrawable.setBounds(
                             leftMargin + column * blockSize + 1,
                             topMargin + row * blockSize + 1,
                             leftMargin + (column + 1) * blockSize - 1,
                             topMargin + (row + 1) * blockSize - 1
                         )
-                        shapeDrawable.paint.color = shape.color
-                        shapeDrawable.draw(canvas)
+                        blockDrawable.paint.color = shape.color
+                        blockDrawable.draw(canvas)
+
                         if (blockRef.activeShape != null) {
-                            shapeDrawable.shape = OvalShape()
-                            shapeDrawable.paint.color = Color.BLACK
-                            val outerBounds = shapeDrawable.bounds
-                            shapeDrawable.setBounds(
+                            val outerBounds = blockDrawable.bounds
+                            ovalDrawable.setBounds(
                                 outerBounds.left + outerBounds.width()/3,
                                 outerBounds.top + outerBounds.height()/3,
                                 outerBounds.right - outerBounds.width()/3,
                                 outerBounds.bottom - outerBounds.height()/3
                             )
-                            shapeDrawable.draw(canvas)
+                            ovalDrawable.draw(canvas)
                         }
                     }
                 }
@@ -115,8 +124,10 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
     }
 
     fun doUndo() {
-        if (gameState.undo())
+        if (gameState.undo()) {
+            disableDoneButton()
             this.invalidate()
+        }
     }
 
     fun getExtraInfo1(): String = getPlayerMove().info1
@@ -128,8 +139,19 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
     fun enableDoneButton() {
         doneButton?.isClickable = true
         doneButton?.setBackgroundColor(
-            ContextCompat.getColor(this@GameView.context,
+            ContextCompat.getColor(
+                this@GameView.context,
                 R.color.play_button_enabled
+            )
+        )
+    }
+
+    fun disableDoneButton() {
+        doneButton?.isClickable = false
+        doneButton?.setBackgroundColor(
+            ContextCompat.getColor(
+                this@GameView.context,
+                R.color.play_button_disabled
             )
         )
     }
