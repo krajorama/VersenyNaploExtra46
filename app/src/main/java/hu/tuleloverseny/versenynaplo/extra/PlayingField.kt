@@ -12,7 +12,7 @@ class PlayingField(
     class ShapeRef(var shape: Shape? = null, var activeShape: PlacedShape? = null)
 
     companion object {
-        val borderShapeRef: ShapeRef = ShapeRef(shape = Shape(emptyList(), Color()))
+        val borderShapeRef: ShapeRef = ShapeRef(shape = Shape(emptyList()))
     }
 
     private val limits: Position =
@@ -22,7 +22,7 @@ class PlayingField(
         RowCount,
         ColumnCount,
         Array(RowCount) {Array(ColumnCount) { ShapeRef() } },
-        PlacedShape(Shape(emptyList(), Color()), active = false)
+        PlacedShape(Shape(emptyList()), active = false)
     )
 
     fun addNextShape(shape: Shape): PlayingField {

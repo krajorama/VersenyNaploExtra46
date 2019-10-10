@@ -1,6 +1,7 @@
 package hu.tuleloverseny.versenynaplo.extra
 
 import android.app.Activity
+import android.app.Application
 import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -28,7 +29,7 @@ class DialogActivity : AppCompatActivity() {
     var extraVersenyzo: String? = null
     var extraTurazoSorszam: Long = 0
     var extraNaploRowNum: Long = 0
-    var extraNaploList: MutableList<Array<String?>> = object : ArrayList<Array<String?>>() {}
+    var extraNaploList: MutableList<Array<String>> = object : ArrayList<Array<String>>() {}
     //        "Feltoltve", "Ervenytelenitve", "Visszaigazolva",
     //        "BejarasiSorszam", "ErkezesDayTime", "ErkezesDateTime", "PointName", "KeyCode",
     //        "OtthagyottStafetusz", "MegtalaltStafetusz",
@@ -55,13 +56,25 @@ class DialogActivity : AppCompatActivity() {
 
         extraNaploRowNum = intent.getIntExtra("NaploRowNum", 0).toLong()
         for (i in 0 until extraNaploRowNum) {
-            extraNaploList.add(intent.getStringArrayExtra("NaploRow$i"))
+            val naploRow: Array<String>? = intent.getStringArrayExtra("NaploRow$i")
+            if (naploRow != null) extraNaploList.add(naploRow)
         }
 
         if (extraVersionName == null) {
             Toast.makeText(
                 applicationContext,
                 resources.getString(R.string.missing_intent) + "\n" + resources.getString(R.string.versionName),
+                Toast.LENGTH_LONG
+            ).show()
+            setResult(RESULT_CANCELED)
+            finish()
+            return false
+        }
+
+        if (extraNaploRowNum.toInt() != extraNaploList.size) {
+            Toast.makeText(
+                applicationContext,
+                "Nem jott at minden naplo sor!",
                 Toast.LENGTH_LONG
             ).show()
             setResult(RESULT_CANCELED)
@@ -89,21 +102,14 @@ class DialogActivity : AppCompatActivity() {
             return false
         }
 
-        if (extraNaploList[extraNaploRowNum.toInt()-1][PointNameIdx] == null) {
-            Toast.makeText(
-                applicationContext,
-                "A tereppont azonosítója még nincs megadva.",
-                Toast.LENGTH_LONG
-            ).show()
-            setResult(RESULT_CANCELED)
-            finish()
-            return false
-        }
         val pointName: String? = extraNaploList[extraNaploRowNum.toInt()-1][PointNameIdx]
         if (pointName == null || !ShapeDir.hasShape(pointName)) {
             Toast.makeText(
                 applicationContext,
-                "A tereppont azonosítója ismeretlen.",
+                if (pointName == null)
+                    "A tereppont azonosítója nincs megadva."
+                else
+                    "A tereppont azonosítója ismeretlen.",
                 Toast.LENGTH_LONG
             ).show()
             setResult(RESULT_CANCELED)
@@ -175,6 +181,8 @@ class DialogActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        Config.load(applicationContext.getExternalFilesDir(null))
+
         if (!extraInit()) {
             return
         }
@@ -206,7 +214,7 @@ class DialogActivity : AppCompatActivity() {
         }
 
         if (!gameState.addNextShape(
-                ShapeDir.getShape(extraNaploList[extraNaploList.size-1][PointNameIdx] ?: ""))) {
+                ShapeDir.getShape(extraNaploList[extraNaploList.size-1][PointNameIdx]))) {
                 gameView.enableDoneButton()
         }
 
@@ -221,7 +229,6 @@ class DialogActivity : AppCompatActivity() {
         clear_button.setOnClickListener {
             extraFinish()
         }
-
     }
 
     fun placeOldShapes(gameState: GameState): Boolean {
@@ -237,9 +244,9 @@ class DialogActivity : AppCompatActivity() {
             val posXString: String? = naploRow[ExtraInfo1Idx]
             if (posXString != null && posXString == "E") return false
 
-            val posX: Int? = naploRow[ExtraInfo1Idx]?.toIntOrNull()
-            val posY: Int? = naploRow[ExtraInfo2Idx]?.toIntOrNull()
-            val rotation: Int? = naploRow[ExtraInfo3Idx]?.toIntOrNull()
+            val posX: Int? = naploRow[ExtraInfo1Idx].toIntOrNull()
+            val posY: Int? = naploRow[ExtraInfo2Idx].toIntOrNull()
+            val rotation: Int? = naploRow[ExtraInfo3Idx].toIntOrNull()
             val pointName: String? = naploRow[PointNameIdx]
 
             if (posX == null || posY == null || rotation == null || pointName == null)

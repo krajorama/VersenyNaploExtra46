@@ -4,7 +4,7 @@ const val PLAYING_FIELD_NO_UPDATE = 0
 const val PLAYING_FIELD_UPDATED = 1
 const val PLAYING_FIELD_UPDATED_AND_FINAL = 2
 
-class GameState(val RowCount: Int = 12, val ColumnCount: Int = 6) {
+class GameState(val RowCount: Int = Config.rowCount, val ColumnCount: Int = Config.columnCount) {
     private val history: MutableList<PlayingField> = mutableListOf(PlayingField(RowCount, ColumnCount))
 
     // var validState = true

@@ -35,14 +35,15 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
             for ((row, rowArray) in gameState.current().blocks.withIndex()) {
                 for ((column, blockRef) in rowArray.withIndex()) {
                     if (blockRef.shape != null || blockRef.activeShape != null) {
+                        val shape: Shape = blockRef.activeShape?.shape ?: blockRef.shape!!
                         shapeDrawable = ShapeDrawable(RectShape())
                         shapeDrawable.setBounds(
-                            leftMargin + column * blockSize,
-                            topMargin + row * blockSize,
-                            leftMargin + (column + 1) * blockSize,
-                            topMargin + (row + 1) * blockSize
+                            leftMargin + column * blockSize + 1,
+                            topMargin + row * blockSize + 1,
+                            leftMargin + (column + 1) * blockSize - 1,
+                            topMargin + (row + 1) * blockSize - 1
                         )
-                        shapeDrawable.paint.color = Color.parseColor("#009944")
+                        shapeDrawable.paint.color = shape.color
                         shapeDrawable.draw(canvas)
                         if (blockRef.activeShape != null) {
                             shapeDrawable.shape = OvalShape()
