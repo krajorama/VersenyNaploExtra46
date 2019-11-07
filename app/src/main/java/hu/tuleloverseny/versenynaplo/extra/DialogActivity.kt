@@ -1,16 +1,12 @@
 package hu.tuleloverseny.versenynaplo.extra
 
-import android.app.Activity
-import android.app.Application
 import android.content.Intent
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
 import android.view.View
 import android.widget.Toast
-import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_fullscreen.*
 import java.util.ArrayList
 import java.util.regex.Pattern
@@ -24,6 +20,7 @@ class DialogActivity : AppCompatActivity() {
     // Extra hívással az Versenynapló-ból átadott értékek
     var extraVersionName: String? = null
     var extraProduction: Boolean = false
+    var extraActivated: Boolean = false
     var extraNightMode: Boolean = false
     var extraTeamCategory: String? = null
     var extraVersenyzo: String? = null
@@ -49,6 +46,7 @@ class DialogActivity : AppCompatActivity() {
 
         extraVersionName = intent.getStringExtra("VersionName")
         extraProduction = intent.getBooleanExtra("Production", false)
+        extraActivated = intent.getBooleanExtra("Activated", false)
         extraNightMode = intent.getBooleanExtra("NightMode", false)
         extraTeamCategory = intent.getStringExtra("TeamCategory")
         extraVersenyzo = intent.getStringExtra("Versenyzo")
@@ -181,7 +179,7 @@ class DialogActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        Config.load(applicationContext.getExternalFilesDir(null))
+        // Config.load(applicationContext.getExternalFilesDir(null))
 
         if (!extraInit()) {
             return
@@ -198,26 +196,7 @@ class DialogActivity : AppCompatActivity() {
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        info_button.setOnTouchListener(mDelayHideTouchListener)
-
-        val gameState = GameState()
-        gameView.gameState = gameState
-        gameView.doneButton = done_button
-        gameView.disableDoneButton()
-
-        if (!placeOldShapes(gameState)) {
-            Toast.makeText(applicationContext, "Betelt a pálya, nem lehet több elemet lerakni", Toast.LENGTH_LONG).show()
-            extraExtraInfo1 = "E"
-            extraExtraInfo2 = "E"
-            extraExtraInfo3 = "E"
-            extraFinish()
-        }
-
-        if (!gameState.addNextShape(
-                ShapeDir.getShape(extraNaploList[extraNaploList.size-1][PointNameIdx]))) {
-                gameView.enableDoneButton()
-        }
-
+        clear_button.setOnTouchListener(mDelayHideTouchListener)
         undo_button.setOnClickListener { gameView.doUndo()  }
         done_button.setOnClickListener {
             extraExtraInfo1 = gameView.getExtraInfo1()
@@ -229,6 +208,25 @@ class DialogActivity : AppCompatActivity() {
         clear_button.setOnClickListener {
             extraFinish()
         }
+
+        val gameState = GameState()
+        gameView.gameState = gameState
+        gameView.doneButton = done_button
+        gameView.disableDoneButton()
+
+        if (!placeOldShapes(gameState)) {
+            Toast.makeText(applicationContext, "Betelt a pálya, nem lehet több elemet lerakni", Toast.LENGTH_LONG).show()
+            val playerMove = PlayerMove.gameIsFull()
+            extraExtraInfo1 = playerMove.info1
+            extraExtraInfo2 = playerMove.info2
+            extraExtraInfo3 = playerMove.info3
+            extraFinish()
+        }
+
+        if (!gameState.addNextShape(
+                ShapeDir.getShape(extraNaploList[extraNaploList.size-1][PointNameIdx]))) {
+                gameView.enableDoneButton()
+        }
     }
 
     private fun placeOldShapes(gameState: GameState): Boolean {
@@ -237,26 +235,15 @@ class DialogActivity : AppCompatActivity() {
 
         val oldEntriesInNaplo = extraNaploList.subList(0, extraNaploList.size - 1)
         for (naploRow in oldEntriesInNaplo) {
-            val invalidatedMove: String? = naploRow[InvalidatedIdx]
-            if (invalidatedMove != null && invalidatedMove == "I")
+            val playerMove = PlayerMove(naploRow[ExtraInfo1Idx], naploRow[ExtraInfo2Idx], naploRow[ExtraInfo3Idx])
+
+            if (!playerMove.isValidEntry())
                 continue
 
-            val posXString: String? = naploRow[ExtraInfo1Idx]
-            if (posXString != null && posXString == "E") return false
+            if (playerMove.isFull()) return false
 
-            val posX: Int? = naploRow[ExtraInfo1Idx].toIntOrNull()
-            val posY: Int? = naploRow[ExtraInfo2Idx].toIntOrNull()
-            val rotation: Int? = naploRow[ExtraInfo3Idx].toIntOrNull()
-            val pointName: String? = naploRow[PointNameIdx]
-
-            if (posX == null || posY == null || rotation == null || pointName == null)
-                continue
-
-            val finalShape = PlacedShape(ShapeDir.getShape(pointName), Position(posX, posY)).rotateTo(rotation)
-
-            if (!gameState.addFinalShape(shape = finalShape, isScoring = true))
+            if (!gameState.addFinalShape(shape = playerMove.getShape(), isScoring = true))
                 return false
-            // Toast.makeText(applicationContext, "invalid=" + naploRow[InvalidatedIdx] + ".", Toast.LENGTH_LONG).show()
         }
 
         return true

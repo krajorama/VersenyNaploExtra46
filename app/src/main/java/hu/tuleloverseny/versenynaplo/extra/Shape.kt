@@ -1,15 +1,13 @@
 package hu.tuleloverseny.versenynaplo.extra
 
+//import android.content.ContentProvider
 import android.graphics.Color
-import androidx.core.graphics.blue
-import androidx.core.graphics.green
-import androidx.core.graphics.red
 
 class ShapeContainer(val lowCorner: Position, val highCorner: Position) {
     constructor(corners: Pair<Position, Position>) : this(corners.first, corners.second)
 }
 
-open class Shape(val blocks: List<Position>, val color: Int = Color.GREEN) {
+open class Shape(val blocks: List<Position>, val label: Char = '0', val color: Int = Color.GREEN) {
     val container: ShapeContainer =
         ShapeContainer(
             blocks.fold(
@@ -36,9 +34,10 @@ open class Shape(val blocks: List<Position>, val color: Int = Color.GREEN) {
                 it.y,
                 -it.x
             )
-        }, color)
+        }, label, color)
     }
 
+    /*
     override fun toString(): String = String.format("#%02x%02x%02x", color.red, color.green, color.blue) +
             ";" + blocks.joinToString(separator = ";") {it.toString()}
 
@@ -52,4 +51,5 @@ open class Shape(val blocks: List<Position>, val color: Int = Color.GREEN) {
             )
         }
     }
+     */
 }

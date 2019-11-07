@@ -4,47 +4,71 @@ import android.graphics.Color
 
 class ShapeDir {
     companion object {
-        private val shapeI: Shape = Shape(
+        private val shapeA: Shape = Shape(
             listOf(Position(-1,0), Position(0, 0), Position(1, 0), Position(2,0)),
+            'A',
             Color.parseColor("cyan")
         )
-        private val shapeL: Shape = Shape(
+        private val shapeB: Shape = Shape(
             listOf(Position(-1,-1), Position(-1,0), Position(0,0), Position(1,0)),
+            'B',
             Color.parseColor("#FFA500")
         )
-        private val shapel: Shape = Shape(
+        private val shapeC: Shape = Shape(
             listOf(Position(1,-1), Position(-1,0), Position(0,0), Position(1,0)),
+            'C',
             Color.parseColor("blue")
         )
-        private val shapeB: Shape = Shape(
+        private val shapeD: Shape = Shape(
             listOf(Position(0,0), Position(1,0), Position(0,1), Position(1,1)),
+            'D',
             Color.parseColor("yellow")
         )
-        private val shapeS: Shape = Shape(
+        private val shapeE: Shape = Shape(
             listOf(Position(0,-1), Position(1,-1), Position(-1,0), Position(0,0)),
+            'E',
             Color.parseColor("green")
         )
-        private val shapeZ: Shape = Shape(
+        private val shapeF: Shape = Shape(
             listOf(Position(-1,-1), Position(0,-1), Position(0,0), Position(1,0)),
+            'F',
             Color.parseColor("red")
         )
-        private val shapeT: Shape = Shape(
+        private val shapeG: Shape = Shape(
             listOf(Position(0,-1), Position(-1,0), Position(0,0), Position(1,0)),
+            'G',
             Color.parseColor("purple")
         )
 
-        var pointNameToShape: Map<String, Shape> = mapOf(
-            "001" to shapeI,
-            "002" to shapeL,
-            "003" to shapel,
-            "004" to shapeB,
-            "005" to shapeS,
-            "006" to shapeZ,
-            "007" to shapeT
+        private val labelToShape: Map<Char, Shape> = mapOf(
+            'A' to shapeA,
+            'B' to shapeB,
+            'C' to shapeC,
+            'D' to shapeD,
+            'E' to shapeE,
+            'F' to shapeF,
+            'G' to shapeG
         )
 
-        fun hasShape(pointName: String) = pointNameToShape.containsKey(pointName)
+        private val pointNameToLabel: Map<String, Char> = mapOf(
+            "001" to 'A',
+            "002" to 'B',
+            "003" to 'C',
+            "004" to 'D',
+            "005" to 'E',
+            "006" to 'F',
+            "007" to 'G',
+            "NH99" to 'A',
+            "NH10" to 'D',
+            "RAD" to 'F'
+        )
 
-        fun getShape(pointName: String) = pointNameToShape.getOrElse(pointName, {shapeI})
+        fun hasShape(pointName: String) = pointNameToLabel.containsKey(pointName)
+
+        fun getShape(pointName: String) = labelToShape.getOrElse(
+            pointNameToLabel.getOrElse(pointName, {'A'}), { shapeA}
+        )
+
+        fun getByLabel(label: Char) = labelToShape.getOrElse(label, { shapeA})
     }
 }

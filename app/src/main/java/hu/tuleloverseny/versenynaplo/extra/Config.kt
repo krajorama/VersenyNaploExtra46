@@ -1,12 +1,12 @@
 package hu.tuleloverseny.versenynaplo.extra
 
-import java.io.File
+//import java.io.File
 
 class Config {
     companion object {
-        var rowCount: Int = 12
-        var columnCount: Int = 6
-
+        var rowCount: Int = 14
+        var columnCount: Int = 9
+/*
 
         fun load(persistentDir: File?) {
             if (persistentDir == null)
@@ -47,5 +47,6 @@ class Config {
             }
             ShapeDir.pointNameToShape = newShapeDir
         }
+*/
     }
 }

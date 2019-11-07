@@ -1,7 +1,5 @@
 package hu.tuleloverseny.versenynaplo.extra
 
-import android.graphics.Color
-
 class PlayingField(
     private val RowCount: Int,
     private val ColumnCount: Int,
@@ -88,8 +86,6 @@ class PlayingField(
         }
     }
 
-    fun hasActiveShape() = currentShape.active
-
     private fun mayMoveActive() = currentShape.active && !isPlacedShapeConflict(currentShape)
 
     private fun cloneAndPlace(): PlayingField {
@@ -157,12 +153,8 @@ class PlayingField(
 
     fun getPlayerMove(): PlayerMove =
         if (currentShape.active) {
-            if (isPlacedShapeConflict(currentShape)) PlayerMove('E') else PlayerMove()
+            if (isPlacedShapeConflict(currentShape)) PlayerMove.gameIsFull() else PlayerMove()
         } else {
-            PlayerMove(
-                currentShape.position.x.toString(),
-                currentShape.position.y.toString(),
-                currentShape.rotation.toString()
-            )
+            PlayerMove(currentShape)
         }
 }
