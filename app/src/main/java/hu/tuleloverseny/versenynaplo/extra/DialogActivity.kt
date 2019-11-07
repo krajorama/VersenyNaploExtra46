@@ -26,7 +26,7 @@ class DialogActivity : AppCompatActivity() {
     var extraVersenyzo: String? = null
     var extraTurazoSorszam: Long = 0
     var extraNaploRowNum: Long = 0
-    var extraNaploList: MutableList<Array<String>> = object : ArrayList<Array<String>>() {}
+    var extraNaploList: MutableList<Array<String?>> = object : ArrayList<Array<String?>>() {}
     //        "Feltoltve", "Ervenytelenitve", "Visszaigazolva",
     //        "BejarasiSorszam", "ErkezesDayTime", "ErkezesDateTime", "PointName", "KeyCode",
     //        "OtthagyottStafetusz", "MegtalaltStafetusz",
@@ -54,7 +54,7 @@ class DialogActivity : AppCompatActivity() {
 
         extraNaploRowNum = intent.getIntExtra("NaploRowNum", 0).toLong()
         for (i in 0 until extraNaploRowNum) {
-            val naploRow: Array<String>? = intent.getStringArrayExtra("NaploRow$i")
+            val naploRow: Array<String?>? = intent.getStringArrayExtra("NaploRow$i")
             if (naploRow != null) extraNaploList.add(naploRow)
         }
 
@@ -224,7 +224,7 @@ class DialogActivity : AppCompatActivity() {
         }
 
         if (!gameState.addNextShape(
-                ShapeDir.getShape(extraNaploList[extraNaploList.size-1][PointNameIdx]))) {
+                ShapeDir.getShape(extraNaploList[extraNaploList.size-1][PointNameIdx] ?: ""))) {
                 gameView.enableDoneButton()
         }
     }
@@ -235,7 +235,14 @@ class DialogActivity : AppCompatActivity() {
 
         val oldEntriesInNaplo = extraNaploList.subList(0, extraNaploList.size - 1)
         for (naploRow in oldEntriesInNaplo) {
-            val playerMove = PlayerMove(naploRow[ExtraInfo1Idx], naploRow[ExtraInfo2Idx], naploRow[ExtraInfo3Idx])
+            val extraInfo1: String? = naploRow[ExtraInfo1Idx]
+            val extraInfo2: String? = naploRow[ExtraInfo2Idx]
+            val extraInfo3: String? = naploRow[ExtraInfo3Idx]
+
+            if (extraInfo1 == null || extraInfo2 == null || extraInfo3 == null)
+                continue
+
+            val playerMove = PlayerMove(extraInfo1, extraInfo2, extraInfo3)
 
             if (!playerMove.isValidEntry())
                 continue
