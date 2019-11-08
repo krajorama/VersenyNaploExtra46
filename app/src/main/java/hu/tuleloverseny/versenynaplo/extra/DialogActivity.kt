@@ -101,7 +101,7 @@ class DialogActivity : AppCompatActivity() {
         }
 
         val pointName: String? = extraNaploList[extraNaploRowNum.toInt()-1][PointNameIdx]
-        if (pointName == null || !ShapeDir.hasShape(pointName)) {
+        if (pointName == null || !ShapeDir.hasShape(extraTeamCategory!!, pointName)) {
             Toast.makeText(
                 applicationContext,
                 if (pointName == null)
@@ -224,7 +224,7 @@ class DialogActivity : AppCompatActivity() {
         }
 
         if (!gameState.addNextShape(
-                ShapeDir.getShape(extraNaploList[extraNaploList.size-1][PointNameIdx] ?: ""))) {
+                ShapeDir.getShape(extraTeamCategory!!, extraNaploList[extraNaploList.size-1][PointNameIdx] ?: ""))) {
                 gameView.enableDoneButton()
         }
     }

@@ -4,7 +4,7 @@ package hu.tuleloverseny.versenynaplo.extra
 
 class Config {
     companion object {
-        var rowCount: Int = 14
+        var rowCount: Int = 15
         var columnCount: Int = 9
 /*
 
