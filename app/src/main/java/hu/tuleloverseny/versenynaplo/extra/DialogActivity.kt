@@ -69,10 +69,23 @@ class DialogActivity : AppCompatActivity() {
             return false
         }
 
+        if (!extraActivated) {
+            Toast.makeText(
+                applicationContext,
+                "Még nincs aktiválva az alkalmazás!",
+                Toast.LENGTH_LONG
+            ).show()
+            extraExtraInfo1="I"
+            extraExtraInfo2="I"
+            extraExtraInfo3="I"
+            extraFinish()
+            return false
+        }
+
         if (extraNaploRowNum.toInt() != extraNaploList.size) {
             Toast.makeText(
                 applicationContext,
-                "Nem jott at minden naplo sor!",
+                "Nem jött át minden napló sor!",
                 Toast.LENGTH_LONG
             ).show()
             setResult(RESULT_CANCELED)
