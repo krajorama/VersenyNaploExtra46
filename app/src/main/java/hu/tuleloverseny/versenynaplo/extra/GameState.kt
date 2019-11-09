@@ -7,29 +7,16 @@ const val PLAYING_FIELD_UPDATED_AND_FINAL = 2
 class GameState(val RowCount: Int = Config.rowCount, val ColumnCount: Int = Config.columnCount) {
     private val history: MutableList<PlayingField> = mutableListOf(PlayingField(RowCount, ColumnCount))
 
-    // var validState = true
-    var score = 0
 
     fun addNextShape(shape: Shape): Boolean {
         updateHistory(current().addNextShape(shape))
         return !current().isActiveShapeConflict()
     }
 
-    fun addFinalShape(shape: PlacedShape, isScoring: Boolean): Boolean {
-        val playingField: PlayingField = current().cloneAndMove(shape.activate()).dropDown()
-
-        return if (playingField.isActiveShapeConflict())
-        {
-            replaceHistory(playingField)
-            false
-        } else {
-            val scored: Pair<PlayingField, Int> = playingField.score()
-            replaceHistory(scored.first)
-            if (isScoring) {
-                score += scored.second
-            }
-            true
-        }
+    fun addFinalShape(shape: PlacedShape) {
+        val playingField: PlayingField = current().cloneAndMove(shape.activate())
+        val scored: Pair<PlayingField, Int> = playingField.score()
+        replaceHistory(scored.first)
     }
 
     fun moveActiveLeft(): Boolean = updateHistory(history.first().moveActiveLeft())
@@ -45,7 +32,6 @@ class GameState(val RowCount: Int = Config.rowCount, val ColumnCount: Int = Conf
                 PLAYING_FIELD_NO_UPDATE
             } else {
                 val scored: Pair<PlayingField, Int> = history.first().score()
-                score += scored.second
                 updateHistory(scored.first)
                 PLAYING_FIELD_UPDATED_AND_FINAL
             }

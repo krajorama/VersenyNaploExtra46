@@ -247,6 +247,7 @@ class DialogActivity : AppCompatActivity() {
             return true
 
         val oldEntriesInNaplo = extraNaploList.subList(0, extraNaploList.size - 1)
+
         for (naploRow in oldEntriesInNaplo) {
             val extraInfo1: String? = naploRow[ExtraInfo1Idx]
             val extraInfo2: String? = naploRow[ExtraInfo2Idx]
@@ -257,13 +258,12 @@ class DialogActivity : AppCompatActivity() {
 
             val playerMove = PlayerMove(extraInfo1, extraInfo2, extraInfo3)
 
-            if (!playerMove.isValidEntry())
-                continue
-
             if (playerMove.isFull()) return false
 
-            if (!gameState.addFinalShape(shape = playerMove.getShape(), isScoring = true))
-                return false
+            if (!playerMove.isValidPlacement())
+                continue
+
+            gameState.addFinalShape(shape = playerMove.getShape())
         }
 
         return true

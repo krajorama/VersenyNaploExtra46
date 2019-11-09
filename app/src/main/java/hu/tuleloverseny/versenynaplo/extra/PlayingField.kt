@@ -152,9 +152,8 @@ class PlayingField(
     }
 
     fun getPlayerMove(): PlayerMove =
-        if (currentShape.active) {
-            if (isPlacedShapeConflict(currentShape)) PlayerMove.gameIsFull() else PlayerMove()
-        } else {
+        if (currentShape.active && isPlacedShapeConflict(currentShape))
+            PlayerMove.gameIsFull()
+        else
             PlayerMove(currentShape)
-        }
 }

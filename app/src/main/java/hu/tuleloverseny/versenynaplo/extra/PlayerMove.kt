@@ -7,12 +7,7 @@ class PlayerMove(val info1: String, val info2: String, val info3: String) {
         info3="${placedShape.rotation}"
     )
 
-    constructor(): this("", "", "")
-    //constructor(aChar: Char): this(aChar.toString(), aChar.toString(), aChar.toString())
-
-    fun isValidEntry(): Boolean = isValidPlacement() || isFull()
-
-    private fun isValidPlacement(): Boolean = info1.startsWith("P,")
+    fun isValidPlacement(): Boolean = info1.startsWith("P,")
     fun isFull(): Boolean = info1.startsWith("T")
 
     fun getShape(): PlacedShape =
