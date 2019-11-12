@@ -69,6 +69,19 @@ class DialogActivity : AppCompatActivity() {
             return false
         }
 
+        if (!extraProduction) {
+            Toast.makeText(
+                applicationContext,
+                "TESZT rencceren jelenleg nem elérhető!",
+                Toast.LENGTH_LONG
+            ).show()
+            extraExtraInfo1="I"
+            extraExtraInfo2="I"
+            extraExtraInfo3="I"
+            extraFinish()
+            return false
+        }
+
         if (!extraActivated) {
             Toast.makeText(
                 applicationContext,
