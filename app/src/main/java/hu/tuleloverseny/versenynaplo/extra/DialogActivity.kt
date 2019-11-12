@@ -69,7 +69,7 @@ class DialogActivity : AppCompatActivity() {
             return false
         }
 
-        /*if (!extraActivated) {
+        if (!extraActivated) {
             Toast.makeText(
                 applicationContext,
                 "Még nincs aktiválva az alkalmazás!",
@@ -80,7 +80,7 @@ class DialogActivity : AppCompatActivity() {
             extraExtraInfo3="I"
             extraFinish()
             return false
-        }*/
+        }
 
         if (extraNaploRowNum.toInt() != extraNaploList.size) {
             Toast.makeText(
