@@ -29,4 +29,6 @@ class PlacedShape(val shape: Shape, val position: Position = Position(), val rot
             PlacedShape(shape.rotate(), position, rotation + 1, active).rotateTo(rotate - 1)
         else
             this
+
+    fun addUUID(value: String): PlacedShape = PlacedShape(shape.addUUID(value), position, rotation, active)
 }

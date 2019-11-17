@@ -1,0 +1,41 @@
+import hu.tuleloverseny.versenynaplo.extra.EvalResults
+import hu.tuleloverseny.versenynaplo.extra.TeamResults
+import java.io.File
+
+
+val evalResults = EvalResults()
+var count = 0
+
+File("/home/mrgcc/Documents/tulelo/NaploAdatok.scsv").forEachLine {
+    val tokens = it.split(";").map{ x -> x.trim() }
+
+    evalResults.evalEntry(
+        teamId = tokens[0],
+        level = tokens[1],
+        timeOfEntry = tokens[2],
+        entryId = tokens[3],
+        info1 = tokens[4],
+        info2 = tokens[5],
+        info3 = tokens[6],
+        isValid = tokens[7] != "Törölt"
+    )
+
+    count++
+}
+
+println("All moves  = $count")
+println("TEAM count = ${evalResults.results.size}")
+
+val outputFile = File("/tmp/results.txt")
+val outputWriter = outputFile.printWriter()
+
+evalResults.results.forEach {
+    val tr: TeamResults = it.value
+    val resultRow: String = "${tr.teamId},${tr.score}"
+    //println(resultRow)
+    outputWriter.println(resultRow)
+}
+
+outputWriter.close()
+
+

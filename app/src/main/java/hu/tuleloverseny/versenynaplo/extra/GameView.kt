@@ -53,7 +53,7 @@ class GameView(context: Context, attrs: AttributeSet): View(context, attrs) {
                             leftMargin + (column + 1) * blockSize - 1,
                             topMargin + (row + 1) * blockSize - 1
                         )
-                        blockDrawable.paint.color = shape.color
+                        blockDrawable.paint.color = Color.parseColor("green")
                         blockDrawable.draw(canvas)
 
                         if (blockRef.activeShape != null) {

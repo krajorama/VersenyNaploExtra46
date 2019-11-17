@@ -1,60 +1,52 @@
 package hu.tuleloverseny.versenynaplo.extra
 
-import android.graphics.Color
 
 class ShapeDir {
     companion object {
         private val shapeA: Shape = Shape(
             // OX
             listOf(Position(0,0), Position(1, 0)),
-            'A',
-            Color.parseColor("#7FFFD4")
+            'A'
         )
         private val shapeB: Shape = Shape(
             // XOXX
             listOf(Position(-1,0), Position(0,0), Position(1,0), Position(2,0)),
-            'B',
-            Color.parseColor("#00FFFF")
+            'B'
         )
         private val shapeC: Shape = Shape(
             // OX
             // XX
             listOf(Position(0,0), Position(1,0),
                 Position(0,1), Position(1,1)),
-            'C',
-            Color.parseColor("#FFFF00")
+            'C'
         )
         private val shapeD: Shape = Shape(
             // X
             // XOX
             listOf(Position(-1,-1),
                 Position(-1,0), Position(0,0), Position(1,0)),
-            'D',
-            Color.parseColor("#0000FF")
+            'D'
         )
         private val shapeE: Shape = Shape(
             //   X
             // XOX
             listOf(Position(1,-1),
                 Position(-1,0), Position(0,0), Position(1,0)),
-            'E',
-            Color.parseColor("#FFA500")
+            'E'
         )
         private val shapeF: Shape = Shape(
             // XX
             //  OX
             listOf(Position(-1,-1), Position(0,-1),
                 Position(0,0), Position(1,0)),
-            'F',
-            Color.parseColor("#FF0000")
+            'F'
         )
         private val shapeG: Shape = Shape(
             //  XX
             // XO
             listOf(Position(0,-1), Position(1,-1),
                 Position(-1,0), Position(0,0)),
-            'G',
-            Color.parseColor("#00FF00")
+            'G'
         )
         private val shapeH: Shape = Shape(
             //  X
@@ -62,8 +54,7 @@ class ShapeDir {
             listOf(
                 Position(0,-1),
                 Position(-1,0), Position(0,0), Position(1,0)),
-            'H',
-            Color.parseColor("#800080")
+            'H'
         )
         private val shapeJ: Shape = Shape(
             // X X
@@ -74,8 +65,7 @@ class ShapeDir {
                 Position(0,0),
                 Position(-1,1), Position(1,1)
             ),
-            'J',
-            Color.parseColor("#FF00FF")
+            'J'
         )
         private val shapeK: Shape = Shape(
             //  X
@@ -86,8 +76,7 @@ class ShapeDir {
                 Position(-1,0), Position(0,0), Position(1,0),
                 Position(0,1)
             ),
-            'K',
-            Color.parseColor("#008080")
+            'K'
         )
         private val shapeL: Shape = Shape(
             // XXX
@@ -98,8 +87,7 @@ class ShapeDir {
                 Position(-1,0), Position(1,0),
                 Position(-1,1), Position(0,1), Position(1,1)
             ),
-            'L',
-            Color.parseColor("#808000")
+            'L'
         )
         private val shapeM: Shape = Shape(
             // XOXX
@@ -108,8 +96,7 @@ class ShapeDir {
                 Position(-1,0), Position(0,0), Position(1,0), Position(2,0),
                 Position(-1,1), Position(2,1)
             ),
-            'M',
-            Color.parseColor("#F0E68C")
+            'M'
         )
         private val shapeN: Shape = Shape(
             // XX XX
@@ -120,8 +107,7 @@ class ShapeDir {
                 Position(-1,0), Position(0,0), Position(1,0),
                 Position(-2,1), Position(-1,1), Position(1,1), Position(2,1)
             ),
-            'N',
-            Color.parseColor("#FF6347")
+            'N'
         )
         private val shapeP: Shape = Shape(
             //  O
@@ -130,13 +116,11 @@ class ShapeDir {
                 Position(0,0),
                 Position(-1,1), Position(1,1)
             ),
-            'P',
-            Color.parseColor("#FAEBD7")
+            'P'
         )
         private val shapeT: Shape = Shape(
             listOf(Position(0,0)),
-            'T',
-            Color.parseColor("#00BFFF")
+            'T'
         )
 
         private val labelToShape: Map<Char, Shape> = listOf(
@@ -467,8 +451,14 @@ class ShapeDir {
 
         private val categoryToMap: Map<String, Map<String, Char>> = mapOf(
             "KisH" to kisHalalNameToLabel,
+            "Kishalál" to kisHalalNameToLabel,
+            "K" to kisHalalNameToLabel,
             "KözH" to kozepHalalNameToLabel,
+            "Középhalál" to kozepHalalNameToLabel,
+            "M" to kozepHalalNameToLabel,
             "NH" to nagyHalalNameToLabel,
+            "Nagyhalál" to nagyHalalNameToLabel,
+            "N" to nagyHalalNameToLabel,
             "TM" to nagyHalalNameToLabel
         )
 

@@ -15,7 +15,7 @@ class GameState(val RowCount: Int = Config.rowCount, val ColumnCount: Int = Conf
 
     fun addFinalShape(shape: PlacedShape) {
         val playingField: PlayingField = current().cloneAndMove(shape.activate())
-        val scored: Pair<PlayingField, Int> = playingField.score()
+        val scored: Pair<PlayingField, Int> = playingField.score(emptyList())
         replaceHistory(scored.first)
     }
 
@@ -31,7 +31,7 @@ class GameState(val RowCount: Int = Config.rowCount, val ColumnCount: Int = Conf
             if (current().isActiveShapeConflict()) {
                 PLAYING_FIELD_NO_UPDATE
             } else {
-                val scored: Pair<PlayingField, Int> = history.first().score()
+                val scored: Pair<PlayingField, Int> = history.first().score(emptyList())
                 updateHistory(scored.first)
                 PLAYING_FIELD_UPDATED_AND_FINAL
             }

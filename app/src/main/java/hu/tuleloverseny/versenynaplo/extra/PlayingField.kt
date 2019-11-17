@@ -123,16 +123,17 @@ class PlayingField(
         else
             blocks[position.y][position.x]
 
-    fun score(): Pair<PlayingField, Int> = finalizePlacedShape().doScore()
+    fun score(noScoreUUIDs: List<String>): Pair<PlayingField, Int> = finalizePlacedShape().doScore(noScoreUUIDs)
 
     private fun finalizePlacedShape(): PlayingField = if (currentShape.active) cloneAndPlace() else this
 
-    private fun doScore(): Pair<PlayingField, Int> {
+    private fun doScore(noScoreUUIDs: List<String>): Pair<PlayingField, Int> {
         fun scoringRow(row: Array<ShapeRef>): Boolean = row.find { it.shape == null } == null
 
         val scoreAndRemaining: Pair<Int, List<Array<ShapeRef>>> = blocks.fold(Pair(0, emptyList())) { acc, row ->
             if (scoringRow(row)) {
-                Pair(acc.first + 1, acc.second)
+                val hasInvalidShape = row.find{ ps -> noScoreUUIDs.contains(ps.shape!!.uuid) } != null
+                Pair(acc.first + (if(hasInvalidShape) 0 else 1), acc.second)
             } else {
                 Pair(acc.first, acc.second.plusElement(row))
             }
