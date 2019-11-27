@@ -12,8 +12,70 @@ class TeamResults(
     val entryIds: List<String> = emptyList()
 )
 
+class BadEntry(
+    val teamId: String,
+    val entryId: String
+)
+
 class EvalResults {
     var results: Map<String, TeamResults> = emptyMap()
+
+    var foundBadEntries: Int = 0
+    val badEntries: List<BadEntry> = listOf(
+        BadEntry("TE46-45", "01"),
+        BadEntry("TE46-3", "06"),
+        BadEntry("TE46-9", "06"),
+        BadEntry("TE46-10", "06"),
+        BadEntry("TE46-14", "11"),
+        BadEntry("TE46-34", "11"),
+        BadEntry("TE46-49", "11"),
+        BadEntry("TE46-47", "12"),
+        BadEntry("TE46-30", "15"),
+        BadEntry("TE46-32", "18"),
+        BadEntry("TE46-36", "18"),
+        BadEntry("TE46-52", "18"),
+        BadEntry("TE46-15", "21"),
+        BadEntry("TE46-21", "21"),
+        BadEntry("TE46-24", "31"),
+        BadEntry("TE46-1", "34"),
+        BadEntry("TE46-2", "34"),
+        BadEntry("TE46-3", "34"),
+        BadEntry("TE46-10", "34"),
+        BadEntry("TE46-30", "34"),
+        BadEntry("TE46-40", "34"),
+        BadEntry("TE46-51", "42"),
+        BadEntry("TE46-31", "43"),
+        BadEntry("TE46-15", "45"),
+        BadEntry("TE46-52", "47"),
+        BadEntry("TE46-35", "51"),
+        BadEntry("TE46-10", "54"),
+        BadEntry("TE46-41", "55"),
+        BadEntry("TE46-3", "56"),
+        BadEntry("TE46-30", "56"),
+        BadEntry("TE46-45", "57"),
+        BadEntry("TE46-53", "61"),
+        BadEntry("TE46-57", "61"),
+        BadEntry("TE46-51", "66"),
+        BadEntry("TE46-47", "68"),
+        BadEntry("TE46-46", "69"),
+        BadEntry("TE46-52", "70"),
+        BadEntry("TE46-35", "75"),
+        BadEntry("TE46-13", "79"),
+        BadEntry("TE46-34", "79"),
+        BadEntry("TE46-38", "79"),
+        BadEntry("TE46-41", "79"),
+        BadEntry("TE46-47", "79"),
+        BadEntry("TE46-2", "87"),
+        BadEntry("TE46-29", "87"),
+        BadEntry("TE46-34", "87"),
+        BadEntry("TE46-37", "87"),
+        BadEntry("TE46-47", "87"),
+        BadEntry("TE46-14", "89"),
+        BadEntry("TE46-17", "89"),
+        BadEntry("TE46-32", "89"),
+        BadEntry("TE46-35", "89"),
+        BadEntry("TE46-41", "89")
+    )
 
     fun evalEntry(
         teamId: String,
@@ -55,7 +117,13 @@ class EvalResults {
             throw RuntimeException("Dupla felvetel! $teamId $entryId")
         }
 
-        val noScoreUUIDs = if (isValid) prevTeamResults.noScoreUUIDs else prevTeamResults.noScoreUUIDs.plus(uuid)
+        val isBadEntry = badEntries.find{ it.teamId == teamId && it.entryId==entryId} != null
+        val addToNoScore: Boolean = !isValid || isBadEntry
+        if (isBadEntry) {
+            foundBadEntries++
+        }
+
+        val noScoreUUIDs = if (!addToNoScore) prevTeamResults.noScoreUUIDs else prevTeamResults.noScoreUUIDs.plus(uuid)
 
         val scored: Pair<PlayingField, Int> = newPlayingField.score(noScoreUUIDs)
         val teamResults = TeamResults(

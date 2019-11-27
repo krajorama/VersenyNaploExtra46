@@ -1,0 +1,1626 @@
+   TE46-10   ;   Nagyhalál   ;   Pé 22:40   ;   KIDOBÁS   ;   P,T   ;   4,14   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Pé 22:42   ;   12   ;   P,M   ;   2,14   ;   2   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Pé 22:54   ;   20   ;   P,F   ;   1,13   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 00:10   ;   71   ;   P,M   ;   7,14   ;   2   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 00:33   ;   84   ;   P,J   ;   5,13   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 00:54   ;   60   ;   P,G   ;   2,12   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 01:08   ;   86   ;   P,D   ;   0,11   ;   3   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 01:40   ;   92   ;   P,P   ;   8,13   ;   3   ;   Javított   ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 01:47   ;   65   ;   P,H   ;   8,12   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 02:25   ;   22   ;   P,H   ;   5,12   ;   3   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 03:37   ;   77   ;   P,D   ;   3,13   ;   3   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 03:52   ;   49   ;   P,G   ;   7,12   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 04:05   ;   55   ;   P,K   ;   6,10   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 04:15   ;   81   ;   P,H   ;   4,11   ;   3   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 04:38   ;   33   ;   P,C   ;   2,11   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 04:44   ;   44   ;   P,C   ;   0,11   ;   0   ;   Törölt   ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 05:00   ;   44   ;   P,C   ;   0,10   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 05:23   ;   35   ;   P,E   ;   4,10   ;   3   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 06:01   ;   45   ;   P,M   ;   8,9   ;   3   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 06:27   ;   66   ;   P,C   ;   6,9   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 08:09   ;   48   ;   P,A   ;   2,13   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 09:11   ;   42   ;   P,B   ;   2,10   ;   2   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 09:32   ;   18   ;   P,D   ;   5,10   ;   3   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 10:42   ;   64   ;   P,A   ;   2,12   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 10:55   ;   39   ;   P,H   ;   3,12   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 11:20   ;   57   ;   P,F   ;   5,11   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 11:44   ;   25   ;   P,F   ;   3,11   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 12:14   ;   53   ;   P,E   ;   0,11   ;   3   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 12:31   ;   67   ;   P,L   ;   7,11   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 12:38   ;   31   ;   P,A   ;   1,12   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 13:36   ;   88   ;   P,A   ;   4,12   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 13:51   ;   79   ;   P,L   ;   7,9   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 14:34   ;   50   ;   P,D   ;   1,11   ;   2   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 14:35   ;   78   ;   P,M   ;   0,9   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 14:56   ;   26   ;   P,E   ;   4,10   ;   2   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 15:14   ;   07   ;   P,E   ;   3,9   ;   2   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 15:28   ;   62   ;   P,G   ;   2,9   ;   0   ;   Javított   ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 15:55   ;   09   ;   P,L   ;   7,7   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 16:08   ;   TM_441155   ;   P,T   ;   3,9   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 16:49   ;   75   ;   P,B   ;   5,10   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 17:05   ;   54   ;   P,E   ;   4,9   ;   1   ;   Javított   ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 17:31   ;   34   ;   P,G   ;   1,10   ;   1   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 17:53   ;   06   ;   P,C   ;   4,8   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 18:06   ;   30   ;   P,H   ;   2,9   ;   2   ;      ;   A túlélés egy füttyszó   
+   TE46-10   ;   Nagyhalál   ;   Szo 18:22   ;   BEFUTÓ   ;   P,T   ;   7,12   ;   0   ;      ;   A túlélés egy füttyszó   
+   TE46-11   ;   Kishalál   ;   Pé 22:02   ;   KIDOBÁS   ;   P,T   ;   4,14   ;   0   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Pé 23:00   ;   66   ;   P,A   ;   5,14   ;   1   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Pé 23:37   ;   33   ;   P,E   ;   7,14   ;   0   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Pé 23:54   ;   44   ;   P,F   ;   4,13   ;   1   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 01:04   ;   35   ;   P,H   ;   1,14   ;   0   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 01:33   ;   45   ;   P,F   ;   6,13   ;   2   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 01:51   ;   47   ;   P,J   ;   1,13   ;   0   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 02:41   ;   03   ;   P,K   ;   7,13   ;   0   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 03:11   ;   17   ;   P,E   ;   4,13   ;   2   ;   Javított   ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 07:03   ;   43   ;   P,D   ;   5,12   ;   0   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 09:50   ;   TM_441155   ;   P,T   ;   1,13   ;   0   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 10:10   ;   72   ;   P,D   ;   1,13   ;   2   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 10:44   ;   30   ;   P,A   ;   8,14   ;   1   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 11:43   ;   29   ;   P,G   ;   3,12   ;   1   ;   Javított   ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 12:00   ;   82   ;   P,C   ;   5,12   ;   0   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-11   ;   Kishalál   ;   Szo 15:51   ;   BEFUTÓ   ;   P,T   ;   0,14   ;   0   ;      ;   Óbudai Egyetem Biztonságtechnikai Mérnök Csapat   
+   TE46-12   ;   Középhalál   ;   Pé 22:03   ;   KIDOBÁS   ;   P,T   ;   1,14   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Pé 23:20   ;   04   ;   P,H   ;   0,13   ;   3   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Pé 23:37   ;   39   ;   P,C   ;   2,13   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Pé 23:59   ;   64   ;   P,G   ;   3,12   ;   3   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 00:18   ;   25   ;   P,D   ;   5,13   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 00:44   ;   67   ;   P,K   ;   7,13   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 00:56   ;   31   ;   P,D   ;   6,13   ;   3   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 01:49   ;   88   ;   P,B   ;   8,13   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 02:17   ;   79   ;   P,K   ;   1,13   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 03:23   ;   19   ;   P,E   ;   4,12   ;   3   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 04:11   ;   18   ;   P,F   ;   3,13   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 04:43   ;   80   ;   P,N   ;   6,12   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 05:30   ;   57   ;   P,B   ;   8,12   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 06:11   ;   70   ;   P,J   ;   5,9   ;   0   ;   Törölt   ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 06:49   ;   23   ;   P,J   ;   6,7   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 07:11   ;   20   ;   P,E   ;   1,13   ;   2   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 07:28   ;   87   ;   P,D   ;   3,12   ;   2   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 07:56   ;   71   ;   P,M   ;   3,9   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 08:19   ;   60   ;   P,H   ;   0,12   ;   3   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 08:37   ;   84   ;   P,L   ;   1,10   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 09:10   ;   77   ;   P,E   ;   8,8   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 09:41   ;   22   ;   P,H   ;   6,7   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 10:14   ;   49   ;   P,F   ;   7,6   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 10:25   ;   55   ;   P,M   ;   0,7   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 10:39   ;   81   ;   P,H   ;   2,7   ;   2   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 11:50   ;   35   ;   P,E   ;   2,7   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 12:12   ;   66   ;   P,C   ;   4,6   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 12:34   ;   47   ;   P,K   ;   2,6   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 13:21   ;   10   ;   P,B   ;   8,6   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 15:06   ;   76   ;   P,M   ;   7,5   ;   3   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 15:28   ;   68   ;   P,G   ;   5,7   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 15:34   ;   56   ;   P,P   ;   1,6   ;   3   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 15:44   ;   59   ;   P,A   ;   4,9   ;   1   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 16:13   ;   43   ;   P,E   ;   5,6   ;   3   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 16:33   ;   72   ;   P,C   ;   3,7   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 16:56   ;   TM_562267   ;   P,T   ;   1,7   ;   0   ;      ;   GosuSurvive   
+   TE46-12   ;   Középhalál   ;   Szo 18:00   ;   BEFUTÓ   ;   P,T   ;   2,7   ;   0   ;      ;   GosuSurvive   
+   TE46-13   ;   Kishalál   ;   Pé 22:05   ;   KIDOBÁS   ;   P,T   ;   8,14   ;   0   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 01:07   ;   66   ;   P,A   ;   5,14   ;   2   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 02:55   ;   18   ;   P,E   ;   0,13   ;   3   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 06:13   ;   63   ;   P,P   ;   1,10   ;   3   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 07:13   ;   25   ;   P,E   ;   6,13   ;   3   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 07:48   ;   67   ;   P,C   ;   7,12   ;   0   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 07:56   ;   31   ;   P,G   ;   3,14   ;   0   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 08:27   ;   88   ;   P,C   ;   1,13   ;   0   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 08:43   ;   79   ;   P,G   ;   1,9   ;   1   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 09:16   ;   50   ;   P,D   ;   4,13   ;   2   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 12:05   ;   TM_161747   ;   P,T   ;   1,14   ;   0   ;      ;   Neofiták   
+   TE46-13   ;   Kishalál   ;   Szo 15:09   ;   BEFUTÓ   ;   P,T   ;   1,10   ;   0   ;      ;   Neofiták   
+   TE46-14   ;   Középhalál   ;   Pé 22:03   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Pé 22:38   ;   23   ;   P,J   ;   5,13   ;   2   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Pé 22:53   ;   20   ;   P,E   ;   2,14   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Pé 23:11   ;   12   ;   P,K   ;   5,11   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Pé 23:38   ;   04   ;   P,H   ;   7,13   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 00:06   ;   39   ;   P,C   ;   0,12   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 00:31   ;   64   ;   P,G   ;   7,10   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 00:51   ;   25   ;   P,D   ;   3,11   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 01:11   ;   57   ;   P,B   ;   8,13   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 01:42   ;   63   ;   P,J   ;   6,9   ;   2   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 02:33   ;   19   ;   P,E   ;   0,11   ;   3   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 03:51   ;   61   ;   P,D   ;   2,11   ;   3   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 05:02   ;   51   ;   P,A   ;   8,12   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 07:20   ;   85   ;   P,D   ;   1,11   ;   3   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 08:02   ;   36   ;   P,E   ;   4,11   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 08:16   ;   11   ;   P,B   ;   8,11   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 08:23   ;   14   ;   P,C   ;   3,10   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 08:34   ;   38   ;   P,H   ;   6,10   ;   2   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 10:40   ;   18   ;   P,F   ;   1,11   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 11:26   ;   88   ;   P,B   ;   0,8   ;   3   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 11:58   ;   31   ;   P,D   ;   2,10   ;   3   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 12:01   ;   67   ;   P,K   ;   5,11   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 12:37   ;   79   ;   P,K   ;   7,10   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 13:05   ;   50   ;   P,A   ;   1,11   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 14:16   ;   10   ;   P,B   ;   8,8   ;   3   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 14:32   ;   27   ;   P,F   ;   2,11   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 14:42   ;   89   ;   P,H   ;   4,10   ;   2   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 14:59   ;   78   ;   P,L   ;   1,9   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 15:35   ;   76   ;   P,M   ;   3,9   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 15:54   ;   15   ;   P,N   ;   2,5   ;   2   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 16:22   ;   29   ;   P,A   ;   6,11   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 16:38   ;   30   ;   P,B   ;   7,11   ;   1   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 16:42   ;   TM_562267   ;   P,T   ;   5,12   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 17:04   ;   72   ;   P,C   ;   4,11   ;   0   ;      ;   Karabiner   
+   TE46-14   ;   Középhalál   ;   Szo 17:27   ;   BEFUTÓ   ;   P,T   ;   6,12   ;   0   ;      ;   Karabiner   
+   TE46-15   ;   Kishalál   ;   Pé 21:50   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Pé 22:54   ;   23   ;   P,K   ;   1,13   ;   0   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Pé 22:55   ;   71   ;   P,A   ;   3,14   ;   2   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Pé 23:20   ;   84   ;   P,J   ;   1,11   ;   3   ;   Javított   ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Pé 23:41   ;   60   ;   P,D   ;   5,14   ;   0   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 00:03   ;   86   ;   P,H   ;   3,12   ;   3   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 00:28   ;   92   ;   P,F   ;   7,14   ;   0   ;   Törölt   ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 01:04   ;   92   ;   P,F   ;   6,13   ;   1   ;   Javított   ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 01:14   ;   65   ;   P,E   ;   7,12   ;   3   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 02:23   ;   77   ;   P,B   ;   8,13   ;   1   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 02:49   ;   22   ;   P,A   ;   4,14   ;   0   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 03:19   ;   49   ;   P,D   ;   5,13   ;   0   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 03:41   ;   55   ;   P,A   ;   3,13   ;   1   ;   Törölt   ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 03:51   ;   55   ;   P,A   ;   5,12   ;   0   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 04:05   ;   81   ;   P,B   ;   8,10   ;   1   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 04:24   ;   33   ;   P,E   ;   1,12   ;   0   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 05:24   ;   35   ;   P,H   ;   7,11   ;   1   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 05:49   ;   45   ;   P,F   ;   3,12   ;   0   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 06:10   ;   66   ;   P,A   ;   1,13   ;   1   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 06:42   ;   47   ;   P,J   ;   7,8   ;   0   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 07:22   ;   17   ;   P,E   ;   2,10   ;   3   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 08:52   ;   24   ;   P,G   ;   5,12   ;   1   ;   Javított   ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 09:34   ;   21   ;   P,H   ;   0,12   ;   3   ;   Javított   ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 10:10   ;   15   ;   P,N   ;   7,5   ;   1   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 10:47   ;   43   ;   P,D   ;   6,12   ;   0   ;   Javított   ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 11:08   ;   74   ;   P,A   ;   1,12   ;   1   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 11:42   ;   72   ;   P,D   ;   4,11   ;   1   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 12:12   ;   TM_72A5F3   ;   P,T   ;   4,9   ;   0   ;      ;   Fel támadunk?!   
+   TE46-15   ;   Kishalál   ;   Szo 15:08   ;   BEFUTÓ   ;   P,T   ;   7,4   ;   0   ;      ;   Fel támadunk?!   
+   TE46-16   ;   Középhalál   ;   Pé 21:59   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Pé 22:50   ;   71   ;   P,M   ;   3,14   ;   2   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Pé 23:07   ;   84   ;   P,L   ;   7,13   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Pé 23:17   ;   60   ;   P,H   ;   0,12   ;   3   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Pé 23:34   ;   86   ;   P,F   ;   4,12   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Pé 23:51   ;   92   ;   P,E   ;   2,12   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 00:01   ;   65   ;   P,H   ;   3,10   ;   2   ;   Javított   ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 00:53   ;   22   ;   P,H   ;   5,11   ;   3   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 01:08   ;   77   ;   P,E   ;   0,10   ;   3   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 01:39   ;   49   ;   P,F   ;   7,11   ;   2   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 02:01   ;   55   ;   P,M   ;   3,11   ;   2   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 02:58   ;   81   ;   P,H   ;   8,11   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 03:10   ;   33   ;   P,B   ;   5,13   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 03:23   ;   44   ;   P,F   ;   2,12   ;   0   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 03:45   ;   66   ;   P,C   ;   3,10   ;   0   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 04:03   ;   35   ;   P,E   ;   6,12   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 05:02   ;   47   ;   P,K   ;   5,10   ;   0   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 05:16   ;   03   ;   P,J   ;   5,8   ;   0   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 05:57   ;   17   ;   P,C   ;   2,9   ;   0   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 06:34   ;   08   ;   P,D   ;   7,13   ;   3   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 06:58   ;   24   ;   P,G   ;   7,12   ;   2   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 07:35   ;   21   ;   P,F   ;   1,13   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 08:30   ;   56   ;   P,P   ;   5,10   ;   0   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 08:44   ;   68   ;   P,G   ;   6,8   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 09:00   ;   76   ;   P,M   ;   4,8   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 11:51   ;   10   ;   P,B   ;   3,10   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 12:21   ;   27   ;   P,F   ;   1,12   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 12:46   ;   50   ;   P,A   ;   7,13   ;   0   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 13:31   ;   79   ;   P,K   ;   3,7   ;   2   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 13:46   ;   88   ;   P,B   ;   2,13   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 14:07   ;   31   ;   P,D   ;   0,12   ;   3   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 14:14   ;   67   ;   P,K   ;   5,6   ;   0   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 14:38   ;   25   ;   P,D   ;   7,12   ;   3   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 16:38   ;   59   ;   P,A   ;   8,14   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 17:00   ;   74   ;   P,C   ;   3,8   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 17:06   ;   43   ;   P,E   ;   1,13   ;   1   ;      ;   Mindmeghalunk   
+   TE46-16   ;   Középhalál   ;   Szo 17:31   ;   BEFUTÓ   ;   P,T   ;   8,14   ;   0   ;      ;   Mindmeghalunk   
+   TE46-17   ;   Kishalál   ;   Pé 21:56   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Pé 22:25   ;   23   ;   P,K   ;   1,13   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Pé 22:38   ;   20   ;   P,D   ;   3,13   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Pé 23:06   ;   71   ;   P,A   ;   4,14   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Pé 23:25   ;   84   ;   P,J   ;   3,11   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Pé 23:38   ;   60   ;   P,D   ;   6,14   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 00:14   ;   86   ;   P,H   ;   8,13   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 00:53   ;   77   ;   P,B   ;   8,11   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 01:11   ;   22   ;   P,A   ;   6,14   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 01:50   ;   49   ;   P,D   ;   0,13   ;   3   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 02:05   ;   55   ;   P,A   ;   7,14   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 02:49   ;   33   ;   P,E   ;   6,12   ;   2   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 03:07   ;   44   ;   P,F   ;   4,11   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 04:08   ;   35   ;   P,H   ;   6,12   ;   2   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 05:00   ;   45   ;   P,F   ;   1,13   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 05:30   ;   66   ;   P,A   ;   2,12   ;   1   ;   Javított   ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 06:16   ;   40   ;   P,M   ;   0,11   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 06:25   ;   05   ;   P,C   ;   1,10   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 07:07   ;   03   ;   P,K   ;   7,11   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 08:06   ;   14   ;   P,H   ;   4,11   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 08:21   ;   11   ;   P,C   ;   5,11   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 08:40   ;   85   ;   P,G   ;   8,10   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 09:05   ;   36   ;   P,D   ;   3,11   ;   3   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 10:08   ;   61   ;   P,H   ;   2,11   ;   2   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 10:44   ;   27   ;   P,F   ;   5,12   ;   0   ;   Javított   ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 11:23   ;   89   ;   P,E   ;   1,11   ;   2   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 11:41   ;   50   ;   P,D   ;   5,11   ;   2   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 13:10   ;   37   ;   P,G   ;   8,11   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 13:32   ;   26   ;   P,C   ;   0,10   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 14:00   ;   07   ;   P,H   ;   3,11   ;   2   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 14:26   ;   62   ;   P,E   ;   5,11   ;   3   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 14:43   ;   09   ;   P,F   ;   2,10   ;   2   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 15:13   ;   75   ;   P,B   ;   8,11   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 15:30   ;   TM_441155   ;   P,T   ;   6,12   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 15:41   ;   06   ;   P,E   ;   4,12   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 16:02   ;   30   ;   P,A   ;   7,13   ;   1   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 16:24   ;   72   ;   P,D   ;   5,12   ;   2   ;      ;   Zselatinpapucs-2   
+   TE46-17   ;   Kishalál   ;   Szo 16:42   ;   BEFUTÓ   ;   P,T   ;   0,13   ;   0   ;      ;   Zselatinpapucs-2   
+   TE46-19   ;   Középhalál   ;   Pé 21:57   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   2   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Pé 23:33   ;   66   ;   P,C   ;   7,13   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 00:02   ;   35   ;   P,E   ;   5,14   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 01:02   ;   33   ;   P,B   ;   8,11   ;   1   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 01:27   ;   44   ;   P,F   ;   1,14   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 01:49   ;   81   ;   P,H   ;   3,13   ;   2   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 02:00   ;   55   ;   P,M   ;   2,13   ;   2   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 02:13   ;   49   ;   P,F   ;   1,12   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 02:39   ;   77   ;   P,E   ;   6,13   ;   2   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 03:19   ;   65   ;   P,H   ;   4,13   ;   3   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 03:29   ;   92   ;   P,E   ;   0,11   ;   3   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 03:51   ;   86   ;   P,F   ;   6,14   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 04:13   ;   60   ;   P,H   ;   7,13   ;   1   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 06:05   ;   42   ;   P,G   ;   3,14   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 06:28   ;   71   ;   P,M   ;   3,13   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 06:41   ;   23   ;   P,J   ;   7,13   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 07:07   ;   20   ;   P,E   ;   2,13   ;   2   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 07:23   ;   12   ;   P,K   ;   4,13   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 08:19   ;   04   ;   P,H   ;   1,13   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 09:38   ;   57   ;   P,B   ;   0,11   ;   1   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 09:56   ;   64   ;   P,G   ;   3,12   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 10:39   ;   67   ;   P,K   ;   7,12   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 10:49   ;   31   ;   P,D   ;   5,13   ;   3   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 11:55   ;   88   ;   P,B   ;   8,13   ;   1   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 12:34   ;   50   ;   P,A   ;   7,12   ;   1   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 13:13   ;   91   ;   P,B   ;   4,12   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 14:03   ;   37   ;   P,E   ;   1,12   ;   3   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 14:30   ;   07   ;   P,B   ;   4,12   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 14:50   ;   62   ;   P,A   ;   2,13   ;   1   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 15:07   ;   09   ;   P,P   ;   6,14   ;   2   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 15:44   ;   TM_441155   ;   P,T   ;   6,14   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 15:44   ;   75   ;   P,G   ;   7,13   ;   3   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 16:03   ;   46   ;   P,D   ;   1,14   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 16:45   ;   29   ;   P,A   ;   5,13   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 17:28   ;   43   ;   P,E   ;   1,12   ;   3   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 17:39   ;   74   ;   P,C   ;   3,13   ;   0   ;      ;   Hoppá!   
+   TE46-19   ;   Középhalál   ;   Szo 18:04   ;   BEFUTÓ   ;   P,T   ;   4,14   ;   0   ;      ;   Hoppá!   
+   TE46-1   ;   Középhalál   ;   Pé 21:58   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Pé 23:14   ;   66   ;   P,C   ;   7,13   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Pé 23:45   ;   44   ;   P,F   ;   1,14   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 00:06   ;   55   ;   P,M   ;   5,14   ;   2   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 00:33   ;   49   ;   P,F   ;   4,14   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 00:54   ;   81   ;   P,H   ;   2,13   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 01:37   ;   33   ;   P,B   ;   6,14   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 03:03   ;   77   ;   P,E   ;   7,13   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 03:40   ;   86   ;   P,F   ;   1,13   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 04:02   ;   60   ;   P,H   ;   4,14   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 04:17   ;   84   ;   P,L   ;   6,13   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 04:44   ;   71   ;   P,M   ;   3,12   ;   3   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 05:19   ;   20   ;   P,E   ;   1,13   ;   2   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 05:48   ;   04   ;   P,H   ;   8,12   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 06:35   ;   57   ;   P,B   ;   4,13   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 07:19   ;   64   ;   P,G   ;   6,12   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 07:57   ;   25   ;   P,D   ;   1,12   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 08:32   ;   67   ;   P,K   ;   5,10   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 08:46   ;   31   ;   P,D   ;   3,10   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 09:08   ;   88   ;   P,B   ;   0,11   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 09:49   ;   79   ;   P,K   ;   4,10   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 10:58   ;   50   ;   P,A   ;   2,13   ;   1   ;   Törölt   ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 11:22   ;   78   ;   P,L   ;   7,11   ;   2   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 12:23   ;   75   ;   P,G   ;   2,11   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 12:38   ;   54   ;   P,G   ;   1,10   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 13:31   ;   34   ;   P,A   ;   5,10   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 14:00   ;   76   ;   P,M   ;   1,9   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 15:17   ;   15   ;   P,N   ;   5,8   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 15:33   ;   68   ;   P,G   ;   5,5   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 15:39   ;   56   ;   P,P   ;   5,4   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 16:24   ;   74   ;   P,C   ;   7,9   ;   0   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 16:48   ;   59   ;   P,A   ;   7,11   ;   1   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 17:11   ;   43   ;   P,E   ;   1,10   ;   2   ;      ;   Mirelit   
+   TE46-1   ;   Középhalál   ;   Szo 17:33   ;   BEFUTÓ   ;   P,T   ;   8,11   ;   0   ;      ;   Mirelit   
+   TE46-21   ;   Kishalál   ;   Pé 22:03   ;   KIDOBÁS   ;   P,T   ;   4,14   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Pé 23:19   ;   12   ;   P,P   ;   4,13   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Pé 23:39   ;   20   ;   P,D   ;   1,14   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 00:41   ;   23   ;   P,K   ;   5,12   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 01:10   ;   71   ;   P,A   ;   2,13   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 05:13   ;   05   ;   P,C   ;   6,13   ;   0   ;   Törölt   ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 08:37   ;   40   ;   P,M   ;   2,11   ;   1   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 08:48   ;   05   ;   P,C   ;   2,7   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 10:07   ;   66   ;   P,A   ;   3,11   ;   1   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 10:24   ;   44   ;   P,F   ;   7,12   ;   0   ;   Törölt   ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 10:53   ;   33   ;   P,E   ;   7,10   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 11:22   ;   TM_217731   ;   P,T   ;   8,8   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 11:50   ;   44   ;   P,F   ;   1,11   ;   1   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 12:15   ;   35   ;   P,H   ;   4,10   ;   3   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 12:39   ;   45   ;   P,F   ;   1,9   ;   1   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 13:14   ;   17   ;   P,E   ;   6,10   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 14:20   ;   24   ;   P,G   ;   6,10   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 14:54   ;   21   ;   P,H   ;   0,9   ;   3   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 15:34   ;   58   ;   P,C   ;   4,8   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 16:12   ;   59   ;   P,B   ;   8,8   ;   1   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 16:49   ;   43   ;   P,D   ;   7,8   ;   1   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 17:06   ;   72   ;   P,D   ;   2,9   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-21   ;   Kishalál   ;   Szo 17:22   ;   BEFUTÓ   ;   P,T   ;   4,10   ;   0   ;      ;   Kicsiny Csapatunk   
+   TE46-22   ;   Kishalál   ;   Pé 22:03   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Pé 22:20   ;   04   ;   P,A   ;   1,14   ;   0   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Pé 23:24   ;   39   ;   P,B   ;   4,14   ;   0   ;   Javított   ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Pé 23:57   ;   64   ;   P,F   ;   7,14   ;   0   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 00:21   ;   57   ;   P,B   ;   3,14   ;   0   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 01:24   ;   19   ;   P,F   ;   2,13   ;   1   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 01:59   ;   18   ;   P,E   ;   8,13   ;   1   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 03:47   ;   23   ;   P,K   ;   3,11   ;   0   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 03:49   ;   71   ;   P,A   ;   0,14   ;   1   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 10:45   ;   60   ;   P,D   ;   1,12   ;   1   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 11:19   ;   77   ;   P,B   ;   0,11   ;   1   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 11:34   ;   22   ;   P,A   ;   3,14   ;   0   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 12:08   ;   49   ;   P,D   ;   0,7   ;   3   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 12:15   ;   TM_217731   ;   P,T   ;   7,14   ;   1   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 12:26   ;   55   ;   P,A   ;   5,14   ;   0   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 13:18   ;   44   ;   P,F   ;   3,11   ;   1   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 13:35   ;   66   ;   P,A   ;   4,14   ;   0   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 14:11   ;   45   ;   P,F   ;   6,13   ;   3   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 14:40   ;   17   ;   P,E   ;   8,13   ;   1   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 15:07   ;   24   ;   P,G   ;   0,6   ;   3   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 15:36   ;   21   ;   P,H   ;   5,13   ;   2   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 16:21   ;   74   ;   P,A   ;   1,14   ;   1   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 16:27   ;   43   ;   P,D   ;   5,14   ;   0   ;      ;   Dobbermann Banda   
+   TE46-22   ;   Kishalál   ;   Szo 17:03   ;   BEFUTÓ   ;   P,T   ;   2,14   ;   0   ;      ;   Dobbermann Banda   
+   TE46-24   ;   Középhalál   ;   Pé 21:48   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Pé 22:09   ;   23   ;   P,J   ;   5,13   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Pé 23:17   ;   57   ;   P,B   ;   3,13   ;   2   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Pé 23:37   ;   25   ;   P,D   ;   7,12   ;   1   ;   Javított   ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 00:04   ;   53   ;   P,B   ;   8,13   ;   1   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 00:28   ;   67   ;   P,K   ;   5,11   ;   0   ;   Javított   ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 00:46   ;   31   ;   P,D   ;   2,12   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 01:08   ;   88   ;   P,B   ;   0,12   ;   1   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 01:45   ;   91   ;   P,B   ;   2,12   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 03:57   ;   32   ;   P,H   ;   7,12   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 04:39   ;   50   ;   P,A   ;   3,14   ;   1   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 05:05   ;   79   ;   P,K   ;   2,12   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 07:32   ;   61   ;   P,D   ;   5,13   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 07:53   ;   36   ;   P,E   ;   6,12   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 08:33   ;   85   ;   P,D   ;   5,11   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 08:39   ;   11   ;   P,B   ;   8,12   ;   1   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 08:50   ;   14   ;   P,C   ;   0,11   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 10:12   ;   38   ;   P,H   ;   3,11   ;   1   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 10:46   ;   48   ;   P,G   ;   7,11   ;   2   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 12:10   ;   20   ;   P,E   ;   1,12   ;   2   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 12:24   ;   12   ;   P,K   ;   5,12   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 13:31   ;   04   ;   P,H   ;   1,13   ;   2   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 14:44   ;   43   ;   P,E   ;   7,12   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 15:07   ;   74   ;   P,C   ;   0,11   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 15:30   ;   59   ;   P,A   ;   3,13   ;   1   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 15:44   ;   56   ;   P,P   ;   3,12   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 16:15   ;   15   ;   P,N   ;   6,12   ;   1   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 16:27   ;   68   ;   P,G   ;   4,12   ;   1   ;      ;   Destruktív Vadkanok   
+   TE46-24   ;   Középhalál   ;   Szo 17:44   ;   BEFUTÓ   ;   P,T   ;   2,14   ;   0   ;      ;   Destruktív Vadkanok   
+   TE46-25   ;   Kishalál   ;   Pé 21:59   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Pé 23:29   ;   23   ;   P,K   ;   1,13   ;   0   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 00:05   ;   04   ;   P,A   ;   8,14   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 00:33   ;   39   ;   P,B   ;   3,14   ;   0   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 00:54   ;   64   ;   P,F   ;   6,14   ;   0   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 01:29   ;   25   ;   P,E   ;   3,13   ;   3   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 02:03   ;   67   ;   P,C   ;   4,12   ;   0   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 02:16   ;   31   ;   P,G   ;   7,13   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 03:38   ;   88   ;   P,C   ;   5,11   ;   0   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 04:02   ;   79   ;   P,G   ;   8,13   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 04:36   ;   02   ;   P,M   ;   5,10   ;   0   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 05:47   ;   18   ;   P,E   ;   3,11   ;   3   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 06:37   ;   80   ;   P,N   ;   1,12   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 06:57   ;   63   ;   P,P   ;   1,12   ;   2   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 07:17   ;   57   ;   P,B   ;   8,13   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 10:17   ;   71   ;   P,A   ;   1,13   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 10:47   ;   86   ;   P,H   ;   4,13   ;   0   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 11:07   ;   60   ;   P,D   ;   7,12   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 11:56   ;   66   ;   P,A   ;   0,14   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 12:17   ;   35   ;   P,H   ;   2,13   ;   3   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 13:00   ;   45   ;   P,F   ;   5,14   ;   0   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 13:30   ;   17   ;   P,E   ;   8,13   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 15:05   ;   56   ;   P,N   ;   2,12   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 15:20   ;   59   ;   P,B   ;   0,13   ;   1   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 15:49   ;   43   ;   P,D   ;   5,13   ;   2   ;      ;   Világcsavargók   
+   TE46-25   ;   Kishalál   ;   Szo 16:25   ;   BEFUTÓ   ;   P,T   ;   3,14   ;   0   ;      ;   Világcsavargók   
+   TE46-26   ;   Nagyhalál   ;   Pé 21:55   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Pé 23:11   ;   66   ;   P,C   ;   7,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Pé 23:33   ;   47   ;   P,L   ;   5,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Pé 23:49   ;   45   ;   P,M   ;   8,10   ;   3   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 00:03   ;   35   ;   P,E   ;   2,14   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 00:30   ;   44   ;   P,C   ;   6,11   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 00:51   ;   33   ;   P,C   ;   0,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 01:07   ;   81   ;   P,H   ;   2,13   ;   3   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 01:26   ;   55   ;   P,K   ;   4,12   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 01:40   ;   49   ;   P,G   ;   1,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 01:55   ;   22   ;   P,H   ;   0,11   ;   3   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 02:02   ;   77   ;   P,D   ;   5,13   ;   3   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 03:14   ;   60   ;   P,G   ;   3,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 03:29   ;   86   ;   P,D   ;   8,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 03:54   ;   71   ;   P,M   ;   5,14   ;   2   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 04:19   ;   23   ;   P,J   ;   6,12   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 04:29   ;   20   ;   P,F   ;   2,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 04:40   ;   87   ;   P,F   ;   1,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 05:06   ;   16   ;   P,H   ;   4,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 05:38   ;   83   ;   P,F   ;   2,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 05:53   ;   04   ;   P,B   ;   0,12   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 06:09   ;   39   ;   P,H   ;   6,12   ;   2   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 06:22   ;   64   ;   P,A   ;   8,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 07:01   ;   57   ;   P,F   ;   3,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 07:39   ;   80   ;   P,K   ;   5,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 07:48   ;   19   ;   P,A   ;   7,14   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 08:06   ;   18   ;   P,D   ;   7,13   ;   2   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 08:50   ;   38   ;   P,G   ;   4,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 09:11   ;   11   ;   P,H   ;   1,13   ;   3   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 09:23   ;   36   ;   P,A   ;   8,14   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 09:49   ;   69   ;   P,C   ;   6,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 10:09   ;   03   ;   P,P   ;   1,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 10:24   ;   17   ;   P,C   ;   7,11   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 11:25   ;   24   ;   P,G   ;   3,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 11:58   ;   58   ;   P,P   ;   2,12   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 12:10   ;   21   ;   P,B   ;   0,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 12:26   ;   28   ;   P,K   ;   5,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 12:44   ;   10   ;   P,E   ;   1,12   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 13:12   ;   78   ;   P,M   ;   4,12   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 13:43   ;   26   ;   P,E   ;   2,11   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 14:03   ;   07   ;   P,E   ;   1,9   ;   2   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 14:17   ;   62   ;   P,G   ;   7,11   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 14:28   ;   09   ;   P,L   ;   4,10   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 14:57   ;   06   ;   P,C   ;   0,8   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 15:14   ;   75   ;   P,B   ;   8,11   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 15:32   ;   46   ;   P,B   ;   7,11   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 15:44   ;   54   ;   P,E   ;   8,9   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 16:28   ;   30   ;   P,H   ;   6,10   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 16:35   ;   TM_562267   ;   P,T   ;   4,14   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 16:49   ;   29   ;   P,D   ;   3,12   ;   2   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 17:04   ;   82   ;   P,D   ;   3,13   ;   2   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 17:29   ;   68   ;   P,F   ;   6,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 17:35   ;   56   ;   P,M   ;   2,14   ;   2   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 17:44   ;   59   ;   P,E   ;   4,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 18:12   ;   74   ;   P,G   ;   1,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 18:19   ;   43   ;   P,C   ;   7,13   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 18:33   ;   72   ;   P,E   ;   2,13   ;   1   ;      ;   Sörrel Teli Babakocsi   
+   TE46-26   ;   Nagyhalál   ;   Szo 18:48   ;   BEFUTÓ   ;   P,T   ;   5,14   ;   0   ;      ;   Sörrel Teli Babakocsi   
+   TE46-27   ;   Kishalál   ;   Pé 21:56   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Pé 22:17   ;   66   ;   P,A   ;   1,14   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Pé 22:57   ;   33   ;   P,E   ;   7,14   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Pé 23:21   ;   44   ;   P,F   ;   3,14   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 00:09   ;   35   ;   P,H   ;   5,13   ;   2   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 00:47   ;   45   ;   P,F   ;   8,13   ;   1   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 02:04   ;   05   ;   P,C   ;   0,13   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 02:50   ;   69   ;   P,G   ;   6,14   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 03:12   ;   14   ;   P,H   ;   3,14   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 05:57   ;   23   ;   P,K   ;   4,13   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 06:44   ;   20   ;   P,D   ;   1,14   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 08:19   ;   70   ;   P,M   ;   8,11   ;   3   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 08:53   ;   63   ;   P,P   ;   6,13   ;   2   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 09:44   ;   18   ;   P,E   ;   1,12   ;   3   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 10:08   ;   80   ;   P,N   ;   1,10   ;   1   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 10:48   ;   19   ;   P,F   ;   4,12   ;   1   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 11:23   ;   02   ;   P,M   ;   8,8   ;   3   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 12:04   ;   79   ;   P,G   ;   6,12   ;   1   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 13:09   ;   50   ;   P,D   ;   6,10   ;   3   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 13:50   ;   78   ;   P,L   ;   1,6   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 14:23   ;   76   ;   P,P   ;   4,10   ;   3   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 14:42   ;   68   ;   P,F   ;   4,10   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 15:05   ;   56   ;   P,N   ;   1,4   ;   1   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 15:26   ;   59   ;   P,B   ;   4,9   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 16:24   ;   72   ;   P,D   ;   6,10   ;   0   ;      ;   Csapatunk!!!   
+   TE46-27   ;   Kishalál   ;   Szo 16:57   ;   BEFUTÓ   ;   P,T   ;   5,8   ;   0   ;      ;   Csapatunk!!!   
+   TE46-28   ;   Kishalál   ;   Pé 21:48   ;   KIDOBÁS   ;   P,T   ;   8,14   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Pé 22:34   ;   12   ;   P,P   ;   8,13   ;   3   ;   Javított   ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Pé 22:55   ;   20   ;   P,D   ;   1,14   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Pé 23:17   ;   87   ;   P,C   ;   1,12   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 00:22   ;   23   ;   P,K   ;   6,13   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 00:38   ;   71   ;   P,A   ;   4,14   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 01:38   ;   60   ;   P,D   ;   7,11   ;   2   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 01:57   ;   86   ;   P,H   ;   3,13   ;   3   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 02:27   ;   92   ;   P,F   ;   4,14   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 02:36   ;   65   ;   P,E   ;   1,13   ;   2   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 04:33   ;   77   ;   P,B   ;   1,13   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 04:34   ;   22   ;   P,A   ;   7,13   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 04:54   ;   49   ;   P,D   ;   1,12   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 05:15   ;   55   ;   P,A   ;   5,14   ;   1   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 05:38   ;   81   ;   P,B   ;   8,12   ;   1   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 07:10   ;   33   ;   P,E   ;   1,11   ;   3   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 07:45   ;   44   ;   P,F   ;   7,13   ;   1   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 08:11   ;   35   ;   P,H   ;   4,13   ;   2   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 09:30   ;   45   ;   P,F   ;   3,13   ;   2   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 09:47   ;   47   ;   P,J   ;   1,11   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 10:10   ;   03   ;   P,K   ;   1,9   ;   3   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 10:39   ;   17   ;   P,E   ;   5,13   ;   3   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 10:55   ;   24   ;   P,G   ;   4,13   ;   1   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 12:08   ;   08   ;   P,D   ;   7,13   ;   1   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 12:26   ;   21   ;   P,H   ;   6,12   ;   1   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 13:09   ;   68   ;   P,F   ;   4,12   ;   3   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 13:20   ;   56   ;   P,N   ;   5,9   ;   1   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 15:17   ;   76   ;   P,P   ;   1,9   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 16:39   ;   30   ;   P,A   ;   3,12   ;   1   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 16:41   ;   TM_562267   ;   P,T   ;   3,10   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 16:54   ;   72   ;   P,D   ;   8,11   ;   1   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 17:11   ;   43   ;   P,D   ;   7,11   ;   3   ;      ;   CsúcsKőKutatók   
+   TE46-28   ;   Kishalál   ;   Szo 17:28   ;   BEFUTÓ   ;   P,T   ;   0,14   ;   0   ;      ;   CsúcsKőKutatók   
+   TE46-29   ;   Középhalál   ;   Pé 21:50   ;   KIDOBÁS   ;   P,T   ;   2,14   ;   3   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Pé 22:08   ;   20   ;   P,E   ;   0,13   ;   3   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Pé 22:28   ;   87   ;   P,D   ;   8,13   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Pé 23:00   ;   71   ;   P,M   ;   5,14   ;   2   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Pé 23:18   ;   84   ;   P,L   ;   2,12   ;   2   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Pé 23:30   ;   60   ;   P,H   ;   7,13   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Pé 23:47   ;   86   ;   P,F   ;   5,13   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 00:10   ;   92   ;   P,E   ;   5,12   ;   2   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 00:24   ;   65   ;   P,H   ;   8,12   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 01:18   ;   77   ;   P,E   ;   6,11   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 01:27   ;   22   ;   P,H   ;   3,11   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 01:51   ;   49   ;   P,F   ;   1,11   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 02:14   ;   55   ;   P,M   ;   6,11   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 02:25   ;   81   ;   P,H   ;   4,11   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 02:52   ;   33   ;   P,B   ;   2,13   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 03:18   ;   44   ;   P,F   ;   0,11   ;   3   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 03:42   ;   35   ;   P,E   ;   6,12   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 04:03   ;   66   ;   P,C   ;   7,11   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 04:45   ;   14   ;   P,C   ;   2,11   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 05:47   ;   36   ;   P,E   ;   5,11   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 06:11   ;   61   ;   P,D   ;   0,12   ;   3   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 07:53   ;   19   ;   P,E   ;   2,13   ;   2   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 08:13   ;   18   ;   P,F   ;   7,12   ;   2   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 09:51   ;   04   ;   P,H   ;   5,13   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 10:08   ;   39   ;   P,C   ;   3,12   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 10:22   ;   64   ;   P,G   ;   8,12   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 10:37   ;   57   ;   P,B   ;   0,13   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 11:00   ;   25   ;   P,D   ;   2,13   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 11:23   ;   67   ;   P,K   ;   5,13   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 11:32   ;   31   ;   P,D   ;   1,13   ;   3   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 12:01   ;   88   ;   P,B   ;   8,12   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 12:26   ;   91   ;   P,B   ;   3,12   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 12:44   ;   32   ;   P,H   ;   6,13   ;   3   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 14:03   ;   37   ;   P,E   ;   1,13   ;   2   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 14:16   ;   26   ;   P,G   ;   7,12   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 14:35   ;   07   ;   P,B   ;   4,13   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 14:55   ;   62   ;   P,A   ;   5,14   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 15:05   ;   09   ;   P,P   ;   6,12   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 15:40   ;   54   ;   P,G   ;   2,14   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 16:00   ;   73   ;   P,P   ;   6,11   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 16:13   ;   78   ;   P,L   ;   3,11   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 16:36   ;   76   ;   P,M   ;   4,9   ;   2   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 17:29   ;   43   ;   P,E   ;   8,12   ;   1   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 17:44   ;   74   ;   P,C   ;   0,12   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-29   ;   Középhalál   ;   Szo 18:27   ;   BEFUTÓ   ;   P,T   ;   0,14   ;   0   ;      ;   Vegyészfőzelék   
+   TE46-2   ;   Középhalál   ;   Pé 21:52   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Pé 22:13   ;   20   ;   P,E   ;   7,14   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Pé 22:25   ;   87   ;   P,D   ;   4,14   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Pé 22:48   ;   23   ;   P,J   ;   3,12   ;   0   ;   Törölt   ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Pé 22:59   ;   23   ;   P,J   ;   6,12   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Pé 23:12   ;   71   ;   P,M   ;   4,10   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Pé 23:29   ;   84   ;   P,L   ;   1,9   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Pé 23:45   ;   60   ;   P,H   ;   8,10   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 00:08   ;   86   ;   P,F   ;   8,9   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 00:35   ;   92   ;   P,E   ;   3,9   ;   3   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 00:49   ;   65   ;   P,H   ;   5,9   ;   2   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 02:01   ;   77   ;   P,E   ;   1,10   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 02:10   ;   22   ;   P,H   ;   6,9   ;   2   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 02:45   ;   49   ;   P,F   ;   3,9   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 03:09   ;   55   ;   P,M   ;   7,9   ;   2   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 03:40   ;   81   ;   P,H   ;   1,8   ;   2   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 03:53   ;   33   ;   P,B   ;   4,9   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 04:20   ;   44   ;   P,F   ;   6,9   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 04:42   ;   35   ;   P,E   ;   2,9   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 05:26   ;   66   ;   P,C   ;   7,8   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 06:07   ;   40   ;   P,L   ;   5,7   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 06:32   ;   05   ;   P,F   ;   3,7   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 07:35   ;   14   ;   P,C   ;   7,6   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 07:50   ;   38   ;   P,H   ;   0,8   ;   3   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 08:22   ;   11   ;   P,B   ;   8,6   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 08:29   ;   85   ;   P,D   ;   7,6   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 08:39   ;   36   ;   P,E   ;   1,8   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 09:10   ;   61   ;   P,D   ;   4,8   ;   2   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 12:21   ;   90   ;   P,A   ;   1,9   ;   1   ;   Javított   ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 13:05   ;   76   ;   P,M   ;   5,8   ;   2   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 13:34   ;   34   ;   P,A   ;   0,13   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 14:35   ;   09   ;   P,P   ;   8,5   ;   3   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 14:57   ;   62   ;   P,A   ;   2,8   ;   2   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 15:17   ;   07   ;   P,B   ;   0,10   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 15:48   ;   TM_441155   ;   P,T   ;   2,14   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 15:59   ;   75   ;   P,G   ;   5,11   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 16:22   ;   06   ;   P,D   ;   1,11   ;   0   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 16:36   ;   30   ;   P,B   ;   1,13   ;   1   ;      ;   Zsivány kettes   
+   TE46-2   ;   Középhalál   ;   Szo 17:20   ;   BEFUTÓ   ;   P,T   ;   2,13   ;   0   ;      ;   Zsivány kettes   
+   TE46-30   ;   Középhalál   ;   Pé 21:56   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Pé 22:18   ;   66   ;   P,C   ;   7,13   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Pé 23:05   ;   33   ;   P,B   ;   4,14   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Pé 23:15   ;   44   ;   P,F   ;   1,14   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Pé 23:45   ;   55   ;   P,M   ;   5,14   ;   2   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 00:03   ;   81   ;   P,H   ;   2,13   ;   1   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 00:49   ;   22   ;   P,H   ;   0,13   ;   3   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 00:58   ;   77   ;   P,E   ;   4,13   ;   3   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 01:51   ;   86   ;   P,F   ;   7,14   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 02:12   ;   92   ;   P,E   ;   6,13   ;   2   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 02:21   ;   65   ;   P,H   ;   3,13   ;   1   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 02:53   ;   60   ;   P,H   ;   1,12   ;   2   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 03:26   ;   84   ;   P,L   ;   1,10   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 03:58   ;   71   ;   P,M   ;   0,7   ;   1   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 04:14   ;   20   ;   P,E   ;   8,13   ;   1   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 05:29   ;   18   ;   P,F   ;   4,14   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 06:26   ;   57   ;   P,B   ;   6,13   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 07:46   ;   25   ;   P,D   ;   5,13   ;   2   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 08:26   ;   67   ;   P,K   ;   7,13   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 08:41   ;   31   ;   P,D   ;   4,13   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 09:30   ;   88   ;   P,B   ;   8,13   ;   1   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 09:42   ;   79   ;   P,K   ;   2,12   ;   0   ;   Törölt   ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 10:06   ;   79   ;   P,K   ;   6,12   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 10:16   ;   90   ;   P,A   ;   4,13   ;   1   ;   Törölt   ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 10:56   ;   61   ;   P,D   ;   4,12   ;   2   ;   Törölt   ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 10:58   ;   50   ;   P,A   ;   3,12   ;   2   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 12:23   ;   10   ;   P,B   ;   5,12   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 13:28   ;   28   ;   P,L   ;   1,10   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 13:42   ;   68   ;   P,G   ;   8,11   ;   1   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 13:51   ;   56   ;   P,P   ;   7,10   ;   1   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 14:11   ;   15   ;   P,N   ;   1,7   ;   1   ;   Javított   ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 14:30   ;   76   ;   P,M   ;   5,12   ;   2   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 14:51   ;   34   ;   P,A   ;   7,9   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 15:15   ;   06   ;   P,D   ;   3,10   ;   3   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 15:32   ;   30   ;   P,B   ;   5,11   ;   1   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 15:53   ;   72   ;   P,C   ;   3,7   ;   0   ;      ;   Omlás, régi cimborám   
+   TE46-30   ;   Középhalál   ;   Szo 17:04   ;   BEFUTÓ   ;   P,T   ;   6,11   ;   3   ;      ;   Omlás, régi cimborám   
+   TE46-31   ;   Kishalál   ;   Pé 22:00   ;   KIDOBÁS   ;   P,T   ;   2,14   ;   0   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Pé 22:36   ;   66   ;   P,A   ;   3,14   ;   0   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Pé 23:20   ;   35   ;   P,H   ;   7,14   ;   0   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Pé 23:48   ;   44   ;   P,F   ;   6,13   ;   1   ;   Törölt   ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Pé 23:57   ;   44   ;   P,F   ;   2,13   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 00:17   ;   33   ;   P,E   ;   3,12   ;   3   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 00:46   ;   55   ;   P,A   ;   0,14   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 01:03   ;   81   ;   P,B   ;   8,13   ;   1   ;   Javított   ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 01:21   ;   49   ;   P,D   ;   1,13   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 02:02   ;   77   ;   P,B   ;   4,13   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 02:49   ;   86   ;   P,H   ;   2,12   ;   3   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 03:16   ;   60   ;   P,D   ;   0,12   ;   3   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 03:32   ;   84   ;   P,J   ;   6,13   ;   0   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 03:53   ;   71   ;   P,A   ;   6,13   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 04:21   ;   23   ;   P,K   ;   3,12   ;   0   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 04:48   ;   20   ;   P,D   ;   5,13   ;   3   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 05:10   ;   12   ;   P,P   ;   3,10   ;   0   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 05:47   ;   04   ;   P,A   ;   7,14   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 06:07   ;   39   ;   P,B   ;   8,12   ;   3   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 06:45   ;   64   ;   P,F   ;   5,13   ;   0   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 07:09   ;   57   ;   P,B   ;   7,13   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 07:48   ;   63   ;   P,P   ;   7,10   ;   0   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 08:22   ;   18   ;   P,E   ;   0,13   ;   3   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 10:22   ;   79   ;   P,G   ;   5,12   ;   0   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 11:13   ;   50   ;   P,D   ;   1,13   ;   3   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 11:29   ;   78   ;   P,L   ;   6,10   ;   0   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 12:32   ;   27   ;   P,F   ;   4,12   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 12:52   ;   10   ;   P,B   ;   8,11   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 13:11   ;   68   ;   P,F   ;   1,12   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 13:27   ;   90   ;   P,E   ;   2,12   ;   1   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 13:46   ;   76   ;   P,P   ;   4,12   ;   3   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 14:12   ;   56   ;   P,N   ;   3,9   ;   3   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 15:00   ;   43   ;   P,D   ;   0,12   ;   3   ;      ;   Vadoncsimoták   
+   TE46-31   ;   Kishalál   ;   Szo 15:49   ;   BEFUTÓ   ;   P,T   ;   6,14   ;   0   ;      ;   Vadoncsimoták   
+   TE46-32   ;   Kishalál   ;   Pé 22:09   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Pé 22:37   ;   20   ;   P,D   ;   8,13   ;   1   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Pé 22:54   ;   23   ;   P,K   ;   1,13   ;   1   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Pé 23:41   ;   63   ;   P,P   ;   3,13   ;   3   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 00:55   ;   18   ;   P,E   ;   4,14   ;   0   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 01:48   ;   19   ;   P,F   ;   7,13   ;   1   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 02:21   ;   25   ;   P,E   ;   5,13   ;   2   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 03:00   ;   67   ;   P,C   ;   7,12   ;   0   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 03:43   ;   88   ;   P,C   ;   5,12   ;   0   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 04:08   ;   31   ;   P,G   ;   3,13   ;   1   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 05:07   ;   79   ;   P,G   ;   4,12   ;   1   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 06:53   ;   91   ;   P,B   ;   0,13   ;   1   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 07:27   ;   32   ;   P,A   ;   1,14   ;   1   ;   Javított   ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 08:06   ;   50   ;   P,D   ;   5,14   ;   0   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 08:54   ;   89   ;   P,E   ;   1,13   ;   3   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 10:09   ;   36   ;   P,D   ;   8,13   ;   1   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 12:26   ;   57   ;   P,B   ;   0,13   ;   1   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 12:30   ;   TM_562267   ;   P,T   ;   3,14   ;   0   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 12:50   ;   64   ;   P,F   ;   5,14   ;   0   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 13:17   ;   39   ;   P,B   ;   2,13   ;   1   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 15:46   ;   85   ;   P,G   ;   7,13   ;   1   ;      ;   Gryllezett Medvék   
+   TE46-32   ;   Kishalál   ;   Szo 16:55   ;   BEFUTÓ   ;   P,T   ;   3,14   ;   0   ;      ;   Gryllezett Medvék   
+   TE46-33   ;   Kishalál   ;   Pé 21:56   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   2   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Pé 22:13   ;   66   ;   P,A   ;   1,14   ;   0   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Pé 23:27   ;   33   ;   P,E   ;   6,14   ;   0   ;   Javított   ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Pé 23:35   ;   44   ;   P,F   ;   3,14   ;   0   ;   Törölt   ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Pé 23:52   ;   44   ;   P,F   ;   4,12   ;   2   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 00:16   ;   55   ;   P,A   ;   1,13   ;   2   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 01:07   ;   81   ;   P,B   ;   8,13   ;   1   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 01:56   ;   45   ;   P,F   ;   7,13   ;   1   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 02:24   ;   47   ;   P,J   ;   5,12   ;   3   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 02:39   ;   03   ;   P,K   ;   3,12   ;   0   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 03:58   ;   69   ;   P,G   ;   2,13   ;   1   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 04:27   ;   14   ;   P,H   ;   1,11   ;   0   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 04:59   ;   38   ;   P,G   ;   7,11   ;   2   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 08:11   ;   35   ;   P,H   ;   5,10   ;   2   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 09:32   ;   17   ;   P,E   ;   2,10   ;   3   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 09:56   ;   24   ;   P,G   ;   8,11   ;   1   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 10:56   ;   08   ;   P,D   ;   0,11   ;   3   ;   Javított   ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 11:42   ;   21   ;   P,H   ;   8,11   ;   1   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 12:49   ;   10   ;   P,B   ;   4,12   ;   0   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 13:20   ;   90   ;   P,E   ;   5,13   ;   1   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 13:31   ;   68   ;   P,F   ;   1,12   ;   1   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 13:54   ;   56   ;   P,N   ;   1,10   ;   1   ;   Törölt   ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 14:02   ;   56   ;   P,N   ;   2,6   ;   1   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 14:14   ;   59   ;   P,B   ;   3,12   ;   1   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 15:01   ;   43   ;   P,D   ;   5,12   ;   2   ;      ;   Vidéki diszkó   
+   TE46-33   ;   Kishalál   ;   Szo 15:55   ;   BEFUTÓ   ;   P,T   ;   7,13   ;   0   ;      ;   Vidéki diszkó   
+   TE46-34   ;   Középhalál   ;   Pé 21:53   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 01:07   ;   12   ;   P,K   ;   1,13   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 01:23   ;   20   ;   P,E   ;   3,14   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 01:38   ;   87   ;   P,D   ;   6,14   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 02:03   ;   71   ;   P,M   ;   4,12   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 02:28   ;   60   ;   P,H   ;   8,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 02:59   ;   86   ;   P,F   ;   8,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 04:22   ;   66   ;   P,C   ;   5,12   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 04:58   ;   33   ;   P,B   ;   0,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 05:17   ;   44   ;   P,F   ;   3,13   ;   1   ;   Törölt   ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 05:42   ;   44   ;   P,F   ;   2,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 06:15   ;   35   ;   P,E   ;   4,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 06:43   ;   47   ;   P,K   ;   7,13   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 06:59   ;   05   ;   P,F   ;   6,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 07:12   ;   40   ;   P,L   ;   3,12   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 07:51   ;   14   ;   P,C   ;   2,9   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 08:12   ;   11   ;   P,B   ;   8,12   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 08:24   ;   85   ;   P,D   ;   6,11   ;   2   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 08:58   ;   36   ;   P,E   ;   0,12   ;   3   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 09:21   ;   61   ;   P,D   ;   5,11   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 10:37   ;   79   ;   P,K   ;   7,10   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 10:56   ;   88   ;   P,B   ;   1,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 11:31   ;   50   ;   P,A   ;   0,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 12:25   ;   27   ;   P,F   ;   2,12   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 12:49   ;   10   ;   P,B   ;   5,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 13:09   ;   90   ;   P,A   ;   6,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 13:45   ;   76   ;   P,M   ;   5,10   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 14:50   ;   06   ;   P,D   ;   3,13   ;   3   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 15:07   ;   30   ;   P,B   ;   0,13   ;   1   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 15:44   ;   72   ;   P,C   ;   7,12   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 16:04   ;   43   ;   P,E   ;   2,12   ;   2   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 16:22   ;   74   ;   P,C   ;   6,11   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-34   ;   Középhalál   ;   Szo 17:15   ;   BEFUTÓ   ;   P,T   ;   4,14   ;   0   ;      ;   Sörrel Teli Cumisüveg   
+   TE46-35   ;   Kishalál   ;   Pé 21:48   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Pé 23:08   ;   83   ;   P,D   ;   2,14   ;   0   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Pé 23:25   ;   04   ;   P,A   ;   8,14   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Pé 23:37   ;   39   ;   P,B   ;   5,14   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Pé 23:48   ;   64   ;   P,F   ;   1,13   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 00:07   ;   25   ;   P,E   ;   6,14   ;   0   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 00:46   ;   67   ;   P,C   ;   2,13   ;   0   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 00:53   ;   31   ;   P,G   ;   8,12   ;   1   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 01:20   ;   88   ;   P,C   ;   2,11   ;   0   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 01:42   ;   79   ;   P,G   ;   8,10   ;   1   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 02:12   ;   50   ;   P,D   ;   3,9   ;   1   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 03:01   ;   89   ;   P,E   ;   5,13   ;   2   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 03:18   ;   78   ;   P,L   ;   5,13   ;   0   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 03:43   ;   37   ;   P,G   ;   8,10   ;   1   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 04:05   ;   26   ;   P,C   ;   0,12   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 04:40   ;   07   ;   P,H   ;   5,12   ;   2   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 05:02   ;   62   ;   P,E   ;   1,13   ;   2   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 05:19   ;   09   ;   P,F   ;   4,14   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 05:48   ;   75   ;   P,B   ;   6,13   ;   1   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 06:31   ;   06   ;   P,E   ;   1,14   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 06:46   ;   30   ;   P,A   ;   0,14   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 07:53   ;   82   ;   P,C   ;   0,12   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 08:23   ;   15   ;   P,N   ;   6,11   ;   2   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 08:40   ;   68   ;   P,F   ;   2,12   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 08:57   ;   90   ;   P,E   ;   1,11   ;   2   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 09:13   ;   76   ;   P,P   ;   6,11   ;   2   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 09:55   ;   27   ;   P,F   ;   5,9   ;   1   ;   Javított   ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 10:10   ;   10   ;   P,B   ;   3,12   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 10:40   ;   61   ;   P,H   ;   2,10   ;   3   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 11:21   ;   51   ;   P,C   ;   0,10   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 11:57   ;   19   ;   P,F   ;   7,10   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 12:33   ;   TM_562267   ;   P,T   ;   8,14   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 12:35   ;   57   ;   P,B   ;   8,12   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 12:42   ;   63   ;   P,P   ;   6,11   ;   2   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 13:10   ;   70   ;   P,M   ;   0,10   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 13:23   ;   23   ;   P,K   ;   6,9   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 13:32   ;   71   ;   P,A   ;   8,11   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 14:07   ;   48   ;   P,G   ;   4,11   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 14:46   ;   38   ;   P,G   ;   8,10   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 15:00   ;   14   ;   P,H   ;   2,11   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 15:30   ;   69   ;   P,G   ;   4,10   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 15:44   ;   03   ;   P,K   ;   5,10   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 15:57   ;   17   ;   P,E   ;   1,11   ;   0   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 16:06   ;   24   ;   P,G   ;   8,10   ;   1   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 16:57   ;   43   ;   P,D   ;   6,10   ;   3   ;      ;   TímΠ   
+   TE46-35   ;   Kishalál   ;   Szo 17:17   ;   BEFUTÓ   ;   P,T   ;   5,14   ;   0   ;      ;   TímΠ   
+   TE46-36   ;   Középhalál   ;   Pé 21:53   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Pé 23:24   ;   04   ;   P,H   ;   2,14   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Pé 23:39   ;   39   ;   P,C   ;   7,13   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 00:02   ;   64   ;   P,G   ;   1,13   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 00:22   ;   57   ;   P,B   ;   4,13   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 01:16   ;   63   ;   P,J   ;   5,13   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 02:05   ;   18   ;   P,F   ;   1,12   ;   1   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 02:53   ;   19   ;   P,E   ;   2,11   ;   3   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 03:41   ;   85   ;   P,D   ;   7,12   ;   1   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 03:51   ;   11   ;   P,B   ;   8,12   ;   1   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 04:12   ;   38   ;   P,H   ;   5,11   ;   3   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 04:28   ;   14   ;   P,C   ;   3,12   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 05:27   ;   66   ;   P,C   ;   3,11   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 06:10   ;   81   ;   P,H   ;   0,12   ;   3   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 06:35   ;   55   ;   P,M   ;   1,11   ;   1   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 07:00   ;   49   ;   P,F   ;   6,13   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 08:10   ;   33   ;   P,B   ;   0,11   ;   1   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 08:53   ;   44   ;   P,F   ;   7,13   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 09:13   ;   35   ;   P,E   ;   1,9   ;   3   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 10:07   ;   17   ;   P,C   ;   2,12   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 10:58   ;   24   ;   P,G   ;   5,13   ;   1   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 12:20   ;   08   ;   P,D   ;   7,13   ;   2   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 12:41   ;   21   ;   P,F   ;   6,13   ;   1   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 13:05   ;   58   ;   P,A   ;   7,14   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 13:30   ;   68   ;   P,G   ;   4,14   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 14:10   ;   90   ;   P,A   ;   7,14   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 14:26   ;   76   ;   P,M   ;   7,13   ;   2   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 14:53   ;   56   ;   P,P   ;   3,14   ;   2   ;   Törölt   ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 15:14   ;   59   ;   P,A   ;   0,14   ;   1   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 15:47   ;   74   ;   P,C   ;   6,12   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 15:55   ;   43   ;   P,E   ;   3,13   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 16:16   ;   72   ;   P,C   ;   0,12   ;   0   ;      ;   Bükkfán Club   
+   TE46-36   ;   Középhalál   ;   Szo 16:32   ;   BEFUTÓ   ;   P,T   ;   3,14   ;   0   ;      ;   Bükkfán Club   
+   TE46-37   ;   Középhalál   ;   Pé 21:57   ;   KIDOBÁS   ;   P,T   ;   1,14   ;   2   ;   Javított   ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Pé 23:29   ;   23   ;   P,J   ;   1,13   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Pé 23:47   ;   20   ;   P,E   ;   7,14   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 00:04   ;   87   ;   P,D   ;   4,14   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 00:40   ;   71   ;   P,M   ;   5,13   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 00:57   ;   84   ;   P,L   ;   5,11   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 01:25   ;   60   ;   P,H   ;   8,12   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 01:58   ;   86   ;   P,F   ;   8,10   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 02:33   ;   65   ;   P,H   ;   1,12   ;   2   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 03:20   ;   77   ;   P,E   ;   3,12   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 03:43   ;   22   ;   P,H   ;   0,13   ;   3   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 04:58   ;   81   ;   P,H   ;   2,12   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 05:48   ;   33   ;   P,B   ;   5,13   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 07:00   ;   44   ;   P,F   ;   7,13   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 07:27   ;   35   ;   P,E   ;   0,12   ;   3   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 07:57   ;   66   ;   P,C   ;   3,12   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 08:28   ;   45   ;   P,N   ;   7,11   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 08:45   ;   47   ;   P,K   ;   5,11   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 10:26   ;   24   ;   P,G   ;   2,13   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 11:21   ;   17   ;   P,C   ;   0,12   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 12:22   ;   03   ;   P,J   ;   6,10   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 13:30   ;   68   ;   P,G   ;   3,13   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 14:08   ;   27   ;   P,F   ;   3,12   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 14:20   ;   10   ;   P,B   ;   8,10   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 14:57   ;   56   ;   P,P   ;   3,11   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 15:10   ;   59   ;   P,A   ;   0,12   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 15:47   ;   74   ;   P,C   ;   0,11   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 16:00   ;   43   ;   P,E   ;   2,10   ;   3   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 16:40   ;   72   ;   P,C   ;   0,9   ;   0   ;      ;   Szukcesszív Approximáció   
+   TE46-37   ;   Középhalál   ;   Szo 17:02   ;   BEFUTÓ   ;   P,T   ;   6,11   ;   1   ;      ;   Szukcesszív Approximáció   
+   TE46-38   ;   Kishalál   ;   Pé 21:56   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Pé 23:09   ;   66   ;   P,A   ;   7,14   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Pé 23:27   ;   35   ;   P,H   ;   2,14   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Pé 23:57   ;   33   ;   P,E   ;   5,14   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 00:58   ;   55   ;   P,A   ;   7,14   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 01:13   ;   49   ;   P,D   ;   4,14   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 01:40   ;   22   ;   P,A   ;   0,14   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 01:49   ;   77   ;   P,B   ;   7,14   ;   2   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 02:21   ;   65   ;   P,E   ;   1,14   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 02:27   ;   92   ;   P,F   ;   5,13   ;   1   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 02:51   ;   86   ;   P,H   ;   7,14   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 03:08   ;   60   ;   P,D   ;   1,13   ;   1   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 03:32   ;   84   ;   P,J   ;   7,12   ;   1   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 04:14   ;   71   ;   P,A   ;   0,13   ;   1   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 04:30   ;   20   ;   P,D   ;   1,10   ;   1   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 04:48   ;   12   ;   P,P   ;   3,14   ;   2   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 05:04   ;   23   ;   P,K   ;   3,13   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 05:45   ;   18   ;   P,E   ;   4,12   ;   3   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 06:16   ;   63   ;   P,P   ;   7,13   ;   2   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 06:36   ;   57   ;   P,B   ;   2,11   ;   3   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 07:35   ;   25   ;   P,E   ;   6,12   ;   2   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 08:01   ;   67   ;   P,C   ;   6,10   ;   3   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 08:08   ;   31   ;   P,G   ;   7,11   ;   3   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 09:18   ;   88   ;   P,C   ;   3,11   ;   1   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 09:45   ;   79   ;   P,G   ;   1,11   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 10:45   ;   78   ;   P,L   ;   5,9   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 11:44   ;   46   ;   P,F   ;   0,10   ;   3   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 12:18   ;   75   ;   P,B   ;   8,9   ;   3   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 13:28   ;   72   ;   P,D   ;   5,8   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 13:57   ;   43   ;   P,D   ;   3,10   ;   1   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-38   ;   Kishalál   ;   Szo 15:57   ;   BEFUTÓ   ;   P,T   ;   7,11   ;   0   ;      ;   Tér-Képtelen Kotorászók   
+   TE46-39   ;   Kishalál   ;   Pé 22:48   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Pé 23:05   ;   04   ;   P,A   ;   1,14   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Pé 23:37   ;   83   ;   P,D   ;   4,14   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 00:23   ;   16   ;   P,H   ;   7,14   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 00:55   ;   87   ;   P,C   ;   0,13   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 01:06   ;   20   ;   P,D   ;   5,14   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 01:22   ;   23   ;   P,K   ;   5,12   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 01:34   ;   71   ;   P,A   ;   7,13   ;   2   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 01:52   ;   84   ;   P,J   ;   5,10   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 02:17   ;   60   ;   P,D   ;   2,13   ;   3   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 02:40   ;   86   ;   P,H   ;   3,10   ;   3   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 03:05   ;   92   ;   P,F   ;   2,11   ;   1   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 03:18   ;   65   ;   P,E   ;   8,13   ;   1   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 04:55   ;   49   ;   P,D   ;   0,12   ;   3   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 05:09   ;   55   ;   P,A   ;   7,13   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 05:23   ;   81   ;   P,B   ;   0,11   ;   1   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 05:45   ;   33   ;   P,E   ;   1,11   ;   3   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 06:13   ;   44   ;   P,F   ;   6,11   ;   1   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 06:58   ;   35   ;   P,H   ;   8,12   ;   1   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 08:27   ;   45   ;   P,F   ;   5,11   ;   1   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 08:53   ;   17   ;   P,E   ;   7,11   ;   1   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 09:22   ;   24   ;   P,G   ;   3,10   ;   2   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 09:49   ;   03   ;   P,K   ;   4,8   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 12:00   ;   11   ;   P,C   ;   1,9   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 12:05   ;   85   ;   P,G   ;   7,9   ;   3   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 12:56   ;   61   ;   P,H   ;   1,9   ;   0   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 13:53   ;   68   ;   P,F   ;   2,7   ;   2   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 14:04   ;   56   ;   P,N   ;   7,7   ;   3   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 14:17   ;   59   ;   P,B   ;   0,9   ;   1   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 14:38   ;   43   ;   P,D   ;   4,8   ;   2   ;      ;   Ködbekaszálás   
+   TE46-39   ;   Kishalál   ;   Szo 16:28   ;   BEFUTÓ   ;   P,T   ;   4,8   ;   0   ;      ;   Ködbekaszálás   
+   TE46-3   ;   Nagyhalál   ;   Pé 21:58   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Pé 22:28   ;   04   ;   P,B   ;   6,14   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 00:02   ;   12   ;   P,M   ;   3,14   ;   2   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 00:27   ;   20   ;   P,F   ;   5,14   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 00:37   ;   23   ;   P,J   ;   1,13   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 00:53   ;   71   ;   P,M   ;   4,12   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 01:21   ;   60   ;   P,G   ;   8,13   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 01:38   ;   86   ;   P,D   ;   7,11   ;   2   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 02:01   ;   92   ;   P,P   ;   1,12   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 02:16   ;   65   ;   P,H   ;   3,13   ;   2   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 03:14   ;   77   ;   P,D   ;   4,12   ;   2   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 03:33   ;   22   ;   P,H   ;   7,12   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 03:54   ;   49   ;   P,G   ;   1,13   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 04:15   ;   55   ;   P,K   ;   6,11   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 04:28   ;   81   ;   P,H   ;   4,12   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 04:43   ;   33   ;   P,C   ;   4,9   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 05:14   ;   44   ;   P,C   ;   1,11   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 05:39   ;   35   ;   P,E   ;   8,11   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 06:03   ;   66   ;   P,C   ;   7,8   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 06:20   ;   45   ;   P,M   ;   1,10   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 07:59   ;   17   ;   P,C   ;   2,10   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 08:11   ;   03   ;   P,P   ;   3,9   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 08:34   ;   69   ;   P,C   ;   0,10   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 08:57   ;   38   ;   P,G   ;   6,10   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 09:15   ;   36   ;   P,A   ;   0,12   ;   3   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 09:34   ;   61   ;   P,D   ;   1,13   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 10:04   ;   02   ;   P,N   ;   4,11   ;   2   ;   Javított   ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 10:42   ;   19   ;   P,A   ;   7,14   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 11:09   ;   18   ;   P,D   ;   8,12   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 11:32   ;   80   ;   P,K   ;   4,10   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 11:56   ;   TM_562267   ;   P,T   ;   1,13   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 12:28   ;   57   ;   P,F   ;   1,12   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 12:42   ;   64   ;   P,A   ;   7,13   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 13:19   ;   25   ;   P,F   ;   0,11   ;   3   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 13:53   ;   31   ;   P,A   ;   6,14   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 14:23   ;   88   ;   P,A   ;   2,13   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 14:45   ;   79   ;   P,L   ;   7,11   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 15:14   ;   50   ;   P,D   ;   0,10   ;   3   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 15:32   ;   78   ;   P,M   ;   3,11   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 16:09   ;   54   ;   P,E   ;   2,11   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 16:29   ;   46   ;   P,B   ;   5,11   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 17:02   ;   06   ;   P,C   ;   5,9   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 17:27   ;   34   ;   P,G   ;   8,10   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 17:47   ;   68   ;   P,F   ;   5,9   ;   1   ;   Törölt   ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 17:57   ;   68   ;   P,F   ;   3,10   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 18:05   ;   56   ;   P,M   ;   0,9   ;   1   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 18:19   ;   59   ;   P,E   ;   2,8   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 18:39   ;   43   ;   P,C   ;   6,8   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-3   ;   Nagyhalál   ;   Szo 18:57   ;   BEFUTÓ   ;   P,T   ;   8,10   ;   0   ;      ;   ELTÁJOLÓK   
+   TE46-40   ;   Nagyhalál   ;   Pé 21:58   ;   KIDOBÁS   ;   P,T   ;   8,14   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Pé 22:11   ;   66   ;   P,C   ;   0,13   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Pé 22:29   ;   35   ;   P,E   ;   6,14   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Pé 23:30   ;   45   ;   P,M   ;   0,11   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Pé 23:39   ;   47   ;   P,L   ;   3,13   ;   0   ;   Javított   ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Pé 23:57   ;   17   ;   P,C   ;   5,13   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 00:07   ;   24   ;   P,G   ;   8,13   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 00:44   ;   08   ;   P,C   ;   1,12   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 01:01   ;   21   ;   P,B   ;   3,13   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 01:11   ;   58   ;   P,P   ;   7,13   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 01:30   ;   68   ;   P,F   ;   3,11   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 01:37   ;   56   ;   P,M   ;   4,13   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 01:46   ;   59   ;   P,E   ;   6,13   ;   2   ;   Javított   ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 01:56   ;   TM_441155   ;   P,T   ;   8,14   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 02:31   ;   74   ;   P,G   ;   8,12   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 02:35   ;   43   ;   P,C   ;   0,12   ;   0   ;   Javított   ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 03:02   ;   72   ;   P,E   ;   6,13   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 03:16   ;   30   ;   P,H   ;   4,13   ;   2   ;   Javított   ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 03:37   ;   06   ;   P,C   ;   4,11   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 04:10   ;   34   ;   P,G   ;   8,13   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 04:33   ;   46   ;   P,B   ;   1,12   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 04:49   ;   75   ;   P,B   ;   2,11   ;   2   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 05:07   ;   54   ;   P,E   ;   7,11   ;   2   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 05:48   ;   73   ;   P,P   ;   7,11   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 06:08   ;   78   ;   P,M   ;   0,12   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 07:17   ;   10   ;   P,E   ;   2,13   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 07:42   ;   41   ;   P,F   ;   7,11   ;   3   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 07:58   ;   36   ;   P,A   ;   2,12   ;   2   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 08:11   ;   61   ;   P,D   ;   5,13   ;   2   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 08:38   ;   02   ;   P,N   ;   5,11   ;   3   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 09:04   ;   79   ;   P,L   ;   1,10   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 09:20   ;   88   ;   P,A   ;   3,12   ;   2   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 09:38   ;   31   ;   P,A   ;   7,12   ;   2   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 09:58   ;   67   ;   P,L   ;   1,8   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 10:32   ;   53   ;   P,E   ;   7,10   ;   3   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 10:56   ;   25   ;   P,F   ;   6,9   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 11:10   ;   57   ;   P,F   ;   4,9   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 11:19   ;   64   ;   P,A   ;   8,10   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 11:30   ;   39   ;   P,H   ;   5,9   ;   3   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 11:42   ;   04   ;   P,B   ;   3,13   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 12:08   ;   16   ;   P,H   ;   3,9   ;   3   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 12:28   ;   87   ;   P,F   ;   7,9   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 12:42   ;   20   ;   P,F   ;   5,8   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 12:50   ;   23   ;   P,J   ;   5,6   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 13:00   ;   42   ;   P,B   ;   1,10   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 13:32   ;   48   ;   P,A   ;   8,11   ;   2   ;   Javított   ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 14:11   ;   60   ;   P,G   ;   7,10   ;   3   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 14:25   ;   86   ;   P,D   ;   0,10   ;   3   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 14:41   ;   92   ;   P,P   ;   3,10   ;   3   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 14:46   ;   65   ;   P,H   ;   3,9   ;   2   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 15:26   ;   22   ;   P,H   ;   1,8   ;   2   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 15:30   ;   77   ;   P,D   ;   2,7   ;   2   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 15:46   ;   49   ;   P,G   ;   7,9   ;   3   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 16:01   ;   55   ;   P,K   ;   5,8   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 16:09   ;   81   ;   P,H   ;   8,8   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 16:23   ;   33   ;   P,C   ;   6,7   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 16:33   ;   44   ;   P,C   ;   2,7   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 17:04   ;   05   ;   P,A   ;   0,10   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 17:18   ;   03   ;   P,P   ;   7,7   ;   1   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 17:38   ;   28   ;   P,K   ;   7,5   ;   0   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 18:01   ;   15   ;   P,J   ;   7,3   ;   3   ;      ;   Vis Maior   
+   TE46-40   ;   Nagyhalál   ;   Szo 18:51   ;   BEFUTÓ   ;   P,T   ;   4,9   ;   0   ;      ;   Vis Maior   
+   TE46-41   ;   Kishalál   ;   Pé 21:52   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Pé 22:42   ;   20   ;   P,D   ;   2,14   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Pé 22:55   ;   23   ;   P,K   ;   2,12   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Pé 23:05   ;   71   ;   P,A   ;   5,14   ;   2   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Pé 23:23   ;   84   ;   P,J   ;   2,10   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Pé 23:51   ;   60   ;   P,D   ;   7,14   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Pé 23:59   ;   77   ;   P,B   ;   0,13   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 00:20   ;   22   ;   P,A   ;   7,14   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 00:37   ;   49   ;   P,D   ;   4,13   ;   1   ;   Javított   ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 00:52   ;   55   ;   P,A   ;   5,14   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 01:13   ;   81   ;   P,B   ;   6,13   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 01:31   ;   33   ;   P,E   ;   7,14   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 01:49   ;   44   ;   P,F   ;   8,13   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 02:13   ;   35   ;   P,H   ;   4,14   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 02:58   ;   45   ;   P,F   ;   0,12   ;   3   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 03:24   ;   17   ;   P,E   ;   3,12   ;   2   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 03:48   ;   03   ;   P,K   ;   2,10   ;   3   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 04:16   ;   69   ;   P,G   ;   6,13   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 04:27   ;   14   ;   P,H   ;   4,12   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 04:42   ;   38   ;   P,G   ;   7,13   ;   0   ;   Javított   ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 05:29   ;   18   ;   P,E   ;   7,12   ;   2   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 06:08   ;   80   ;   P,N   ;   2,9   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 06:26   ;   63   ;   P,P   ;   5,12   ;   2   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 06:46   ;   57   ;   P,B   ;   0,12   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 07:16   ;   25   ;   P,E   ;   7,12   ;   3   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 08:25   ;   67   ;   P,C   ;   2,7   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 08:32   ;   31   ;   P,G   ;   5,12   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 08:50   ;   88   ;   P,C   ;   0,8   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 09:12   ;   79   ;   P,G   ;   6,12   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 09:39   ;   50   ;   P,D   ;   7,10   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 09:58   ;   89   ;   P,E   ;   5,10   ;   2   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 10:38   ;   10   ;   P,B   ;   8,12   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 10:52   ;   90   ;   P,E   ;   5,10   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 11:33   ;   76   ;   P,P   ;   6,8   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 12:09   ;   34   ;   P,H   ;   4,8   ;   2   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 12:50   ;   54   ;   P,D   ;   1,8   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 12:51   ;   75   ;   P,B   ;   8,9   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 13:27   ;   09   ;   P,F   ;   1,9   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 14:30   ;   30   ;   P,A   ;   7,10   ;   1   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 14:48   ;   72   ;   P,D   ;   4,10   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-41   ;   Kishalál   ;   Szo 15:56   ;   BEFUTÓ   ;   P,T   ;   6,10   ;   0   ;      ;   Atomvillanás jobbról   
+   TE46-43   ;   Kishalál   ;   Pé 21:59   ;   KIDOBÁS   ;   P,T   ;   8,14   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Pé 22:55   ;   71   ;   P,A   ;   5,14   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 00:45   ;   60   ;   P,D   ;   1,14   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 01:03   ;   86   ;   P,H   ;   7,13   ;   2   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 01:31   ;   92   ;   P,F   ;   1,13   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 01:42   ;   65   ;   P,E   ;   3,13   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 02:37   ;   77   ;   P,B   ;   4,13   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 03:11   ;   22   ;   P,A   ;   5,14   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 03:41   ;   49   ;   P,D   ;   7,14   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 04:00   ;   55   ;   P,A   ;   7,14   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 04:14   ;   81   ;   P,B   ;   1,14   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 04:36   ;   33   ;   P,E   ;   6,13   ;   2   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 05:05   ;   44   ;   P,F   ;   5,13   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 05:36   ;   66   ;   P,A   ;   3,14   ;   2   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 06:29   ;   40   ;   P,M   ;   0,13   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 07:17   ;   14   ;   P,H   ;   8,13   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 08:12   ;   11   ;   P,C   ;   1,13   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 09:34   ;   18   ;   P,E   ;   3,13   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 11:27   ;   57   ;   P,B   ;   6,13   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 12:20   ;   25   ;   P,E   ;   4,13   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 12:49   ;   67   ;   P,C   ;   0,11   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 13:03   ;   31   ;   P,G   ;   5,11   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 13:40   ;   88   ;   P,C   ;   0,10   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 14:56   ;   50   ;   P,D   ;   7,13   ;   3   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 15:23   ;   TM_562267   ;   P,T   ;   2,13   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 15:28   ;   78   ;   P,L   ;   7,12   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 15:57   ;   76   ;   P,P   ;   7,9   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 16:21   ;   68   ;   P,F   ;   7,8   ;   1   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 16:40   ;   59   ;   P,B   ;   3,11   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-43   ;   Kishalál   ;   Szo 17:24   ;   BEFUTÓ   ;   P,T   ;   3,13   ;   0   ;      ;   Atomvillanás_balról   
+   TE46-45   ;   Kishalál   ;   Pé 21:58   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Pé 22:50   ;   66   ;   P,A   ;   2,14   ;   0   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Pé 23:14   ;   01   ;   P,B   ;   6,14   ;   0   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Pé 23:51   ;   45   ;   P,F   ;   2,13   ;   1   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 00:30   ;   35   ;   P,H   ;   4,13   ;   2   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 01:03   ;   33   ;   P,E   ;   7,14   ;   0   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 01:18   ;   44   ;   P,F   ;   1,13   ;   1   ;   Törölt   ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 01:57   ;   44   ;   P,F   ;   3,14   ;   0   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 02:23   ;   81   ;   P,B   ;   0,12   ;   1   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 03:28   ;   55   ;   P,A   ;   7,14   ;   2   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 03:52   ;   49   ;   P,D   ;   8,12   ;   1   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 05:47   ;   57   ;   P,B   ;   1,11   ;   1   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 06:45   ;   65   ;   P,E   ;   2,11   ;   3   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 07:09   ;   92   ;   P,F   ;   6,13   ;   1   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 07:45   ;   86   ;   P,H   ;   4,13   ;   3   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 08:09   ;   60   ;   P,D   ;   6,13   ;   2   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 08:41   ;   84   ;   P,J   ;   1,11   ;   1   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 09:19   ;   71   ;   P,A   ;   3,14   ;   1   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 09:37   ;   23   ;   P,K   ;   3,12   ;   0   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 10:57   ;   TM_441155   ;   P,T   ;   4,14   ;   0   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 12:53   ;   03   ;   P,K   ;   1,10   ;   0   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 13:30   ;   17   ;   P,E   ;   7,14   ;   0   ;      ;   TúrAI   
+   TE46-45   ;   Kishalál   ;   Szo 16:09   ;   BEFUTÓ   ;   P,T   ;   5,14   ;   0   ;      ;   TúrAI   
+   TE46-46   ;   Kishalál   ;   Pé 22:36   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Pé 22:55   ;   23   ;   P,K   ;   1,13   ;   0   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Pé 23:10   ;   71   ;   P,A   ;   2,14   ;   0   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Pé 23:29   ;   84   ;   P,J   ;   1,11   ;   0   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 00:14   ;   01   ;   P,B   ;   6,14   ;   0   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 00:30   ;   66   ;   P,A   ;   4,14   ;   1   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 01:12   ;   33   ;   P,E   ;   7,14   ;   0   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 01:30   ;   44   ;   P,F   ;   6,13   ;   1   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 01:58   ;   35   ;   P,H   ;   3,13   ;   3   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 02:20   ;   45   ;   P,F   ;   8,13   ;   1   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 02:37   ;   47   ;   P,J   ;   2,12   ;   0   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 03:25   ;   03   ;   P,K   ;   5,13   ;   0   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 04:37   ;   17   ;   P,E   ;   7,12   ;   1   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 05:51   ;   69   ;   P,G   ;   1,11   ;   3   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 08:15   ;   70   ;   P,M   ;   6,11   ;   0   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 09:15   ;   63   ;   P,P   ;   7,9   ;   1   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 09:38   ;   57   ;   P,B   ;   0,13   ;   1   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 11:51   ;   53   ;   P,H   ;   4,11   ;   1   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 13:18   ;   02   ;   P,M   ;   6,11   ;   1   ;      ;   Equestria   
+   TE46-46   ;   Kishalál   ;   Szo 15:44   ;   BEFUTÓ   ;   P,T   ;   4,14   ;   0   ;      ;   Equestria   
+   TE46-47   ;   Kishalál   ;   Pé 22:41   ;   KIDOBÁS   ;   P,T   ;   8,14   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 00:23   ;   12   ;   P,P   ;   8,13   ;   3   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 01:00   ;   16   ;   P,H   ;   6,13   ;   3   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 01:17   ;   20   ;   P,D   ;   5,13   ;   1   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 01:43   ;   87   ;   P,C   ;   0,13   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 02:08   ;   23   ;   P,K   ;   3,13   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 02:28   ;   71   ;   P,A   ;   2,14   ;   1   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 02:51   ;   84   ;   P,J   ;   6,12   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 03:07   ;   60   ;   P,D   ;   3,13   ;   2   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 03:31   ;   86   ;   P,H   ;   4,12   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 03:51   ;   92   ;   P,F   ;   3,11   ;   1   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 04:00   ;   65   ;   P,E   ;   0,13   ;   3   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 05:05   ;   22   ;   P,A   ;   1,13   ;   1   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 05:27   ;   49   ;   P,D   ;   5,10   ;   2   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 05:55   ;   55   ;   P,A   ;   0,11   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 06:11   ;   81   ;   P,B   ;   8,13   ;   1   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 06:29   ;   33   ;   P,E   ;   1,12   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 07:21   ;   44   ;   P,F   ;   8,12   ;   1   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 07:49   ;   35   ;   P,H   ;   6,13   ;   2   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 08:58   ;   45   ;   P,F   ;   3,14   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 09:15   ;   47   ;   P,J   ;   5,12   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 09:31   ;   03   ;   P,K   ;   5,10   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 09:54   ;   17   ;   P,E   ;   0,13   ;   3   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 10:34   ;   24   ;   P,G   ;   7,12   ;   2   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 12:20   ;   10   ;   P,B   ;   2,12   ;   2   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 12:53   ;   78   ;   P,L   ;   2,12   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 13:41   ;   50   ;   P,D   ;   0,11   ;   3   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 14:05   ;   79   ;   P,G   ;   8,12   ;   1   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 15:14   ;   68   ;   P,F   ;   5,10   ;   1   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 15:34   ;   56   ;   P,N   ;   7,9   ;   1   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 15:51   ;   59   ;   P,B   ;   2,11   ;   1   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 16:14   ;   43   ;   P,D   ;   4,10   ;   0   ;      ;   nekem mindegy   
+   TE46-47   ;   Kishalál   ;   Szo 16:56   ;   BEFUTÓ   ;   P,T   ;   1,11   ;   0   ;      ;   nekem mindegy   
+   TE46-49   ;   Nagyhalál   ;   Pé 21:49   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Pé 22:18   ;   20   ;   P,F   ;   1,14   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Pé 23:08   ;   87   ;   P,F   ;   3,14   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Pé 23:56   ;   92   ;   P,P   ;   4,13   ;   1   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 00:13   ;   65   ;   P,H   ;   6,13   ;   1   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 00:51   ;   22   ;   P,H   ;   7,13   ;   3   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 01:03   ;   77   ;   P,D   ;   1,13   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 01:37   ;   49   ;   P,G   ;   4,12   ;   2   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 01:56   ;   55   ;   P,K   ;   1,11   ;   0   ;   Törölt   ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 02:16   ;   55   ;   P,K   ;   3,10   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 02:32   ;   81   ;   P,H   ;   5,11   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 02:50   ;   33   ;   P,C   ;   4,8   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 03:17   ;   35   ;   P,E   ;   8,13   ;   1   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 03:50   ;   45   ;   P,M   ;   8,11   ;   3   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 04:18   ;   66   ;   P,C   ;   0,11   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 05:55   ;   36   ;   P,A   ;   3,11   ;   2   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 06:24   ;   11   ;   P,H   ;   6,10   ;   2   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 06:41   ;   38   ;   P,G   ;   4,10   ;   2   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 08:08   ;   23   ;   P,J   ;   4,8   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 08:44   ;   42   ;   P,B   ;   8,10   ;   1   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 09:02   ;   18   ;   P,D   ;   1,11   ;   2   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 10:03   ;   57   ;   P,F   ;   7,13   ;   1   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 10:27   ;   64   ;   P,A   ;   6,12   ;   1   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 11:38   ;   39   ;   P,H   ;   0,12   ;   3   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 11:52   ;   25   ;   P,F   ;   2,10   ;   2   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 13:12   ;   88   ;   P,A   ;   0,11   ;   1   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 13:46   ;   TM_562267   ;   P,T   ;   4,10   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 14:47   ;   79   ;   P,L   ;   7,9   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 15:30   ;   50   ;   P,D   ;   5,9   ;   3   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 15:50   ;   78   ;   P,M   ;   1,9   ;   0   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 16:49   ;   26   ;   P,E   ;   4,9   ;   1   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 16:52   ;   54   ;   P,E   ;   1,9   ;   3   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 17:10   ;   75   ;   P,B   ;   7,12   ;   1   ;      ;   Ő1G   
+   TE46-49   ;   Nagyhalál   ;   Szo 18:21   ;   BEFUTÓ   ;   P,T   ;   2,10   ;   0   ;      ;   Ő1G   
+   TE46-4   ;   Kishalál   ;   Pé 21:53   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Pé 23:30   ;   04   ;   P,A   ;   2,14   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Pé 23:55   ;   12   ;   P,P   ;   1,14   ;   2   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 00:11   ;   20   ;   P,D   ;   8,13   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 00:27   ;   16   ;   P,H   ;   5,14   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 00:56   ;   87   ;   P,C   ;   6,13   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 01:13   ;   23   ;   P,K   ;   1,13   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 01:26   ;   71   ;   P,A   ;   3,14   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 01:49   ;   84   ;   P,J   ;   1,12   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 02:01   ;   60   ;   P,D   ;   4,14   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 02:39   ;   86   ;   P,H   ;   3,13   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 03:00   ;   92   ;   P,F   ;   2,11   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 03:10   ;   65   ;   P,E   ;   5,14   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 04:08   ;   77   ;   P,B   ;   8,13   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 04:39   ;   22   ;   P,A   ;   7,13   ;   3   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 05:08   ;   49   ;   P,D   ;   5,13   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 05:19   ;   55   ;   P,A   ;   7,13   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 05:52   ;   81   ;   P,B   ;   0,13   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 07:51   ;   33   ;   P,E   ;   5,13   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 08:47   ;   44   ;   P,F   ;   7,13   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 09:16   ;   35   ;   P,H   ;   1,12   ;   3   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 09:41   ;   66   ;   P,A   ;   3,14   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 10:03   ;   40   ;   P,M   ;   5,13   ;   2   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 10:13   ;   05   ;   P,C   ;   4,11   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 12:00   ;   18   ;   P,E   ;   8,13   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 13:19   ;   02   ;   P,M   ;   4,12   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 13:47   ;   79   ;   P,G   ;   2,13   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 14:14   ;   50   ;   P,D   ;   8,12   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 14:30   ;   78   ;   P,L   ;   5,10   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 15:17   ;   76   ;   P,P   ;   2,12   ;   2   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 15:31   ;   68   ;   P,F   ;   3,10   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 15:39   ;   56   ;   P,N   ;   4,7   ;   0   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 15:48   ;   59   ;   P,B   ;   0,13   ;   1   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 16:32   ;   43   ;   P,D   ;   7,13   ;   3   ;      ;   Zsírmedve   
+   TE46-4   ;   Kishalál   ;   Szo 16:54   ;   BEFUTÓ   ;   P,T   ;   1,14   ;   0   ;      ;   Zsírmedve   
+   TE46-51   ;   Nagyhalál   ;   Pé 22:16   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;   Javított   ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Pé 22:18   ;   04   ;   P,B   ;   2,14   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Pé 22:35   ;   39   ;   P,H   ;   7,14   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Pé 23:01   ;   64   ;   P,A   ;   5,14   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Pé 23:24   ;   57   ;   P,F   ;   5,13   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Pé 23:42   ;   63   ;   P,N   ;   7,12   ;   3   ;   Javított   ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 00:56   ;   18   ;   P,D   ;   1,14   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 01:54   ;   38   ;   P,G   ;   3,13   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 02:26   ;   69   ;   P,C   ;   4,11   ;   0   ;   Javított   ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 03:35   ;   11   ;   P,H   ;   3,12   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 03:50   ;   36   ;   P,A   ;   1,14   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 04:59   ;   61   ;   P,D   ;   1,12   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 06:29   ;   19   ;   P,A   ;   0,14   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 07:07   ;   80   ;   P,K   ;   7,12   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 07:51   ;   42   ;   P,B   ;   2,12   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 08:13   ;   23   ;   P,J   ;   7,11   ;   2   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 08:37   ;   20   ;   P,F   ;   1,12   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 09:10   ;   70   ;   P,K   ;   4,13   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 09:39   ;   12   ;   P,M   ;   1,11   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 10:01   ;   16   ;   P,H   ;   5,12   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 10:25   ;   87   ;   P,F   ;   8,10   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 11:01   ;   71   ;   P,M   ;   2,10   ;   2   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 11:26   ;   60   ;   P,G   ;   6,10   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 11:37   ;   TM_441155   ;   P,T   ;   7,8   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 11:52   ;   86   ;   P,D   ;   4,10   ;   3   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 12:04   ;   84   ;   P,J   ;   7,9   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 12:44   ;   77   ;   P,D   ;   2,10   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 12:54   ;   22   ;   P,H   ;   4,11   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 13:21   ;   49   ;   P,G   ;   3,9   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 13:38   ;   55   ;   P,K   ;   7,8   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 13:51   ;   81   ;   P,H   ;   5,9   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 14:06   ;   33   ;   P,C   ;   0,10   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 14:38   ;   44   ;   P,C   ;   0,9   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 14:53   ;   66   ;   P,C   ;   3,9   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 15:12   ;   35   ;   P,E   ;   6,11   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 15:36   ;   45   ;   P,M   ;   5,9   ;   2   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 16:01   ;   47   ;   P,L   ;   1,9   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 16:19   ;   03   ;   P,P   ;   6,7   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 16:36   ;   17   ;   P,C   ;   0,6   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 17:00   ;   24   ;   P,G   ;   3,7   ;   3   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 17:36   ;   21   ;   P,B   ;   8,11   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 17:58   ;   56   ;   P,M   ;   3,8   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 18:07   ;   59   ;   P,E   ;   8,10   ;   1   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 18:32   ;   43   ;   P,C   ;   0,8   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 18:48   ;   72   ;   P,E   ;   7,9   ;   2   ;      ;   Sárkányevő Csertölgy   
+   TE46-51   ;   Nagyhalál   ;   Szo 19:00   ;   BEFUTÓ   ;   P,T   ;   4,10   ;   0   ;      ;   Sárkányevő Csertölgy   
+   TE46-52   ;   Kishalál   ;   Pé 21:49   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 00:09   ;   23   ;   P,K   ;   1,13   ;   0   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 01:10   ;   18   ;   P,E   ;   3,14   ;   0   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 03:24   ;   70   ;   P,M   ;   7,14   ;   2   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 05:07   ;   47   ;   P,J   ;   1,12   ;   0   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 05:46   ;   35   ;   P,H   ;   7,13   ;   3   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 06:23   ;   45   ;   P,F   ;   1,10   ;   3   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 06:43   ;   66   ;   P,A   ;   3,14   ;   1   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 08:46   ;   11   ;   P,C   ;   4,13   ;   1   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 09:00   ;   85   ;   P,G   ;   8,11   ;   1   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 09:19   ;   36   ;   P,D   ;   3,11   ;   3   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 09:46   ;   61   ;   P,H   ;   0,9   ;   3   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 10:34   ;   19   ;   P,F   ;   5,10   ;   0   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 11:31   ;   50   ;   P,D   ;   7,9   ;   2   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 12:30   ;   78   ;   P,L   ;   7,8   ;   3   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 13:46   ;   76   ;   P,P   ;   3,10   ;   2   ;      ;   LOST   
+   TE46-52   ;   Kishalál   ;   Szo 16:29   ;   BEFUTÓ   ;   P,T   ;   6,14   ;   0   ;      ;   LOST   
+   TE46-53   ;   Kishalál   ;   Pé 22:01   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   2   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Pé 23:26   ;   23   ;   P,K   ;   1,13   ;   0   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 00:19   ;   20   ;   P,D   ;   3,13   ;   1   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 01:11   ;   12   ;   P,P   ;   1,11   ;   0   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 01:12   ;   04   ;   P,A   ;   4,14   ;   0   ;   Javított   ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 01:59   ;   39   ;   P,B   ;   6,13   ;   0   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 02:20   ;   64   ;   P,F   ;   4,12   ;   3   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 02:42   ;   25   ;   P,E   ;   7,14   ;   0   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 03:21   ;   57   ;   P,B   ;   6,12   ;   3   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 04:00   ;   63   ;   P,P   ;   1,12   ;   0   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 04:46   ;   18   ;   P,E   ;   3,12   ;   3   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 06:28   ;   19   ;   P,F   ;   7,13   ;   3   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 07:29   ;   71   ;   P,A   ;   4,14   ;   0   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 07:50   ;   84   ;   P,J   ;   1,13   ;   0   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 08:34   ;   01   ;   P,B   ;   7,13   ;   1   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 08:53   ;   66   ;   P,A   ;   8,14   ;   1   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 09:15   ;   44   ;   P,F   ;   4,14   ;   0   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 09:55   ;   33   ;   P,E   ;   5,12   ;   3   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 11:40   ;   35   ;   P,H   ;   1,12   ;   2   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 12:21   ;   40   ;   P,M   ;   4,11   ;   3   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 13:17   ;   36   ;   P,D   ;   2,12   ;   0   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 13:43   ;   61   ;   P,H   ;   8,12   ;   1   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 14:18   ;   11   ;   P,C   ;   3,8   ;   0   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 15:13   ;   17   ;   P,E   ;   6,12   ;   1   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 16:15   ;   43   ;   P,D   ;   0,12   ;   3   ;      ;   micsenmics   
+   TE46-53   ;   Kishalál   ;   Szo 16:36   ;   BEFUTÓ   ;   P,T   ;   2,14   ;   0   ;      ;   micsenmics   
+   TE46-55   ;   Nagyhalál   ;   Pé 22:02   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 00:01   ;   66   ;   P,C   ;   7,13   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 00:17   ;   35   ;   P,E   ;   5,14   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 00:45   ;   44   ;   P,C   ;   7,11   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 01:17   ;   33   ;   P,C   ;   4,12   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 01:27   ;   81   ;   P,H   ;   2,14   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 01:43   ;   55   ;   P,K   ;   1,13   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 02:10   ;   49   ;   P,G   ;   6,12   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 02:31   ;   22   ;   P,H   ;   3,12   ;   2   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 02:37   ;   77   ;   P,D   ;   0,13   ;   3   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 03:05   ;   65   ;   P,H   ;   3,13   ;   2   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 03:22   ;   92   ;   P,P   ;   5,13   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 03:42   ;   86   ;   P,D   ;   8,13   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 03:59   ;   60   ;   P,G   ;   4,13   ;   2   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 04:20   ;   84   ;   P,J   ;   1,13   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 04:35   ;   71   ;   P,M   ;   7,12   ;   2   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 04:56   ;   87   ;   P,F   ;   4,12   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 05:13   ;   20   ;   P,F   ;   6,10   ;   2   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 05:38   ;   12   ;   P,M   ;   2,11   ;   2   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 06:08   ;   04   ;   P,B   ;   8,10   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 06:27   ;   39   ;   P,H   ;   1,11   ;   3   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 06:43   ;   64   ;   P,A   ;   7,14   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 07:08   ;   25   ;   P,F   ;   5,11   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 07:27   ;   57   ;   P,F   ;   4,10   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 07:46   ;   63   ;   P,N   ;   1,9   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 08:16   ;   18   ;   P,D   ;   7,10   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 08:42   ;   80   ;   P,K   ;   1,7   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 09:11   ;   19   ;   P,A   ;   6,11   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 10:19   ;   79   ;   P,L   ;   7,9   ;   2   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 10:50   ;   88   ;   P,A   ;   3,11   ;   2   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 11:09   ;   31   ;   P,A   ;   5,11   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 11:47   ;   91   ;   P,F   ;   1,6   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 13:15   ;   37   ;   P,B   ;   3,9   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 13:35   ;   26   ;   P,E   ;   7,7   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 14:06   ;   07   ;   P,E   ;   5,8   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 14:32   ;   09   ;   P,L   ;   6,5   ;   0   ;   Javított   ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 15:14   ;   75   ;   P,B   ;   2,6   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 15:32   ;   46   ;   P,B   ;   4,9   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 16:07   ;   30   ;   P,H   ;   3,8   ;   3   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 16:33   ;   29   ;   P,D   ;   3,7   ;   2   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 17:00   ;   82   ;   P,D   ;   1,7   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 17:25   ;   68   ;   P,F   ;   5,7   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 17:36   ;   56   ;   P,M   ;   4,5   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 17:46   ;   59   ;   P,E   ;   8,8   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 18:18   ;   74   ;   P,G   ;   2,6   ;   1   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 18:27   ;   43   ;   P,C   ;   7,6   ;   0   ;      ;   Merev Tagok   
+   TE46-55   ;   Nagyhalál   ;   Szo 18:51   ;   BEFUTÓ   ;   P,T   ;   0,9   ;   0   ;      ;   Merev Tagok   
+   TE46-57   ;   Kishalál   ;   Pé 22:02   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Pé 22:25   ;   66   ;   P,A   ;   1,14   ;   0   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 00:28   ;   44   ;   P,F   ;   3,14   ;   0   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 00:49   ;   33   ;   P,E   ;   7,14   ;   0   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 01:39   ;   81   ;   P,B   ;   0,12   ;   1   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 02:58   ;   49   ;   P,D   ;   3,12   ;   2   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 03:46   ;   77   ;   P,B   ;   1,12   ;   1   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 04:50   ;   65   ;   P,E   ;   6,13   ;   2   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 05:05   ;   92   ;   P,F   ;   5,14   ;   0   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 05:32   ;   86   ;   P,H   ;   3,12   ;   3   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 05:54   ;   60   ;   P,D   ;   8,13   ;   1   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 07:32   ;   71   ;   P,A   ;   2,14   ;   1   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 07:43   ;   23   ;   P,K   ;   3,10   ;   0   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 11:32   ;   14   ;   P,H   ;   5,12   ;   1   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 11:46   ;   38   ;   P,G   ;   5,9   ;   1   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 11:54   ;   11   ;   P,C   ;   6,13   ;   0   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 11:58   ;   85   ;   P,G   ;   5,9   ;   1   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 12:11   ;   36   ;   P,D   ;   1,14   ;   0   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 12:32   ;   61   ;   P,H   ;   1,12   ;   1   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 13:31   ;   TM_562267   ;   P,T   ;   0,11   ;   0   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 14:44   ;   18   ;   P,E   ;   7,14   ;   0   ;      ;   Kertai Klán   
+   TE46-57   ;   Kishalál   ;   Szo 17:23   ;   BEFUTÓ   ;   P,T   ;   6,14   ;   0   ;      ;   Kertai Klán   
+   TE46-5   ;   Nagyhalál   ;   Pé 21:48   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Pé 22:06   ;   23   ;   P,J   ;   4,13   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Pé 22:19   ;   71   ;   P,M   ;   6,11   ;   3   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Pé 22:40   ;   60   ;   P,G   ;   2,13   ;   2   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Pé 22:54   ;   86   ;   P,D   ;   7,13   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Pé 23:56   ;   01   ;   P,H   ;   4,11   ;   3   ;   Javított   ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 00:13   ;   33   ;   P,C   ;   0,12   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 01:01   ;   44   ;   P,C   ;   0,10   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 01:28   ;   35   ;   P,E   ;   8,12   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 02:17   ;   45   ;   P,M   ;   8,9   ;   3   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 02:53   ;   66   ;   P,C   ;   2,11   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 03:15   ;   05   ;   P,A   ;   7,12   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 03:24   ;   47   ;   P,L   ;   5,11   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 03:45   ;   17   ;   P,C   ;   7,8   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 04:23   ;   03   ;   P,P   ;   2,13   ;   2   ;   Javított   ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 04:46   ;   69   ;   P,C   ;   7,7   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 05:31   ;   38   ;   P,G   ;   2,12   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 06:25   ;   48   ;   P,A   ;   3,12   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 07:01   ;   42   ;   P,B   ;   0,12   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 07:17   ;   70   ;   P,K   ;   2,11   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 07:40   ;   57   ;   P,F   ;   6,12   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 07:57   ;   64   ;   P,A   ;   0,12   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 08:10   ;   39   ;   P,H   ;   4,12   ;   2   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 08:48   ;   25   ;   P,F   ;   5,13   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 09:23   ;   53   ;   P,E   ;   6,12   ;   1   ;   Javított   ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 09:44   ;   67   ;   P,L   ;   1,12   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 09:51   ;   31   ;   P,A   ;   3,13   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 10:10   ;   88   ;   P,A   ;   7,12   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 11:26   ;   32   ;   P,G   ;   4,12   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 11:35   ;   91   ;   P,F   ;   2,12   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 12:35   ;   78   ;   P,M   ;   6,13   ;   2   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 12:49   ;   37   ;   P,B   ;   8,13   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 13:10   ;   26   ;   P,E   ;   5,12   ;   3   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 13:37   ;   07   ;   P,E   ;   7,11   ;   2   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 13:51   ;   62   ;   P,G   ;   3,12   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 14:07   ;   09   ;   P,L   ;   7,9   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 14:30   ;   75   ;   P,B   ;   0,13   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 14:47   ;   46   ;   P,B   ;   1,13   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 15:08   ;   34   ;   P,G   ;   4,13   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 15:28   ;   54   ;   P,E   ;   4,12   ;   3   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 15:41   ;   TM_441155   ;   P,T   ;   0,13   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 15:52   ;   06   ;   P,C   ;   0,11   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 16:09   ;   30   ;   P,H   ;   2,12   ;   3   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 16:28   ;   29   ;   P,D   ;   2,11   ;   2   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 16:47   ;   82   ;   P,D   ;   5,12   ;   3   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 17:04   ;   15   ;   P,J   ;   1,10   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 17:23   ;   68   ;   P,F   ;   8,12   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 17:32   ;   56   ;   P,M   ;   2,9   ;   2   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 17:45   ;   59   ;   P,E   ;   7,11   ;   1   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 18:10   ;   74   ;   P,G   ;   5,10   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 18:17   ;   43   ;   P,C   ;   7,8   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-5   ;   Nagyhalál   ;   Szo 18:36   ;   BEFUTÓ   ;   P,T   ;   4,9   ;   0   ;      ;   Hegyre nem megyünk, jöjjön le!   
+   TE46-6   ;   Középhalál   ;   Pé 21:59   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Pé 22:21   ;   71   ;   P,M   ;   7,14   ;   2   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Pé 22:41   ;   84   ;   P,L   ;   3,13   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 00:06   ;   60   ;   P,H   ;   1,13   ;   1   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 00:26   ;   86   ;   P,F   ;   6,13   ;   2   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 00:46   ;   92   ;   P,E   ;   7,12   ;   3   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 00:52   ;   65   ;   P,H   ;   0,12   ;   3   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 01:35   ;   77   ;   P,E   ;   8,12   ;   1   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 01:55   ;   22   ;   P,H   ;   3,13   ;   2   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 02:15   ;   49   ;   P,F   ;   5,14   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 02:27   ;   55   ;   P,M   ;   4,13   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 02:52   ;   81   ;   P,H   ;   4,12   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 03:14   ;   33   ;   P,B   ;   8,11   ;   1   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 03:36   ;   44   ;   P,F   ;   1,14   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 04:07   ;   35   ;   P,E   ;   0,12   ;   3   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 04:30   ;   45   ;   P,N   ;   4,10   ;   1   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 04:49   ;   66   ;   P,C   ;   6,12   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 06:08   ;   20   ;   P,E   ;   2,13   ;   1   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 06:48   ;   12   ;   P,K   ;   2,13   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 07:07   ;   04   ;   P,H   ;   6,13   ;   1   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 07:43   ;   64   ;   P,G   ;   1,12   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 08:09   ;   25   ;   P,D   ;   7,13   ;   3   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 08:52   ;   67   ;   P,K   ;   4,11   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 09:00   ;   31   ;   P,D   ;   0,12   ;   3   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 09:25   ;   88   ;   P,B   ;   8,12   ;   1   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 09:52   ;   79   ;   P,K   ;   2,11   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 11:29   ;   39   ;   P,C   ;   6,12   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 12:07   ;   57   ;   P,B   ;   0,12   ;   1   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 12:18   ;   TM_562267   ;   P,T   ;   1,12   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 13:12   ;   19   ;   P,E   ;   6,13   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 13:40   ;   18   ;   P,F   ;   3,13   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 15:57   ;   68   ;   P,G   ;   6,13   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 16:11   ;   56   ;   P,P   ;   7,12   ;   1   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 16:26   ;   59   ;   P,A   ;   1,14   ;   1   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 16:56   ;   43   ;   P,E   ;   4,13   ;   3   ;      ;   Láttad volna a Sárkányét   
+   TE46-6   ;   Középhalál   ;   Szo 18:12   ;   BEFUTÓ   ;   P,T   ;   2,14   ;   0   ;      ;   Láttad volna a Sárkányét   
+   TE46-7   ;   Középhalál   ;   Pé 21:56   ;   KIDOBÁS   ;   P,T   ;   4,14   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Pé 22:33   ;   66   ;   P,C   ;   7,13   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Pé 23:13   ;   33   ;   P,B   ;   1,14   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Pé 23:30   ;   44   ;   P,F   ;   5,14   ;   0   ;   Törölt   ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Pé 23:52   ;   44   ;   P,F   ;   7,13   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 00:17   ;   55   ;   P,M   ;   2,14   ;   2   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 00:50   ;   49   ;   P,F   ;   1,14   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 01:53   ;   22   ;   P,H   ;   5,13   ;   3   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 02:03   ;   77   ;   P,E   ;   8,13   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 02:40   ;   60   ;   P,H   ;   4,13   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 02:59   ;   84   ;   P,L   ;   4,11   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 03:41   ;   71   ;   P,M   ;   8,10   ;   3   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 04:02   ;   23   ;   P,J   ;   4,8   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 04:31   ;   20   ;   P,E   ;   2,13   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 04:48   ;   12   ;   P,K   ;   4,7   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 05:15   ;   04   ;   P,H   ;   0,12   ;   3   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 08:09   ;   57   ;   P,B   ;   6,13   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 08:41   ;   64   ;   P,G   ;   2,12   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 09:06   ;   25   ;   P,D   ;   6,9   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 09:52   ;   67   ;   P,K   ;   1,9   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 10:00   ;   31   ;   P,D   ;   8,9   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 10:34   ;   88   ;   P,B   ;   7,8   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 11:55   ;   79   ;   P,K   ;   2,8   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 12:29   ;   50   ;   P,A   ;   8,8   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 12:59   ;   78   ;   P,L   ;   7,5   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 14:09   ;   76   ;   P,M   ;   7,3   ;   2   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 15:44   ;   10   ;   P,B   ;   0,10   ;   1   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 17:09   ;   72   ;   P,C   ;   0,7   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-7   ;   Középhalál   ;   Szo 17:22   ;   BEFUTÓ   ;   P,T   ;   6,9   ;   0   ;      ;   Sepsiszentgyörgyi Szájsebész Asszisztensek   
+   TE46-8   ;   Nagyhalál   ;   Pé 22:01   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Pé 22:42   ;   71   ;   P,M   ;   3,14   ;   2   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Pé 23:06   ;   84   ;   P,J   ;   1,12   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Pé 23:20   ;   60   ;   P,G   ;   0,10   ;   3   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Pé 23:42   ;   86   ;   P,D   ;   6,14   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 00:37   ;   01   ;   P,H   ;   8,13   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 01:39   ;   55   ;   P,K   ;   6,13   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 02:04   ;   81   ;   P,H   ;   3,13   ;   3   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 02:17   ;   33   ;   P,C   ;   7,12   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 02:31   ;   44   ;   P,C   ;   4,12   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 02:54   ;   35   ;   P,E   ;   2,13   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 03:07   ;   45   ;   P,M   ;   4,12   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 03:33   ;   66   ;   P,C   ;   7,12   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 04:06   ;   23   ;   P,J   ;   5,12   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 04:20   ;   20   ;   P,F   ;   0,13   ;   3   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 04:39   ;   12   ;   P,M   ;   7,11   ;   3   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 04:58   ;   04   ;   P,B   ;   8,11   ;   3   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 05:15   ;   39   ;   P,H   ;   3,13   ;   3   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 05:37   ;   64   ;   P,A   ;   2,14   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 06:07   ;   25   ;   P,F   ;   1,12   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 06:24   ;   57   ;   P,F   ;   3,12   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 06:39   ;   63   ;   P,N   ;   7,8   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 08:11   ;   18   ;   P,D   ;   1,11   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 08:43   ;   19   ;   P,A   ;   5,14   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 10:10   ;   51   ;   P,B   ;   5,13   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 10:35   ;   61   ;   P,D   ;   2,12   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 10:52   ;   36   ;   P,A   ;   4,14   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 11:05   ;   85   ;   P,N   ;   1,10   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 11:14   ;   11   ;   P,H   ;   7,8   ;   2   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 11:29   ;   38   ;   P,G   ;   4,12   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 11:51   ;   69   ;   P,C   ;   4,11   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 13:18   ;   10   ;   P,E   ;   4,10   ;   2   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 14:01   ;   90   ;   P,D   ;   4,10   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 14:34   ;   27   ;   P,A   ;   1,10   ;   1   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 15:56   ;   76   ;   P,K   ;   4,9   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 16:25   ;   15   ;   P,J   ;   4,7   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 16:42   ;   82   ;   P,D   ;   0,10   ;   3   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 17:32   ;   72   ;   P,E   ;   6,10   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 17:52   ;   43   ;   P,C   ;   0,7   ;   0   ;      ;   Kispatak   
+   TE46-8   ;   Nagyhalál   ;   Szo 18:42   ;   BEFUTÓ   ;   P,T   ;   2,11   ;   0   ;      ;   Kispatak   
+   TE46-9   ;   Nagyhalál   ;   Pé 21:57   ;   KIDOBÁS   ;   P,T   ;   0,14   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Pé 22:28   ;   66   ;   P,C   ;   7,13   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Pé 23:37   ;   40   ;   P,J   ;   3,13   ;   1   ;   Javított   ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Pé 23:56   ;   05   ;   P,A   ;   2,13   ;   2   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 01:00   ;   01   ;   P,H   ;   5,13   ;   2   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 01:51   ;   33   ;   P,C   ;   7,11   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 02:13   ;   44   ;   P,C   ;   5,11   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 02:52   ;   81   ;   P,H   ;   0,12   ;   3   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 03:06   ;   55   ;   P,K   ;   3,12   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 03:44   ;   22   ;   P,H   ;   1,12   ;   2   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 03:53   ;   77   ;   P,D   ;   5,13   ;   2   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 04:53   ;   86   ;   P,D   ;   8,12   ;   1   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 05:10   ;   84   ;   P,J   ;   2,13   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 06:10   ;   60   ;   P,G   ;   8,11   ;   1   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 06:34   ;   71   ;   P,M   ;   5,13   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 06:45   ;   23   ;   P,J   ;   1,12   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 07:19   ;   42   ;   P,B   ;   6,12   ;   3   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 08:05   ;   18   ;   P,D   ;   7,10   ;   2   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 08:36   ;   63   ;   P,N   ;   4,12   ;   1   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 08:57   ;   57   ;   P,F   ;   2,11   ;   1   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 09:12   ;   64   ;   P,A   ;   4,10   ;   1   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 10:08   ;   25   ;   P,F   ;   1,10   ;   1   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 10:50   ;   53   ;   P,E   ;   5,11   ;   1   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 11:13   ;   88   ;   P,A   ;   3,12   ;   1   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 11:34   ;   31   ;   P,A   ;   1,14   ;   2   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 11:50   ;   67   ;   P,L   ;   7,12   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 13:01   ;   79   ;   P,L   ;   4,10   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 13:30   ;   50   ;   P,D   ;   0,13   ;   3   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 13:56   ;   78   ;   P,M   ;   8,8   ;   3   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 14:20   ;   73   ;   P,P   ;   6,7   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 14:37   ;   54   ;   P,E   ;   0,10   ;   3   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 15:16   ;   75   ;   P,B   ;   2,13   ;   1   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 15:36   ;   TM_441155   ;   P,T   ;   3,10   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 15:50   ;   46   ;   P,B   ;   1,9   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 16:27   ;   06   ;   P,C   ;   4,8   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 16:46   ;   30   ;   P,H   ;   7,9   ;   0   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 17:03   ;   72   ;   P,E   ;   1,9   ;   2   ;      ;   DIE HARD   
+   TE46-9   ;   Nagyhalál   ;   Szo 17:14   ;   BEFUTÓ   ;   P,T   ;   3,9   ;   0   ;      ;   DIE HARD   
